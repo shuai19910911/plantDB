@@ -1,0 +1,433 @@
+
+
+
+
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Transcriptome - SoyOmics - CNCB-NGDC</title>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+</head>
+
+<body>
+<div class="container">
+    
+
+<html>
+
+<header class="sticky-top ">
+    
+    
+    
+    
+    <link rel="shortcut icon" href="/soyomics/static/images/logo2.svg" type="image/x-icon"/>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark "
+         style=" background-image: linear-gradient(to right, #1b9c94, #0f9c8b, #0d9b80, #179a75, #249968, #3c9f64, #50a561, #63ab5d, #82b963, #a0c76b, #bed574, #dce37f);">
+        
+
+        <div class="container-fluid ">
+
+            <div style="width: 15%">
+
+                <a class="navbar-brand" style="padding: 0px" href="http://ngdc.cncb.ac.cn:80/soyomics/index">
+                    <h3><img src="/soyomics/static/images/logo_top.svg" width="50%"> SoyOmics</h3>
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/index">Home </a>
+                    </li>
+                    
+                    
+                    
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                           aria-expanded="false">Omics</a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/genome_assembly">Genome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/genome_variation">Variome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome">Transcriptome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/phenome/">Phenome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/homology/">Homology</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/synteny">Synteny</a>
+                            
+                            
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/breedingtips">BreedingTips </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" target="_blank"
+                           href="https://ngdc.cncb.ac.cn/browser/?data=data/soyomics/ZH13.v2">JBrowse</a>
+                    </li>
+
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
+                           aria-expanded="false">Toolkits</a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdown02">
+
+
+                            
+                            
+                            <a class="dropdown-item" target="_blank"
+                               href="https://ngdc.cncb.ac.cn/blast/soybean/blastn">BLAST</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="https://ngdc.cncb.ac.cn/bit/mulomics/gwas/run">easyGWAS</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/expression_tool/">ExpPattern</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/haplotype/">HapSnap</a>
+                            <div class="dropdown-divider"></div>
+                                <a class="dropdown-item " href="https://ngdc.cncb.ac.cn/bit/mulomics/VersionMap/run">VersionMap</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://ngdc.cncb.ac.cn/soyomics/seqFetch/run">SeqFetch</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/soy40k">SoyArray </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/soyashare/">SoyaShare </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/download">Download </a>
+                    </li>
+                    
+                    
+                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/documentation">Documentation </a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/contact">Contact </a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-md-0">
+                    <input id="com_input" class="form-control" type="text" placeholder="Search">
+                    <button type="button" onclick="com_search()" class="ui icon teal button"><i class="search icon"></i>
+                    </button>
+                    
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+
+</header>
+
+
+
+
+
+
+
+<div class="col-md-3 " style="display: none">
+    <div class="panel-default panel">
+        <div class="panel-body" style="height: 200px">
+            <h4 class="text-primary"><span class="ui blue ribbon label big"><i class="fas fa-globe"></i> Global Visitors</span>
+            </h4>
+            <div>
+                
+                    
+                            
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style type="text/css">
+    #sub_menu_1, #sub_menu_2 {
+        display: none;
+    }
+
+    ul li:hover {
+        cursor: pointer;
+    }
+
+</style>
+
+<script type="text/javascript">
+    function f(str) {
+        var sub_menu = document.getElementById(str);
+        var dis_v = sub_menu.style.display;
+
+        if (dis_v == "block")
+            sub_menu.style.display = "none";
+        else
+            sub_menu.style.display = "block";
+
+    }
+
+
+</script>
+<script>
+    function com_search() {
+        var id = $("#com_input").val();
+        if (id != "") {
+            window.location = "http://ngdc.cncb.ac.cn:80/soyomics/search?id=" + id;
+        } else {
+            window.location = "http://ngdc.cncb.ac.cn:80/soyomics/";
+        }
+    }
+
+    //
+    // function com_entersearch(){
+    //     var event = window.event || arguments.callee.caller.arguments[0];
+    //     if (event.keyCode == 13)
+    //     {
+    //         com_search();
+    //     }
+    // }
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?41884dc889cfa515bac4351553ea5ff3";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</html>
+
+
+    <div class="index">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="http://ngdc.cncb.ac.cn:80/soyomics/index">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Transcriptome</li>
+            </ol>
+        </nav>
+
+        
+        <div class="ui stacked raised message" style="line-height: 25px">
+            In order to comprehensively understand the transcriptome dynamics of soybeans, we analyzed soybean
+            transcriptome data from three data types: <strong style="color: darkred">Bulk RNA-seq</strong>, <strong
+                style="color: darkred">Single cell RNA-seq</strong> and <strong style="color: darkred">Stereo-seq</strong>. <br>
+            The <strong>Bulk RNA-seq</strong> data consists of <strong><a
+                href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/tissues">28 Tissues Transcriptome dataset</a></strong> and <strong><a
+                href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/global">314 Tissues / Stages Transcriptome dataset</a></strong>. <br>
+            The <strong>Single cell RNA-seq</strong> includes <strong><a href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/stomics/6944b278c1feb936ed23107f">5
+            Stereo-seq RNA-seq datasets</a></strong> and <strong><a href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/stomics/6944b278c1feb936ed23108a">7 single-cell datasets</a></strong>.<br>
+            The <strong>VC Trans-atlas</strong> is an integrated transcriptome atlas of soybean in Vegetative Cotyledon (VC) stage. Including <strong><a href="">12 bulk RNA-seq tissues</a></strong>, <strong><a href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/stomics/6944b278c1feb936ed23107f">5
+            Stereo-seq RNA-seq datasets</a></strong> and <strong><a href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/stomics/6944b278c1feb936ed23108a">7 single-cell datasets</a></strong>.
+        </div>
+
+        <div class="ui internally grid row">
+
+            <div class="sixteen wide column">
+                <div class="ui top attached tabular menu">
+                    <a class="item active" data-tab="bulk" id="bulk">Bulk RNA-seq</a>
+                    <a class="item" data-tab="stomics" id="stomics">Single cell RNA-seq</a>
+                    <a class="item" data-tab="integrated" id="integrated">VC Trans-atlas</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui tab active" data-tab="bulk">
+            <div class="ui internally grid row">
+                <div class="center aligned eight wide column">
+                    <div class="ui card" style="width: 100%">
+                        <div class="content">
+                            <div class="header" style="padding-bottom: 10px"><a href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/tissues">28
+                                Tissues Transcriptome</a>
+                            </div>
+                            <div class="ui teal button" onclick="window.self.open('http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/tissues')">View
+                                detail
+                            </div>
+                            <div class="description" style="padding-top: 10px">
+                                <p>Transcriptome of ZH13/Wm82 in ~28 tissues and their homologous gene from pan-genome
+                                    in 9 tissue.</p>
+                                <div class="ui divider"></div>
+                                <img src="http://ngdc.cncb.ac.cn:80/soyomics/static/images/transcript/tissue-28samples.svg" height="400px">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="center aligned eight wide column" style="width: 90%">
+                    <div class="ui card" style="width: 100%">
+                        <div class="content">
+                            <div class="header" style="padding-bottom: 10px"><a href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/global">314
+                                Tissues Transcriptome</a></div>
+                            <div class="ui teal button" onclick="window.self.open('http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/global')">View
+                                detail
+                            </div>
+                            <div class="description" style="padding-top: 10px">
+                                <p>Transcriptome of ZH13 in 314 samples. Sampling covers 14 organs throughout the life cycle of soybean.</p>
+                                <div class="ui divider"></div>
+                                <img src="http://ngdc.cncb.ac.cn:80/soyomics/static/images/transcript/overview.png" height="400px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui tab " data-tab="stomics">
+            <div class="ui internally grid row">
+                <div class="center aligned eight wide column" style="width: 90%">
+                    <div class="ui card" style="width: 100%">
+                        <div class="content">
+                            <div class="header" style="padding-bottom: 10px"><a href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/stomics/6944b278c1feb936ed23107f">5
+                                Stereo-seq Datasets</a></div>
+                            <div class="ui teal button" onclick="window.self.open('http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/stomics/6944b278c1feb936ed23107f')">View detail</div>
+                            <div class="description" style="padding-top: 10px">
+                                <p>SpaTial Enhanced REsolution Omics-sequencing (Stereo-seq) for <strong>root</strong>, <strong>shoot apical meristem</strong>, <strong>stem</strong> and <strong>folded leaf</strong> in <strong>vegetative cotyledon (VC) stage</strong>, for <strong>nodule collected 5 days after inoculation with Rhizobium strain USDA-110 at the same stage</strong>.
+                                    <br>&nbsp;</p>
+                                <div class="ui divider"></div>
+                                <img src="http://ngdc.cncb.ac.cn:80/soyomics/static/images/transcript/spatial.png" height="400px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="center aligned eight wide column">
+                    <div class="ui card" style="width: 100%">
+                        <div class="content">
+                            <div class="header" style="padding-bottom: 10px"><a href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/stomics/6944b278c1feb936ed23108a">7
+                                snRNA-seq Datasets</a>
+                            </div>
+                            <div class="ui teal button" onclick="window.self.open('http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/stomics/6944b278c1feb936ed23108a')">View
+                                detail
+                            </div>
+                            <div class="description" style="padding-top: 10px">
+                                <p>
+                                    Single-nucleus RNA sequencing (snRNA-seq) for <strong>the same tissues in Stereo-seq</strong>. In addition, the <strong>shoot apical meristem, stem and folded leaf were integrated analyzed</strong>. The <strong>root, nodule and another nodule samples collected 3 days after inoculation with Rhizobium strain USDA-110 were integrated analyzed</strong>.
+                                </p>
+                                <div class="ui divider"></div>
+                                <img src="http://ngdc.cncb.ac.cn:80/soyomics/static/images/transcript/scRNA.png" height="400px">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="ui tab" data-tab="integrated">
+            <div class="ui card" style="width:100%">
+                <div class="content center aligned" >
+                    <div class="header" style="padding-bottom: 10px"><a href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/vc_atlas">VC Trans-Atlas</a></div>
+                    <div class="ui teal button" onclick="window.self.open('http://ngdc.cncb.ac.cn:80/soyomics/transcriptome/vc_atlas')">View detail</div>
+                    <div class="description" style="padding-top: 10px" >
+                        <p>The VC Trans-Atlas is an integrated transcriptome atlas for five soybean organs at Vegetative cotyledon (VC) stage. <br>The gene expressions at whole organ, single cell and spatial level were displayed for root, nodule, shoot apical, stem and leaf.</p>
+                        <div class="ui divider"></div>
+                        <img src="http://ngdc.cncb.ac.cn:80/soyomics/static/images/transcript/vc_samples.png" height="400px">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+
+
+<html>
+<body>
+
+
+
+    
+    <link rel="stylesheet" href="/soyomics/static/bootstrap_4.6.0/bootstrap.min.css"/>
+        <link rel="stylesheet"  href="/soyomics/static/bootstrap_4.6.0/docs.css" >
+        
+    <link rel="stylesheet"  href="/soyomics/static/bootstrap_4.6.0/font/bootstrap-icons.css" >
+
+
+
+    
+        
+        
+        <link rel="stylesheet" href="/soyomics/static/datatables_1.11.1/jquery.dataTables.min.css">
+       
+        
+
+
+
+        <link rel="stylesheet" href="/soyomics/static/datatables_1.11.1/buttons.dataTables.min.css">
+        <link href="/soyomics/static/css/select2.min.css" rel="stylesheet" />
+        <link rel='stylesheet' type='text/css' href="/soyomics/static/sui_2.3.0/semantic.min.css">
+
+
+        <link rel="stylesheet" href="/soyomics/static/css/my.css"/>
+
+
+
+
+    
+    
+    <script type="text/javascript" src="/soyomics/static/js/jquery-3.6.0.min.js"></script>
+    <script src="https://ngdc.cncb.ac.cn/cdn/js/headerfooter-full.js"></script>
+
+    
+    <script type="text/javascript"  src="/soyomics/static/bootstrap_4.6.0/bootstrap.bundle.min.js"></script>
+    
+        <script type="text/javascript"  src="/soyomics/static/bootstrap_4.6.0/docs.min.js"></script>
+
+
+
+        
+        
+
+    <script src="/soyomics/static/DataTables-1.10.15/media/js/jquery.dataTables.min.js"></script>
+        
+
+        <script type="text/javascript" src="/soyomics/static/datatables_1.11.1/dataTables.buttons.min.js"></script>
+        <script type="text/javascript" src="/soyomics/static/datatables_1.11.1/buttons.html5.min.js"></script>
+
+        <script type="text/javascript"  src="/soyomics/static/sui_2.3.0/semantic.min.js"></script>
+        
+        <script type="text/javascript"  src="/soyomics/static/js/select2.min.js"></script>
+<script src="/soyomics/static/js/echarts5.min.js"></script>
+<script src="/soyomics/static/js/roma.js"></script>
+
+
+    <style>
+        /*.bigd-col-md-2{}*/
+        .bigd-footer h3 {
+            padding-left: 5px;
+            color: #051133;
+            font-size: 14px;
+            font-weight: bolder;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            padding-bottom: 0;
+            padding-top: 0;
+            line-height: 1.1;
+        }
+    </style>
+</body>
+</html>
+
+<script>
+    $('.ui.tabular.menu .item').tab();
+</script>
+</body>
+</html>

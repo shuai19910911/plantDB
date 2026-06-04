@@ -1,0 +1,2593 @@
+
+
+
+
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Variome - SoyOmics - CNCB-NGDC</title>
+    <link rel="stylesheet" href="/soyomics/static/css/load.css">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <style>
+        .margin_0{
+            margin-right:0px !important;
+            margin-left:0px !important;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+    
+
+<html>
+
+<header class="sticky-top ">
+    
+    
+    
+    
+    <link rel="shortcut icon" href="/soyomics/static/images/logo2.svg" type="image/x-icon"/>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark "
+         style=" background-image: linear-gradient(to right, #1b9c94, #0f9c8b, #0d9b80, #179a75, #249968, #3c9f64, #50a561, #63ab5d, #82b963, #a0c76b, #bed574, #dce37f);">
+        
+
+        <div class="container-fluid ">
+
+            <div style="width: 15%">
+
+                <a class="navbar-brand" style="padding: 0px" href="http://ngdc.cncb.ac.cn:80/soyomics/index">
+                    <h3><img src="/soyomics/static/images/logo_top.svg" width="50%"> SoyOmics</h3>
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/index">Home </a>
+                    </li>
+                    
+                    
+                    
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                           aria-expanded="false">Omics</a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/genome_assembly">Genome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/genome_variation">Variome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome">Transcriptome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/phenome/">Phenome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/homology/">Homology</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/synteny">Synteny</a>
+                            
+                            
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/breedingtips">BreedingTips </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" target="_blank"
+                           href="https://ngdc.cncb.ac.cn/browser/?data=data/soyomics/ZH13.v2">JBrowse</a>
+                    </li>
+
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
+                           aria-expanded="false">Toolkits</a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdown02">
+
+
+                            
+                            
+                            <a class="dropdown-item" target="_blank"
+                               href="https://ngdc.cncb.ac.cn/blast/soybean/blastn">BLAST</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="https://ngdc.cncb.ac.cn/bit/mulomics/gwas/run">easyGWAS</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/expression_tool/">ExpPattern</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/haplotype/">HapSnap</a>
+                            <div class="dropdown-divider"></div>
+                                <a class="dropdown-item " href="https://ngdc.cncb.ac.cn/bit/mulomics/VersionMap/run">VersionMap</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://ngdc.cncb.ac.cn/soyomics/seqFetch/run">SeqFetch</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/soy40k">SoyArray </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/soyashare/">SoyaShare </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/download">Download </a>
+                    </li>
+                    
+                    
+                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/documentation">Documentation </a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/contact">Contact </a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-md-0">
+                    <input id="com_input" class="form-control" type="text" placeholder="Search">
+                    <button type="button" onclick="com_search()" class="ui icon teal button"><i class="search icon"></i>
+                    </button>
+                    
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+
+</header>
+
+
+
+
+
+
+
+<div class="col-md-3 " style="display: none">
+    <div class="panel-default panel">
+        <div class="panel-body" style="height: 200px">
+            <h4 class="text-primary"><span class="ui blue ribbon label big"><i class="fas fa-globe"></i> Global Visitors</span>
+            </h4>
+            <div>
+                
+                    
+                            
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style type="text/css">
+    #sub_menu_1, #sub_menu_2 {
+        display: none;
+    }
+
+    ul li:hover {
+        cursor: pointer;
+    }
+
+</style>
+
+<script type="text/javascript">
+    function f(str) {
+        var sub_menu = document.getElementById(str);
+        var dis_v = sub_menu.style.display;
+
+        if (dis_v == "block")
+            sub_menu.style.display = "none";
+        else
+            sub_menu.style.display = "block";
+
+    }
+
+
+</script>
+<script>
+    function com_search() {
+        var id = $("#com_input").val();
+        if (id != "") {
+            window.location = "http://ngdc.cncb.ac.cn:80/soyomics/search?id=" + id;
+        } else {
+            window.location = "http://ngdc.cncb.ac.cn:80/soyomics/";
+        }
+    }
+
+    //
+    // function com_entersearch(){
+    //     var event = window.event || arguments.callee.caller.arguments[0];
+    //     if (event.keyCode == 13)
+    //     {
+    //         com_search();
+    //     }
+    // }
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?41884dc889cfa515bac4351553ea5ff3";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</html>
+
+
+    <div class="index">
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="http://ngdc.cncb.ac.cn:80/soyomics/index">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Variome</li>
+
+            </ol>
+        </nav>
+
+
+        <div style="padding-left: 2em;padding-right: 2em">
+
+            <div style="padding-top: 1em">
+                <nav class="navbar navbar-light bg-light">
+                    <div class="three ui buttons">
+                        <button class="ui button teal basic" onclick="window.location.href = '#Statistics'">Statistics
+                        </button>
+                        <button class="ui button teal basic" onclick="window.location.href = '#qt'">Selective Test
+                        </button>
+                        <button class="ui button teal basic" onclick="window.location.href = '#Variation'">Variation
+                            Browser
+                        </button>
+                    </div>
+
+                </nav>
+
+            </div>
+
+            <h3 id="Statistics"><i class="bi bi-reception-4"></i> Statistics</h3>
+
+
+            <div class="col-md-offset-1 col-md-12" style="margin-top: 2em;margin-bottom: 2em;height: 500px">
+
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+                           aria-controls="nav-home" aria-selected="true" onclick="getVarHeatmap()">Variation</a>
+                        <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+                           aria-controls="nav-profile" aria-selected="false" onclick="getSnpHeatmap()">SNP</a>
+                        <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                           aria-controls="nav-contact" aria-selected="false" onclick="getIndelHeatmap()">Indel</a>
+                        
+                        
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent" style="margin-top: 1em;">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                         aria-labelledby="nav-home-tab"></div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"></div>
+
+                </div>
+
+
+                <div id="chrChart" style="height: 90%"></div>
+
+            </div>
+
+            <div class="row col-md-12" style="height: 400px;padding-top: 10px">
+                <div class="col-md-4">
+                    <div id="typeChart" style="height: 100%"></div>
+                </div>
+                <div class="col-md-4">
+                    <div id="areaChart" style="height: 100%"></div>
+                </div>
+                <div class="col-md-4">
+                    <div id="consequenceChart" style="height: 100%"></div>
+                </div>
+            </div>
+
+            <h3 id="qt"><i class="bi bi-reception-4"></i> Selective Test</h3>
+            <div class="col-md-12">
+                <div class="ui form">
+                    <div class="equal width fields">
+                        <div class="field">
+                            <label>Chr </label>
+                            <select id="qunti_chr_kw" class="ui search dropdown ">
+                                <option value="Chr01" selected>Chr01</option>
+                                <option value="Chr02">Chr02</option>
+                                <option value="Chr03">Chr03</option>
+                                <option value="Chr04">Chr04</option>
+                                <option value="Chr05">Chr05</option>
+                                <option value="Chr06">Chr06</option>
+                                <option value="Chr07">Chr07</option>
+                                <option value="Chr08">Chr08</option>
+                                <option value="Chr09">Chr09</option>
+                                <option value="Chr10">Chr10</option>
+                                <option value="Chr11">Chr11</option>
+                                <option value="Chr12">Chr12</option>
+                                <option value="Chr13">Chr13</option>
+                                <option value="Chr14">Chr14</option>
+                                <option value="Chr15">Chr15</option>
+                                <option value="Chr16">Chr16</option>
+                                <option value="Chr17">Chr17</option>
+                                <option value="Chr18">Chr18</option>
+                                <option value="Chr19">Chr19</option>
+                                <option value="Chr20">Chr20</option>
+                            </select>
+                        </div>
+
+                        <div class=" field">
+                            <label>Position</label>
+                            <div class="ui left labeled input">
+                                <input type="number" id="qunti_start_kw">
+                                <div class="ui label"> -</div>
+                                <input type="number" id="qunti_end_kw">
+                            </div>
+                        </div>
+
+                        <div class="field" style="padding-top: 2em">
+                            <button class="ui tiny teal button" id="qunti_submit">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="quntiChart" style="height: 500px">
+                    <div id="wait" align="center" class="d-none">
+                        <div class="sp sp-wave"></div>
+                    </div>
+                </div>
+                <div align="center" style="padding-top: 5px">
+                    <button class="ui tiny teal button" id="qunti_zoom" style="width: 20%">
+                        Selected Filter
+                    </button>
+                </div>
+            </div>
+
+
+            <h3 id="Variation"><i class="bi bi-globe"></i> Variation Browser</h3>
+            <div class="row" style="margin-top: 2em">
+                <div class="col-3">
+                    <h4>Advanced Search</h4>
+                    <div class="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <a href="javascript:void(0);"><h4 class="mb-0" data-toggle="collapse"
+                                                                  data-target="#collapseOne" aria-expanded="true"
+                                                                  aria-controls="collapseOne">
+                                    Position and Type
+                                </h4></a>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne">
+                                <div class="card-body">
+
+                                    <div class="ui form">
+                                        <div class="inline fields">
+                                            <label>VarID</label>
+                                            <input id="varID_kw" value="" type="text" placeholder="e.g. soy34390929">
+                                        </div>
+                                        <div class="inline fields">
+                                            <label>Variation Type</label>
+                                            <select id="var_type_kw" class="ui dropdown">
+                                                <option value="" selected>All</option>
+                                                <option value="SNP">SNP</option>
+                                                <option value="INDEL">INDEL</option>
+                                            </select>
+                                        </div>
+                                        <div class="inline fields">
+                                            <label>Gene ID</label>
+                                            <input id="geneID_kw" value="" type="text" placeholder="">
+                                        </div>
+
+                                        <div class="inline fields">
+                                            <label>Gene Type</label>
+                                            <select id="gene_type_kw" class="ui dropdown">
+                                                <option value="" selected>All</option>
+                                                <option value="mRNA">mRNA</option>
+                                                <option value="miRNA">miRNA</option>
+                                                <option value="rRNA">rRNA</option>
+                                                <option value="tRNA">tRNA</option>
+                                                <option value="snRNA">snRNA</option>
+                                                <option value="snoRNA">snoRNA</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="inline fields">
+                                            <label>Position</label>
+                                            <select id="var_chr_kw" class="ui  dropdown">
+                                                <option value="" selected>All</option>
+                                                <option value="Chr01">Chr01</option>
+                                                <option value="Chr02">Chr02</option>
+                                                <option value="Chr03">Chr03</option>
+                                                <option value="Chr04">Chr04</option>
+                                                <option value="Chr05">Chr05</option>
+                                                <option value="Chr06">Chr06</option>
+                                                <option value="Chr07">Chr07</option>
+                                                <option value="Chr08">Chr08</option>
+                                                <option value="Chr09">Chr09</option>
+                                                <option value="Chr10">Chr10</option>
+                                                <option value="Chr11">Chr11</option>
+                                                <option value="Chr12">Chr12</option>
+                                                <option value="Chr13">Chr13</option>
+                                                <option value="Chr14">Chr14</option>
+                                                <option value="Chr15">Chr15</option>
+                                                <option value="Chr16">Chr16</option>
+                                                <option value="Chr17">Chr17</option>
+                                                <option value="Chr18">Chr18</option>
+                                                <option value="Chr19">Chr19</option>
+                                                <option value="Chr20">Chr20</option>
+                                            </select>
+                                        </div>
+                                        <div class="inline fields">
+                                            <input type="number" id="var_start_kw" placeholder="start">
+                                            <div class="ui label">-</div>
+                                            <input type="number" id="var_end_kw" placeholder="end">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <a href="javascript:void(0);"><h4 class="mb-0" data-toggle="collapse"
+                                                                  data-target="#collapseTwo" aria-expanded="true"
+                                                                  aria-controls="collapseTwo">
+                                    Consequence Type
+                                </h4></a>
+                            </div>
+
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
+                                <div class="card-body">
+                                    <div class="ui form">
+                                        <div class="grouped fields">
+                                            <div class="field">
+                                                <div class="ui checkbox" name="consequence_kw">
+                                                    <input type="checkbox" name="example2" value="synonymous SNV">
+
+                                                    <label>synonymous SNV
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <div class="ui checkbox" name="consequence_kw">
+                                                    <input type="checkbox" name="example2" value="nonsynonymous SNV">
+                                                    <label>nonsynonymous SNV</label>
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <div class="ui checkbox" name="consequence_kw">
+                                                    <input type="checkbox" name="example2"
+                                                           value="nonframeshift insertion">
+                                                    <label>nonframeshift insertion</label>
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <div class="ui checkbox" name="consequence_kw">
+                                                    <input type="checkbox" name="example2" value="frameshift deletion">
+                                                    <label>frameshift deletion</label>
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <div class="ui checkbox" name="consequence_kw">
+                                                    <input type="checkbox" name="example2" value="stopgain">
+                                                    <label>stopgain</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="field">
+                                                <div class="ui checkbox" name="consequence_kw">
+                                                    <input type="checkbox" name="example2" value="frameshift insertion">
+                                                    <label>frameshift insertion</label>
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <div class="ui checkbox" name="consequence_kw">
+                                                    <input type="checkbox" name="example2"
+                                                           value="nonframeshift deletion">
+                                                    <label>nonframeshift deletion</label>
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <div class="ui checkbox" name="consequence_kw">
+                                                    <input type="checkbox" name="example2" value="stoploss">
+                                                    <label>stoploss</label>
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <div class="ui checkbox" name="consequence_kw">
+                                                    <input type="checkbox" name="example2" value="splicing">
+                                                    <label>splicing</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <a href="javascript:void(0);"><h4 class="mb-0" data-toggle="collapse"
+                                                                  data-target="#collapseFive" aria-expanded="true"
+                                                                  aria-controls="collapseFive">
+                                    Variant Annotation
+                                </h4></a>
+                            </div>
+
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive">
+                                <div class="card-body">
+                                    <div class="ui form">
+                                        <div class="grouped fields">
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                            
+                                            
+                                            <div class="field">
+                                                <div class="ui checkbox" id="gwas_kw">
+                                                    <input type="checkbox">
+                                                    <label>GWAS</label>
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <div class="ui checkbox" id="qtl_kw">
+                                                    <input type="checkbox">
+                                                    <label>QTL</label>
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <div class="ui checkbox" id="ld_kw">
+                                                    <input type="checkbox">
+                                                    <label>LD</label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+                    
+                    
+                    
+
+                    
+                    
+                    
+                    
+                    
+
+
+                    <div class="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <a href="javascript:void(0);"><h4 class="mb-0" data-toggle="collapse"
+                                                                  data-target="#collapseFour" aria-expanded="true"
+                                                                  aria-controls="collapseFour">
+                                    Frequency
+                                </h4></a>
+                            </div>
+
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
+                                <div class="card-body">
+                                    <div class="ui form">
+                                        <div class="inline fields">
+                                            <label>Minor Allele Frequency</label>
+                                            <select id="maf_f_kw" class="ui dropdown">
+                                                <option value="f_gt" selected>>=</option>
+                                                <option value="f_lt"><=</option>
+                                                <option value="f_equal">=</option>
+                                            </select>
+                                            <input id="maf_kw" value="" type="text" placeholder="0-0.5">
+
+                                        </div>
+
+                                        <div class="inline fields">
+                                            <label>Missing Rate</label>
+                                            <select id="miss_f_kw" class="ui dropdown">
+                                                <option value="f_gt" selected>>=</option>
+                                                <option value="f_lt"><=</option>
+                                                <option value="f_equal">=</option>
+                                            </select>
+                                            <input id="miss_kw" value="" type="text" placeholder="0-1">
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div align="right" style="margin-top: 1em">
+                        <button class="ui green tiny button" id="var_search">
+                            Search
+                        </button>
+                        <button class="ui tiny button" id="var_reset">
+                            Reset
+                        </button>
+                    </div>
+
+                </div>
+
+
+                <div class="col-9 ">
+                    <div class="row">
+                        <div class="table-responsive ">
+                            <table id="variation_table" class="table row-border hover stripe " style="width: 100%">
+                                <thead>
+                                <tr>
+
+                                    <th>VarID</th>
+                                    <th>Chr</th>
+                                    <th>Position</th>
+                                    <th>Type</th>
+                                    <th>Alleles (ref/alt)</th>
+                                    <th>Consequence</th>
+                                    
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+<html>
+<body>
+
+
+
+    
+    <link rel="stylesheet" href="/soyomics/static/bootstrap_4.6.0/bootstrap.min.css"/>
+        <link rel="stylesheet"  href="/soyomics/static/bootstrap_4.6.0/docs.css" >
+        
+    <link rel="stylesheet"  href="/soyomics/static/bootstrap_4.6.0/font/bootstrap-icons.css" >
+
+
+
+    
+        
+        
+        <link rel="stylesheet" href="/soyomics/static/datatables_1.11.1/jquery.dataTables.min.css">
+       
+        
+
+
+
+        <link rel="stylesheet" href="/soyomics/static/datatables_1.11.1/buttons.dataTables.min.css">
+        <link href="/soyomics/static/css/select2.min.css" rel="stylesheet" />
+        <link rel='stylesheet' type='text/css' href="/soyomics/static/sui_2.3.0/semantic.min.css">
+
+
+        <link rel="stylesheet" href="/soyomics/static/css/my.css"/>
+
+
+
+
+    
+    
+    <script type="text/javascript" src="/soyomics/static/js/jquery-3.6.0.min.js"></script>
+    <script src="https://ngdc.cncb.ac.cn/cdn/js/headerfooter-full.js"></script>
+
+    
+    <script type="text/javascript"  src="/soyomics/static/bootstrap_4.6.0/bootstrap.bundle.min.js"></script>
+    
+        <script type="text/javascript"  src="/soyomics/static/bootstrap_4.6.0/docs.min.js"></script>
+
+
+
+        
+        
+
+    <script src="/soyomics/static/DataTables-1.10.15/media/js/jquery.dataTables.min.js"></script>
+        
+
+        <script type="text/javascript" src="/soyomics/static/datatables_1.11.1/dataTables.buttons.min.js"></script>
+        <script type="text/javascript" src="/soyomics/static/datatables_1.11.1/buttons.html5.min.js"></script>
+
+        <script type="text/javascript"  src="/soyomics/static/sui_2.3.0/semantic.min.js"></script>
+        
+        <script type="text/javascript"  src="/soyomics/static/js/select2.min.js"></script>
+<script src="/soyomics/static/js/echarts5.min.js"></script>
+<script src="/soyomics/static/js/roma.js"></script>
+
+
+    <style>
+        /*.bigd-col-md-2{}*/
+        .bigd-footer h3 {
+            padding-left: 5px;
+            color: #051133;
+            font-size: 14px;
+            font-weight: bolder;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            padding-bottom: 0;
+            padding-top: 0;
+            line-height: 1.1;
+        }
+    </style>
+</body>
+</html>
+
+
+
+<html>
+<head>
+    <title>Title</title>
+    <style>
+        .down_button{
+            margin-right:10px !important;
+            margin-left:10px !important;
+            align-content: end;
+        }
+        .selected-row {
+            background-color: #c2e3af !important; /* 使用 !important 来确保优先级 */
+        }
+    </style>
+</head>
+<body>
+<script>
+
+    function stringTran(str) {
+        var str2 = str;
+        for (var i = 0; i < str.length; i++) {
+            if (str[i] == ",") {
+                str2 = str2.replace(",", ";<br>");
+            }
+        }
+        for (var i = 0; i < str2.length; i++) {
+            if (str2[i] == ";") {
+                str2 = str2.replace(";", ",");
+            }
+        }
+
+        return str2;
+    }
+
+    var variation_table_show = (function (url) {
+
+        $(document).ready(function () {
+            console.log(url)
+            var table = $('#variation_table').DataTable({
+                ajax: {
+                    url: url,
+                    type: 'GET',
+                    dataType: 'json',
+                    // dataSrc: "",
+                    beforeSend: function () {
+                        $("#var_search").attr({disabled: "disabled"});
+                        $("#var_reset").attr({disabled: "disabled"});
+
+                    },
+                    complete: function () {
+                        $("#var_search").removeAttr("disabled");
+                        $("#var_reset").removeAttr("disabled");
+                    },
+                },
+                dom: "flrBrtip",
+
+                buttons: [{
+                    extend: 'csvHtml5',
+                    className:'down_button',
+                    text: 'Download'
+                }],
+
+                // bProcessing: true,
+                destroy: true,
+                //使用对象数组，一定要配置columns，告诉 DataTables 每列对应的属性
+                //data 这里是固定不变的，name，position，salary，office 为你数据里对应的属性
+                serverSide: true,//开启服务器模式:启用服务器分页
+                lengthChange: true,//是否允许用户改变表格每页显示的记录数
+                ordering: false,//是否允许用户排序
+                paging: true,//是否分页
+                 //pagingType: "full_numbers",//除首页、上一页、下一页、末页四个按钮还有页数按钮
+                //"aLengthMenu": "[15,50,100,200,300]",
+                processing: true,//是否显示处理状态
+                scrollX: true,//允许水平滚动
+                searching: false,//是否开始本地搜索
+                stateSave: false,//刷新时是否保存状态
+                autoWidth: true,//自动计算宽度
+
+                columns: [
+                    {
+                        data: 'var_id',
+
+                        render: function (data, type, row) {
+                            return "<a href='http://ngdc.cncb.ac.cn:80/soyomics/genome_variation/" + row.var_id + "'>" + row.var_id + "</a>";
+                        }
+                    },
+                    {
+                        data: 'chr'
+                    },
+                    {
+                        data: 'position'
+                    },
+
+                    {
+                        data: 'type'
+                    },
+                    {
+                        data: 'alleles',
+                        render: function (data, type, row) {
+                            if (row.alleles.length > 30) {
+
+                                var str = stringTran(row.alleles);
+                                return str;
+                            } else {
+                                return row.alleles;
+                            }
+                        }
+                    },
+                    {
+                        data: 'consequence',
+                        render: function (data, type, row) {
+                            if (row.consequence != null) {
+                                return row.consequence;
+                            } else {
+                                return 'NA';
+                            }
+                        }
+                    }
+                ],
+
+            });
+
+        });
+
+    });
+
+    var variation_table_show2 = (function (url) {
+
+        $(document).ready(function () {
+            var table = $('#variation_table').DataTable({
+
+                ajax: {
+                    url: url,
+                    type: "GET",
+                    dataType: "json",
+                    dataSrc: ""
+
+                },
+
+                bProcessing: true,
+                destroy: true,
+                processing: true,
+                columns: [
+                    {
+                        data: 'var_id',
+
+                        render: function (data, type, row) {
+                            return "<a href='http://ngdc.cncb.ac.cn:80/soyomics/genome_variation/" + row.var_id + "'>" + row.var_id + "</a>";
+                        }
+                    },
+                    {
+                        data: 'chr'
+                    },
+                    {
+                        data: 'position'
+                    },
+
+                    {
+                        data: 'type'
+                    },
+                    {
+                        data: 'alleles',
+                        render: function (data, type, row) {
+                            if (row.alleles.length > 30) {
+
+                                var str = stringTran(row.alleles);
+                                return str;
+                            } else {
+                                return row.alleles;
+                            }
+                        }
+                    },
+                    {
+                        data: 'consequence',
+                        render: function (data, type, row) {
+                            if (row.consequence != null) {
+                                return row.consequence;
+                            } else {
+                                return 'NA';
+                            }
+                        }
+                    }
+
+                ]
+
+            });
+
+
+        });
+
+    });
+
+
+    var gwas_show = (function (url) {
+        $(document).ready(function () {
+            var table = $('#gwas_table').DataTable({
+                ajax: {
+                    url: url,
+                    type: "GET",
+                    dataType: "json",
+                    dataSrc: ""
+                },
+
+                bProcessing: true,
+                destroy: true,
+                processing: true,
+                columns: [
+                    {
+                        data: 'var_id',
+                        render: function (data, type, row) {
+                            if (row.var_id != null) {
+                                return "<a href='http://ngdc.cncb.ac.cn:80/soyomics/genome_variation/" + row.var_id + "'>" + row.var_id + "</a>";
+                            } else {
+                                return '-';
+                            }
+                        }
+                    },{
+                        data: 'chr',
+                        render:function(data,type,row){
+                            return data + ':' + row.position
+                        }
+                    },
+                    {
+                        data: 'traits'
+                    },
+                    {
+                        data: 'trait_id'
+                    },
+                    {
+                        data: 'tissue'
+                    }, {
+                        data: 'p_value',
+                        render: function (data, type, row) {
+                            if (row.p_value != null) {
+                                return row.p_value;
+                            } else {
+                                return '-';
+                            }
+                        }
+                    },
+                    {
+                        data: 'r2',
+                        render: function (data, type, row) {
+                            if (row.r2 != null) {
+                                return row.r2;
+                            } else {
+                                return '-';
+                            }
+                        }
+                    },
+                    {
+                        data: 'sampling_spot'
+
+                    },
+                    {
+                        data: 'sampling_year'
+
+                    },
+                    {
+                        data: 'genotyping_technology'
+
+                    },
+                    {
+                        data: 'association_model'
+
+                    },
+                    {
+                        data: 'pmid',
+                        render: function (data, type, row) {
+                            var str = "";
+                            if (row.pmid != null) {
+
+                                str = '<a href=\'https://pubmed.ncbi.nlm.nih.gov/' + row.pmid + '\' target="_blank">' + row.pmid + '</a>';
+
+                            } else {
+                                str = 'NA';
+                            }
+                            return str;
+                        }
+                    }
+                ]
+            });
+
+        });
+
+    });
+    var qtl_show = (function (url) {
+        $(document).ready(function () {
+            var table = $('#qtl_table').DataTable({
+                ajax: {
+                    url: url,
+                    type: "GET",
+                    dataType: "json",
+                    dataSrc: ""
+                },
+
+                bProcessing: true,
+                destroy: true,
+                processing: true,
+                columns: [
+                    {
+                        data: 'trait',
+                        render: function (data, type, row) {
+                            if (data !== 'NA' && data != null ) {
+                                return data
+                            } else {
+                                return '-';
+                            }
+                        }
+                    },{
+                        data: 'qtl'
+                    },
+                    {
+                        data: 'chr'
+                    },
+                    {
+                        data: 'start'
+                    }, {
+                        data: 'end'
+                    },
+                    {
+                        data: 'reference',
+                        className: 'leftrow',
+                    },
+                    {
+                        data: 'pmid',
+                        render: function (data, type, row) {
+                            var str = "";
+                            if (row.pmid != 'NA') {
+
+                                str = '<a href=\'https://pubmed.ncbi.nlm.nih.gov/' + row.pmid + '\' target="_blank">' + row.pmid + '</a>';
+
+                            } else {
+                                str = 'NA';
+                            }
+                            return str;
+                        }
+                    }
+                ]
+            });
+
+        });
+
+    });
+    var qtn_show = (function (url) {
+        $(document).ready(function () {
+            var table = $('#qtn_table').DataTable({
+                ajax: {
+                    url: url,
+                    type: "GET",
+                    dataType: "json",
+                    dataSrc: ""
+                },
+
+                bProcessing: true,
+                destroy: true,
+                processing: true,
+                columns: [
+                    {
+                        data: 'gene_id',
+                        render: function (data,type,row){
+                            return '<a href="http://ngdc.cncb.ac.cn:80/soyomics/genes/mRNA/'+data +'">' + data +'</a>'
+                        }
+                    },{
+                        data: 'gene_name'
+                    },{
+                        data: 'trait'
+                    },{
+                        data: 'var_id',
+                        render: function (data, type, row) {
+                            if (row.var_id != null) {
+                                return "<a href='http://ngdc.cncb.ac.cn:80/soyomics/genome_variation/" + row.var_id + "'>" + row.var_id + "</a>";
+                            } else {
+                                return '-';
+                            }
+                        }
+                    },
+                    {
+                        data: 'chrom'
+                    },
+                    {
+                        data: 'position'
+                    }, {
+                        data: 'ref_allele'
+                    },
+                    {
+                        data: 'ref_effect',
+                        render: function (data, type, row) {
+                            if (data !== 'NA' && data != null ) {
+                                return data
+                            } else {
+                                return '-';
+                            }
+                        }
+                    },{
+                        data: 'alt_allele'
+                    },
+                    {
+                        data: 'alt_effect',
+                        render: function (data, type, row) {
+                            if (data !== 'NA' && data != null ) {
+                                return data
+                            } else {
+                                return '-';
+                            }
+                        }
+                    },
+                    {
+                        data: 'pubmed',
+                        render: function (data, type, row) {
+                            var str = "";
+                            if (row.pubmed !== 'NA' && row.pubmed != null ) {
+                                str = '<a href=\'https://pubmed.ncbi.nlm.nih.gov/' + row.pubmed + '\' target="_blank">' + row.pubmed + '</a>';
+                            } else {
+                                str = '-';
+                            }
+                            return str;
+                        }
+                    }
+                ]
+            });
+
+        });
+
+    });
+
+    var structure_var_table_show = (function (url) {
+        $(document).ready(function () {
+            var table = $('#structure_var_table').DataTable({
+                ajax: {
+                    url: url,
+                    type: "GET",
+                    dataType: "json",
+                    dataSrc: ""
+                },
+                dom: 'Bfrtip',
+                buttons: [{
+                    extend: 'csvHtml5',
+                    text: 'Download'
+                }
+                ],
+
+                bProcessing: true,
+                destroy: true,
+                processing: true,
+                columns: [
+
+                    {
+                        data: 'zh13_chr',
+                        render: function (data, type, row) {
+                            return row.zh13_chr + ":" + row.zh13_start + "-" + row.zh13_end;
+                        }
+                    },
+                    {
+                        data: 'strain'
+                    },
+                    {
+                        data: 'strain_chr',
+                        render: function (data, type, row) {
+                            return row.strain_chr + ":" + row.strain_start + "-" + row.strain_end;
+                        }
+                    }, {
+                        data: 'type'
+                    }
+                ]
+            });
+
+        });
+
+    });
+
+    var synteny_table_show = (function (url) {
+        $(document).ready(function () {
+            var table = $('#synteny_table').DataTable({
+                ajax: {
+                    url: url,
+                    type: "GET",
+                    dataType: "json",
+                    dataSrc: ""
+                },
+                dom: 'Bfrtip',
+                buttons: [{
+                    extend: 'csvHtml5',
+                    text: 'Download'
+                }
+                ],
+
+                bProcessing: true,
+                destroy: true,
+                processing: true,
+                columns: [
+
+                    {
+                        data: 'refStrain',
+                        render: function (data, type, row) {
+                            return row.refChr + ":" + row.refStart + "-" + row.refEnd;
+                        }
+                    },
+                    {
+                        data: 'refDirection'
+                    },
+                    {
+                        data: 'qryStrain'
+                    },
+                    {
+                        data: 'qryChr',
+                        render: function (data, type, row) {
+                            return row.qryChr + ":" + row.qryStart + "-" + row.qryEnd;
+                        }
+                    }
+                ]
+            });
+
+        });
+
+    });
+</script>
+</body>
+</html>
+
+
+
+<script src="/soyomics/static/page/var_data.js"></script>
+
+<script>
+    let var_id = '', var_chr = '', start_position = -1, end_position = -1, type = '', consequence = '',
+        maf_fuhao = 'f_gt', maf = -1, miss_fuhao = 'f_gt', miss = -1, gene_type = '', gene_id = '', acid = 0, gwas = 0,
+        ld = 0;
+
+    $('.ui.checkbox').checkbox();
+
+    if ('' != '' || -1 != -1 || -1 != -1) {
+        for (var i = 0; i < 20; ++i) {
+
+            if (document.getElementById('var_chr_kw')[i].value == '') {
+                document.getElementById('var_chr_kw')[i].selected = true;
+            }
+        }
+
+
+        $("#var_start_kw").val('-1');
+
+        $("#var_end_kw").val('-1');
+        var var_url = "http://ngdc.cncb.ac.cn:80/soyomics/genome_variation_list?chr=&start_position=-1&end_position=-1";
+        variation_table_show(var_url);
+    } else {
+        variation_table_show('http://ngdc.cncb.ac.cn:80/soyomics/genome_variation_list');
+    }
+
+    $("input[name='example2']").change(function () {
+        var arr = document.getElementsByName("example2");
+        var check_val = [];
+        var k = 0;
+        for (k in arr) {
+            if (arr[k].checked)
+                check_val.push(arr[k].value);
+        }
+        // alert(check_val);
+        consequence = check_val;
+    });
+
+
+    $('#var_search').click(
+        function () {
+            if ($("#varID_kw").val() != null) {
+                var_id = $("#varID_kw").val();
+            }
+
+            if ($("#var_chr_kw option:selected").val() != null) {
+                var_chr = $("#var_chr_kw option:selected").val();
+            }
+            if ($("#var_start_kw").val() != null) {
+                start_position = $("#var_start_kw").val();
+            }
+            if ($("#var_end_kw").val() != null) {
+                end_position = $("#var_end_kw").val();
+            }
+
+            if ($("#var_type_kw option:selected").val() != null) {
+                type = $("#var_type_kw option:selected").val();
+            }
+
+            if ($("#gene_type_kw option:selected").val() != null) {
+                gene_type = $("#gene_type_kw option:selected").val();
+            }
+            if ($("#geneID_kw").val() != null) {
+                gene_id = $("#geneID_kw").val();
+            }
+
+            // if ($('#acid_kw').checkbox('is checked')) {
+            //     acid = 1;
+            // }
+            // else acid = 0;
+
+            if ($('#ld_kw').checkbox('is checked')) {
+                ld = 1;
+            } else ld = 0;
+
+            if ($('#gwas_kw').checkbox('is checked')) {
+                gwas = 1;
+            } else gwas = 0;
+
+
+            if ($("#maf_kw").val() != null) {
+                maf = $("#maf_kw").val();
+                maf_fuhao = $("#maf_f_kw option:selected").val();
+            }
+
+
+            if ($("#miss_kw").val() != null) {
+                miss = $("#miss_kw").val();
+                miss_fuhao = $("#miss_f_kw option:selected").val();
+            }
+
+
+            let var_url = "http://ngdc.cncb.ac.cn:80/soyomics/genome_variation_list?var_id=" + var_id + "&chr=" + var_chr +
+                "&start_position=" + start_position + "&end_position=" + end_position + "&type=" + type + "&consequence=" + consequence +
+                "&maf_fuhao=" + maf_fuhao + "&maf=" + maf + "&miss_fuhao=" + miss_fuhao + "&miss=" + miss + "&gene_type=" + gene_type + "&gene_id=" + gene_id + "&acid=" + acid + "&ld=" + ld + "&gwas=" + gwas;
+
+            variation_table_show(var_url);
+
+        }
+    );
+
+    $('#var_reset').click(
+        function () {
+            var_id = '', var_chr = '', start_position = -1, end_position = -1, type = '', consequence = '', maf_fuhao = 'f_gt', maf = -1, miss_fuhao = 'f_gt', miss = -1, gene_type = '', gene_id = '', acid = 0, gwas = 0, ld = 0;
+
+
+            $("#varID_kw").val(null);
+
+            // $("#var_chr_kw ").dropdown('clear');
+
+            document.getElementById('var_chr_kw')[0].selected = true;
+
+            $("#var_start_kw").val(null);
+
+            $("#var_end_kw").val(null);
+
+            // $("#var_type_kw ").dropdown('clear');
+            document.getElementById('var_type_kw')[0].selected = true;
+            // $("#gene_type_kw ").dropdown('clear');
+            document.getElementById('gene_type_kw')[0].selected = true;
+            $("#geneID_kw").val(null);
+
+            // $('#acid_kw').checkbox('set unchecked');
+            $('#ld_kw').checkbox('set unchecked');
+            $('#gwas_kw').checkbox('set unchecked');
+
+            $("div[name='consequence_kw']").checkbox('set unchecked');
+
+            document.getElementById('maf_f_kw')[0].selected = true;
+            $("#maf_kw").val(null);
+
+            document.getElementById('miss_f_kw')[0].selected = true;
+            $("#miss_kw").val(null);
+
+            variation_table_show('http://ngdc.cncb.ac.cn:80/soyomics/genome_variation_list');
+
+        }
+    );
+
+
+</script>
+
+<script type="text/javascript">
+
+
+    var typeChart = echarts.init(document.getElementById('typeChart'), 'roma', {renderer: 'svg'});//, 'roma', {renderer: 'svg'}
+
+    $.ajax({
+        url: "http://ngdc.cncb.ac.cn:80/soyomics/genome_variation/type_Chart",
+        type: "POST",
+        dataType: "json",
+        success: function (data) {
+            var servicedata = [];
+
+            // var n=0;
+            // for (var i = 0; i < data.length; i++) {
+            //     if( data[i]["name"]!='NA') {
+            //         var obj = new Object();
+            //         obj.name = data[i]["name"];
+            //         obj.value = data[i]["num"];
+            //         servicedata[n] = obj;
+            //         n++;
+            //     }
+            // }
+            for (var i = 0; i < 2; i++) {
+                servicedata[i] = new Object();
+            }
+            servicedata[0].name = "INDEL";
+            servicedata[0].value = "6127057";
+
+            servicedata[1].name = "SNP";
+            servicedata[1].value = "31580805";
+
+            typeChart.setOption({
+                title: {
+                    text: 'Variant Type',
+                    left: 'center'
+                },
+                toolbox: {
+                    show: true,
+                    // feature: {
+                    //     mark: {show: true},
+                    //     dataView: {show: true, readOnly: false},
+                    //     restore: {show: true},
+                    //     saveAsImage: {show: true}
+                    // }
+                },
+                // legend: {
+                //     orient: 'vertical',
+                //     left: 'right'
+                // },
+                series: [
+                    {
+                        type: 'pie',
+                        radius: '55%',
+                        // center: ['50%', '55%'],//圆心坐标
+                        startAngle: 90, //起始角度
+                        clockwise: true, //生长方向，是否顺时针
+                        labelLine: {
+                            // show:false,
+                            // length:20,
+                            // length2:50
+                        },
+                        data: servicedata
+                    }
+                ],
+
+                tooltip: { // 鼠标hover 弹窗
+                    trigger: 'item',
+                    formatter: "{b}: {c} ({d}%)" //"{a} <br/>{b}: {c} ({d}%)"
+                }
+            });
+            typeChart.on('click', function (param) {
+                var url = param.data.url;
+                // console.log(param);
+                
+                
+            });
+        }
+    });
+
+
+    var areaChart = echarts.init(document.getElementById('areaChart'), 'roma', {renderer: 'svg'});//, 'roma', {renderer: 'svg'}
+
+    $.ajax({
+        url: "http://ngdc.cncb.ac.cn:80/soyomics/genome_variation/area_Chart",
+        type: "POST",
+        dataType: "json",
+        success: function (data) {
+            var servicedata = [];
+
+            // var n=0;
+            // for (var i = 0; i < data.length; i++) {
+            //     if( data[i]["name"]!='NA') {
+            //         var obj = new Object();
+            //         obj.name = data[i]["name"];
+            //         obj.value = data[i]["num"];
+            //         servicedata[n] = obj;
+            //         n++;
+            //     }
+            // }
+            for (var i = 0; i < 10; i++) {
+                servicedata[i] = new Object();
+            }
+
+            // servicedata[0].name = "ncRNA_UTR5";
+            // servicedata[0].value = "2";
+            //
+            // servicedata[1].name = "ncRNA_splicing";
+            // servicedata[1].value = "40";
+            // servicedata[2].name = "ncRNA_intronic";
+            // servicedata[2].value = "457";
+            // servicedata[3].name = "ncRNA_exonic";
+            // servicedata[3].value = "13535";
+            servicedata[0].name = "splicing";
+            servicedata[0].value = "15601";
+            servicedata[1].name = "UTR5";
+            servicedata[1].value = "411365";
+            servicedata[2].name = "UTR3";
+            servicedata[2].value = "564603";
+            servicedata[3].name = "exonic";
+            servicedata[3].value = "2209022";
+            servicedata[4].name = "intronic";
+            servicedata[4].value = "4127314";
+            servicedata[5].name = "intergenic";
+            servicedata[5].value = "31946957";
+
+            areaChart.setOption({
+                title: {
+                    text: 'Variant Area',
+                    left: 'center'
+                },
+                toolbox: {
+                    show: true,
+                    // feature: {
+                    //     mark: {show: true},
+                    //     dataView: {show: true, readOnly: false},
+                    //     restore: {show: true},
+                    //     saveAsImage: {show: true}
+                    // }
+                },
+                // legend: {
+                //     orient: 'vertical',
+                //     left: 'right'
+                // },
+                series: [
+                    {
+                        type: 'pie',
+                        radius: '55%',
+                        // center: ['50%', '55%'],//圆心坐标
+                        startAngle: 90, //起始角度
+                        clockwise: true, //生长方向，是否顺时针
+                        labelLine: {
+                            // show:false,
+                            // length:20,
+                            // length2:50
+                        },
+                        data: servicedata
+                    }
+                ],
+
+                tooltip: { // 鼠标hover 弹窗
+                    trigger: 'item',
+                    formatter: "{b}: {c} ({d}%)" //"{a} <br/>{b}: {c} ({d}%)"
+                }
+            });
+            areaChart.on('click', function (param) {
+                var url = param.data.url;
+                // console.log(param);
+                
+                
+            });
+        }
+    });
+
+
+    var consequenceChart = echarts.init(document.getElementById('consequenceChart'), 'roma', {renderer: 'svg'});//, 'roma', {renderer: 'svg'}
+
+    $.ajax({
+        url: "http://ngdc.cncb.ac.cn:80/soyomics/genome_variation/consequence_Chart",
+        type: "POST",
+        dataType: "json",
+        success: function (data) {
+            var servicedata = [];
+
+            // var n = 0;
+            // for (var i = 0; i < data.length; i++) {
+            //     if (data[i]["name"] != 'NA') {
+            //         var obj = new Object();
+            //         obj.name = data[i]["name"];
+            //         obj.value = data[i]["num"];
+            //         servicedata[n] = obj;
+            //         n++;
+            //     }
+            // }
+            for (var i = 0; i < 8; i++) {
+                servicedata[i] = new Object();
+            }
+            servicedata[0].name = "stoploss";
+            servicedata[0].value = 2373;
+            servicedata[1].name = "nonframeshift insertion";
+            servicedata[1].value = 33407;
+            servicedata[2].name = "nonframeshift deletion";
+            servicedata[2].value = 47628;
+            servicedata[3].name = "frameshift insertion";
+            servicedata[3].value = 49777;
+            servicedata[4].name = "stopgain";
+            servicedata[4].value = 60451;
+            servicedata[5].name = "frameshift deletion";
+            servicedata[5].value = 79392;
+            servicedata[6].name = "synonymous SNV";
+            servicedata[6].value = 783286;
+            servicedata[7].name = "nonsynonymous SNV";
+            servicedata[7].value = 1144156;
+
+
+            consequenceChart.setOption({
+                title: {
+                    text: 'Exonic Variant Classification',
+                    left: 'center'
+                },
+                toolbox: {
+                    show: true,
+                    // feature: {
+                    //     mark: {show: true},
+                    //     dataView: {show: true, readOnly: false},
+                    //     restore: {show: true},
+                    //     saveAsImage: {show: true}
+                    // }
+                },
+                // legend: {
+                //     orient: 'vertical',
+                //     left: 'right'
+                // },
+                series: [
+                    {
+                        type: 'pie',
+                        radius: '55%',
+                        // center: ['50%', '55%'],//圆心坐标
+                        startAngle: 90, //起始角度
+                        clockwise: true, //生长方向，是否顺时针
+                        labelLine: {
+                            // show:false,
+                            // length:20,
+                            // length2:50
+                        },
+                        data: servicedata
+                    }
+                ],
+
+                tooltip: { // 鼠标hover 弹窗
+                    trigger: 'item',
+                    formatter: "{b}: {c} ({d}%)" //"{a} <br/>{b}: {c} ({d}%)"
+                }
+            });
+            consequenceChart.on('click', function (param) {
+                var url = param.data.url;
+                // console.log(param);
+                
+                
+            });
+        }
+    });
+
+
+    var chr = ['Chr01', 'Chr02', 'Chr03', 'Chr04', 'Chr05', 'Chr06', 'Chr07', 'Chr08', 'Chr09', 'Chr10', 'Chr11', 'Chr12', 'Chr13', 'Chr14', 'Chr15', 'Chr16', 'Chr17', 'Chr18', 'Chr19', 'Chr20'];
+
+    data1 = data1.map(function (item) {
+        return [(item[1] / 20), item[0] - 1, (item[2]) || '-'];
+    });
+
+    function getVarHeatmap() {
+        $('#chrChart').html('<img src="https://ngdc.cncb.ac.cn:443/ncov/static/image/ajax-loader.gif" />');
+        document.getElementById('chrChart').removeAttribute('_echarts_instance_');
+        let chrChart = null;
+
+
+        chrChart = echarts.init(document.getElementById('chrChart'), {renderer: 'svg'});
+        chrChart.setOption({
+
+            title: {
+                text: 'Variation Density',
+                left: 'center'
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: function (params) {
+
+                    let res = 'Variation Density<br>' + params.data[0] + 'Mb: ' + params.data[2];
+                    return res;
+                }
+                // position: 'top'
+            },
+
+            xAxis: {
+                name: 'Chromosomal position /Mb',
+                nameLocation: "middle",
+                nameGap: 30,
+                type: 'category',
+                splitArea: {
+                    show: false
+                },
+                axisTick: {
+                    show: true
+                },
+                axisLine: {
+                    show: true
+                },
+
+
+            },
+            yAxis: {
+                name: 'Chromosome',
+
+                type: 'category',
+                data: chr,
+                axisLine: {
+                    show: true
+                },
+                axisTick: {
+                    show: false
+                },
+                splitArea: {
+                    show: false,
+                },
+                splitLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#ffff',
+                        width: 5,
+                    },
+                },
+
+            },
+
+            visualMap: {
+                min: 1,//1,//365,
+                max: 6700,//13313,//78178,
+                calculable: true,
+                // orient: 'horizontal',
+                left: 'right',
+                text: ['High', 'Low'],
+                // bottom: '5%',
+                inRange: {
+                    color: ['#0d6e11', '#feff08', '#d01c10']
+                }
+            },
+            series: [{
+                name: 'Variation density',
+                type: 'heatmap',
+                data: data1,
+
+                label: {
+                    normal: {
+                        show: false
+                    }
+                },
+                itemStyle: {
+                    // borderColor: '#fff',
+                    //   borderWidth: 1,
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                },
+                zlevel: -1,
+            }]
+
+        });
+    };
+
+    data_snp = data_snp.map(function (item) {
+        return [(item[1] / 20), item[0] - 1, (item[2]) || '-'];
+    });
+
+    function getSnpHeatmap() {
+        $('#chrChart').html('<img src="https://ngdc.cncb.ac.cn:443/ncov/static/image/ajax-loader.gif" />');
+        document.getElementById('chrChart').removeAttribute('_echarts_instance_');
+        let chrChart = null;
+
+        chrChart = echarts.init(document.getElementById('chrChart'), {renderer: 'svg'});
+        chrChart.setOption({
+
+            title: {
+                text: 'SNP Density',
+                left: 'center'
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: function (params) {
+
+                    let res = 'Variation Density<br>' + params.data[0] + 'Mb: ' + params.data[2];
+                    return res;
+                }
+                // position: 'top'
+            },
+
+            xAxis: {
+                name: 'Chromosomal position /Mb',
+                nameLocation: "middle",
+                nameGap: 30,
+                type: 'category',
+                splitArea: {
+                    show: false
+                },
+                axisTick: {
+                    show: true
+                },
+                axisLine: {
+                    show: true
+                },
+
+
+            },
+            yAxis: {
+                name: 'Chromosome',
+
+                type: 'category',
+                data: chr,
+                axisLine: {
+                    show: true
+                },
+                axisTick: {
+                    show: false
+                },
+                splitArea: {
+                    show: false,
+                },
+                splitLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#ffff',
+                        width: 5,
+                    },
+                },
+
+            },
+
+            visualMap: {
+                min: 1,//1,//365,
+                max: 6000,//13313,//78178,
+                calculable: true,
+                // orient: 'horizontal',
+                left: 'right',
+                text: ['High', 'Low'],
+                // bottom: '5%',
+                inRange: {
+                    color: ['#0d6e11', '#feff08', '#d01c10']
+                }
+            },
+            series: [{
+                name: 'SNP density',
+                type: 'heatmap',
+                data: data_snp,
+
+                label: {
+                    normal: {
+                        show: false
+                    }
+                },
+                itemStyle: {
+                    // borderColor: '#fff',
+                    //   borderWidth: 1,
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                },
+                zlevel: -1,
+            }]
+
+        });
+    };
+
+    data_indel = data_indel.map(function (item) {
+        return [(item[1] / 20), item[0] - 1, (item[2]) || '-'];
+    });
+
+    function getIndelHeatmap() {
+        $('#chrChart').html('<img src="https://ngdc.cncb.ac.cn:443/ncov/static/image/ajax-loader.gif" />');
+        document.getElementById('chrChart').removeAttribute('_echarts_instance_');
+        let chrChart = null;
+
+        chrChart = echarts.init(document.getElementById('chrChart'), {renderer: 'svg'});
+        chrChart.setOption({
+
+            title: {
+                text: 'Indel Density',
+                left: 'center'
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: function (params) {
+
+                    let res = 'Variation Density<br>' + params.data[0] + 'Mb: ' + params.data[2];
+                    return res;
+                }
+                // position: 'top'
+            },
+
+            xAxis: {
+                name: 'Chromosomal position /Mb',
+                nameLocation: "middle",
+                nameGap: 30,
+                type: 'category',
+                splitArea: {
+                    show: false
+                },
+                axisTick: {
+                    show: true
+                },
+                axisLine: {
+                    show: true
+                },
+
+
+            },
+            yAxis: {
+                name: 'Chromosome',
+
+                type: 'category',
+                data: chr,
+                axisLine: {
+                    show: true
+                },
+                axisTick: {
+                    show: false
+                },
+                splitArea: {
+                    show: false,
+                },
+                splitLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#ffff',
+                        width: 5,
+                    },
+                },
+
+            },
+
+            visualMap: {
+                min: 1,//1,//365,
+                max: 2000,//13313,//78178,
+                calculable: true,
+                // orient: 'horizontal',
+                left: 'right',
+                text: ['High', 'Low'],
+                // bottom: '5%',
+                inRange: {
+                    color: ['#0d6e11', '#feff08', '#d01c10']
+                }
+            },
+            series: [{
+                name: 'Indel density',
+                type: 'heatmap',
+                data: data_indel,
+
+                label: {
+                    normal: {
+                        show: false
+                    }
+                },
+                itemStyle: {
+                    // borderColor: '#fff',
+                    //   borderWidth: 1,
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                },
+                zlevel: -1,
+            }]
+
+        });
+    };
+
+
+    getVarHeatmap();
+
+
+</script>
+<script>
+
+    var zoom_start = -1;
+    var zoom_end = -1;
+
+    var quntiChart_img = echarts.init(document.getElementById('quntiChart'), null, {renderer: 'svg'});
+
+    var quntiChart_img_show = (function (url) {
+
+        $.ajax({
+            url: url,
+            type: "GET",
+            dataType: "json",
+            beforeSend: function () {
+                // 禁用按钮防止重复提交
+                // alert("loading...");
+                // document.getElementById("synteny_img").innerHTML = '<div name="load"></div>';
+                $("#qunti_submit").attr({disabled: "disabled"});
+                $('#wait').removeClass("d-none");
+            },
+            success: function (data) {
+                var max = data.max;
+                var min = data.min;
+
+                var option = {
+                    // title: {
+                    //     text: 'Rainfall vs Evaporation',
+                    //     left: 'center'
+                    // },
+                    tooltip: {
+                        trigger: 'axis',
+                        // axisPointer: {
+                        //   // animation: false
+                        // }
+                    },
+                    title: {
+                        // text: 'Sales Trends by Year within Each Month',
+                        subtext: '*click to select/unselect track',
+                        left: '71%',
+                        top: '-2%',
+                    },
+                    legend: {
+                        // data: ['Soja', 'Landrace', 'Improved cultivar', 'Soja vs Landrace', 'Soja vs Improved cultivar', 'Landrace vs Improved cultivar',],
+                        data: [{
+                            name: 'Soja',
+                            // 强制设置图形为圆。
+                            icon: 'circle',
+
+                        }, {
+                            name: 'Landrace',
+                            // 强制设置图形为圆。
+                            icon: 'circle',
+
+                        }, {
+                            name: 'Improved cultivar',
+                            // 强制设置图形为圆。
+                            icon: 'circle',
+
+                        }, {
+                            name: 'Soja vs Landrace',
+                            // 强制设置图形为圆。
+                            icon: 'diamond',
+
+                        }, {
+                            name: 'Soja vs Improved cultivar',
+                            // 强制设置图形为圆。
+                            icon: 'diamond',
+
+                        }, {
+                            name: 'Landrace vs Improved cultivar',
+                            // 强制设置图形为圆。
+                            icon: 'diamond',
+
+                        }],
+                        left: 10
+                    },
+                    toolbox: {
+                        feature: {
+                            dataZoom: {
+                                yAxisIndex: 'none'
+                            },
+                            restore: {},
+                            saveAsImage: {}
+                        }
+                    },
+                    axisPointer: {
+                        link: [
+                            {
+                                xAxisIndex: [0, 1, 2]
+                            }
+                        ]
+                    },
+                    dataZoom: [
+                        {
+                            show: true,
+                            xAxisIndex: [0, 1, 2],
+                            top: '93%',
+                        }
+                    ],
+
+                    grid: [
+                        {
+                            left: 60,
+                            right: 50,
+                            height: '18%'
+                        },
+                        {
+                            left: 60,
+                            right: 50,
+                            top: '42%',
+                            height: '18%'
+                        }
+                        ,
+                        {
+                            left: 60,
+                            right: 50,
+                            top: '70%',
+                            height: '18%'
+                        }
+                    ],
+                    xAxis: [
+
+                        {
+                            gridIndex: 0,
+                            minorTick: {
+                                show: true
+                            }, axisPointer: {
+                                label: {
+                                    formatter: function (params) {
+                                        return (
+                                            'TajimaD Position: ' +
+                                            params.value
+                                        );
+                                    }
+                                }
+                            },
+                            min: min,
+                            max: max,
+                        },
+                        {
+                            // name: "x",
+                            gridIndex: 1,
+
+                            minorTick: {
+                                show: true
+                            },
+
+
+                            axisPointer: {
+                                label: {
+                                    formatter: function (params) {
+                                        return (
+                                            'Pi Position: ' +
+                                            params.value
+                                        );
+                                    }
+                                }
+                            },
+                            // axisLine: { onZero: true },
+                            min: min,
+                            max: max,
+                        },
+                        {
+                            gridIndex: 2,
+                            minorTick: {
+                                show: true
+                            }, axisPointer: {
+                                label: {
+                                    formatter: function (params) {
+                                        return (
+                                            'Fst Position: ' +
+                                            params.value
+                                        );
+                                    }
+                                }
+                            },
+                            min: min,
+                            max: max,
+                        }
+                    ],
+                    yAxis: [
+
+                        {
+                            gridIndex: 0,
+                            name: 'TajimaD',
+                            nameLocation: 'middle',
+                            nameTextStyle: {
+                                fontWeight: "bold",
+                                fontSize: 14,
+                                lineHeight: 50
+                            },
+                            type: 'value',
+                            splitLine: {
+                                show: false
+                            },
+                            min: -3,
+                            max: 8,
+
+                        }, {
+                            gridIndex: 1,
+                            name: 'Reduce of diversity',
+                            type: 'value',
+                            nameLocation: 'middle',
+                            nameTextStyle: {
+                                fontWeight: "bold",
+                                fontSize: 14,
+                                lineHeight: 50
+                            },
+                            splitLine: {
+                                show: false
+                            },
+                            min: -1,
+                            max: 1,
+                            pieces: [
+                                {
+                                    gt: -1,
+                                    lte: 0.5,
+                                    color: 'gray'
+                                }
+                            ],
+
+                        },
+                        {
+                            gridIndex: 2,
+                            name: 'Fst',
+                            type: 'value',
+                            nameLocation: 'middle',
+                            nameTextStyle: {
+                                fontWeight: "bold",
+                                fontSize: 14,
+                                lineHeight: 50
+                            },
+                            splitLine: {
+                                show: false
+                            },
+                            min: -1,
+                            max: 1,
+                        }
+                    ],
+                    series: [
+                        {
+                            name: 'Soja',
+                            type: 'line',
+                            xAxisIndex: 0,
+                            yAxisIndex: 0,
+                            symbolSize: 0.1,
+                            clip: true,
+                            smooth: false,
+                            // prettier-ignore
+                            data: data.snp_t_Soja,
+                            markLine: {
+                                symbol: 'none',//去掉箭头
+                                silent: true,
+                                lineStyle: {
+                                    color: '#5470c6'
+                                },
+                                data: [
+                                    {
+                                        yAxis: -1.691
+                                    }
+                                ]
+                            }
+
+
+                        }, {
+                            name: 'Landrace',
+                            type: 'line',
+                            xAxisIndex: 0,
+                            yAxisIndex: 0,
+                            symbolSize: 0.1,
+                            clip: true,
+                            smooth: false,
+                            // prettier-ignore
+                            data: data.snp_t_Landrace,
+                            markLine: {
+                                symbol: 'none',//去掉箭头
+                                silent: true,
+                                lineStyle: {
+                                    color: '#91cc75'
+                                },
+                                data: [
+                                    {
+                                        yAxis: -2.332
+                                    }
+                                ]
+                            }
+
+                        }, {
+                            name: 'Improved cultivar',
+                            type: 'line',
+                            xAxisIndex: 0,
+                            yAxisIndex: 0,
+                            symbolSize: 0.1,
+                            clip: true,
+                            smooth: false,
+                            // prettier-ignore
+                            data: data.snp_t_Improved_cultivar,
+                            markLine: {
+                                symbol: 'none',//去掉箭头
+                                silent: true,
+                                lineStyle: {
+                                    color: '#fac858'
+                                },
+                                data: [
+                                    {
+                                        yAxis: -2.488
+                                    }
+                                ]
+                            }
+
+                        },
+
+                        {
+                            name: 'Soja vs Landrace',
+                            type: 'line',
+                            xAxisIndex: 1,
+                            yAxisIndex: 1,
+                            symbolSize: 0.1,
+                            // showSymbol: false,
+                            clip: true,
+                            smooth: false,
+                            // prettier-ignore
+                            data: data.snp_p_Soja_Landrace,
+                            markLine: {
+                                symbol: 'none',//去掉箭头
+                                silent: true,
+                                lineStyle: {
+                                    color: '#ee6666'
+                                },
+                                data: [
+                                    {
+                                        yAxis: 0.895
+                                    }
+                                ]
+                            }
+
+                        }, {
+                            name: 'Soja vs Improved cultivar',
+                            type: 'line',
+                            xAxisIndex: 1,
+                            yAxisIndex: 1,
+                            symbolSize: 0.1,
+                            // showSymbol: false,
+                            clip: true,
+                            smooth: false,
+                            // prettier-ignore
+                            data: data.snp_p_Soja_Improved,
+                            markLine: {
+                                symbol: 'none',//去掉箭头
+                                silent: true,
+                                lineStyle: {
+                                    color: '#73c0de'
+                                },
+                                data: [
+                                    {
+                                        yAxis: 0.939
+                                    }
+                                ]
+                            }
+                        }, {
+                            name: 'Landrace vs Improved cultivar',
+                            type: 'line',
+                            xAxisIndex: 1,
+                            yAxisIndex: 1,
+                            symbolSize: 0.1,
+                            // showSymbol: false,
+                            clip: true,
+                            smooth: false,
+                            // prettier-ignore
+                            data: data.snp_p_Landrace_Improved,
+                            markLine: {
+                                symbol: 'none',//去掉箭头
+                                silent: true,
+                                lineStyle: {
+                                    color: '#3ba272'
+                                },
+                                data: [
+                                    {
+                                        yAxis: 0.61
+                                    }
+                                ]
+                            }
+
+                        },
+
+
+                        {
+                            name: 'Soja vs Landrace',
+                            type: 'line',
+                            xAxisIndex: 2,
+                            yAxisIndex: 2,
+                            symbolSize: 0.1,
+                            clip: true,
+                            smooth: false,
+                            // prettier-ignore
+                            data: data.snp_w_Soja_Landrace,
+                            markLine: {
+                                symbol: 'none',//去掉箭头
+                                silent: true,
+                                lineStyle: {
+                                    color: '#ee6666'
+                                },
+                                data: [
+                                    {
+                                        yAxis: 0.285
+                                    }
+                                ]
+                            }
+
+                        },
+                        {
+                            name: 'Soja vs Improved cultivar',
+                            type: 'line',
+                            xAxisIndex: 2,
+                            yAxisIndex: 2,
+                            symbolSize: 0.1,
+                            clip: true,
+                            smooth: false,
+                            // prettier-ignore
+                            data: data.snp_w_Soja_Improved,
+                            markLine: {
+                                symbol: 'none',//去掉箭头
+                                silent: true,
+                                lineStyle: {
+                                    color: '#73c0de'
+                                },
+                                data: [
+                                    {
+                                        yAxis: 0.349
+                                    }
+                                ]
+                            }
+
+                        },
+                        {
+                            name: 'Landrace vs Improved cultivar',
+                            type: 'line',
+                            xAxisIndex: 2,
+                            yAxisIndex: 2,
+                            symbolSize: 0.1,
+                            // showSymbol: false,
+                            clip: true,
+                            smooth: false,
+                            // prettier-ignore
+                            data: data.snp_w_Landrace_Improved,
+                            markLine: {
+                                symbol: 'none',//去掉箭头
+                                silent: true,
+                                lineStyle: {
+                                    color: '#3ba272'
+                                },
+                                data: [
+                                    {
+                                        yAxis: 0.03
+                                    }
+                                ]
+                            }
+                        }
+
+                    ]
+                };
+                quntiChart_img.setOption(option, true);
+                quntiChart_img.on('dataZoom', function (event) {
+                    zoom_start = parseInt(quntiChart_img.getModel().option.dataZoom[0].startValue);
+                    zoom_end = parseInt(quntiChart_img.getModel().option.dataZoom[0].endValue);
+                    // alert(start+";"+end);
+                    
+                });
+
+
+            },
+            complete: function () {
+                $("#qunti_submit").removeAttr("disabled");
+                $('#wait').addClass("d-none");
+            },
+            error: function () {
+
+            }
+        });
+    });
+
+    let qunti_chr = "Chr01";
+    let qunti_start = 0;
+    let qunti_end = 1000000;
+    quntiChart_img_show('http://ngdc.cncb.ac.cn:80/soyomics/genome_variation/group?chr=' + qunti_chr + '&seq_start=' + qunti_start + '&seq_end=' + qunti_end);
+
+    $('#qunti_chr_kw').dropdown();
+    $("#qunti_start_kw").val(0);
+    $("#qunti_end_kw").val(1000000);
+    $('#qunti_submit').click(
+        function () {
+
+            qunti_chr = $("#qunti_chr_kw option:selected").val();
+
+            if ($("#qunti_start_kw").val() != null) {
+                qunti_start = $("#qunti_start_kw").val();
+            } else {
+                // $("#qunti_start_kw").val(0);
+                // qunti_start =0;
+            }
+            if ($("#qunti_end_kw").val() != null) {
+                qunti_end = $("#qunti_end_kw").val();
+            } else {
+                // $("#qunti_end_kw").val(100000);
+                // qunti_end =100000;
+            }
+            // if (qunti_end-qunti_start>100000){
+            //     alert("Position limit: 10000bp");
+            // } else {
+            quntiChart_img_show('http://ngdc.cncb.ac.cn:80/soyomics/genome_variation/group?chr=' + qunti_chr + '&seq_start=' + qunti_start + '&seq_end=' + qunti_end);
+
+            // }
+
+        }
+    );
+    $('#qunti_zoom').click(
+        function () {
+            var_id = '', var_chr = '', start_position = -1, end_position = -1, type = '', consequence = '', maf_fuhao = 'f_gt', maf = -1, miss_fuhao = 'f_gt', miss = -1, gene_type = '', gene_id = '', acid = 0, gwas = 0, ld = 0;
+
+
+            $("#varID_kw").val(null);
+
+
+            for (var i = 0; i < 20; ++i) {
+
+                if (document.getElementById('var_chr_kw')[i].value == qunti_chr) {
+                    document.getElementById('var_chr_kw')[i].selected = true;
+                }
+            }
+
+
+            $("#var_start_kw").val(zoom_start);
+
+            $("#var_end_kw").val(zoom_end);
+
+            // $("#var_type_kw ").dropdown('clear');
+            document.getElementById('var_type_kw')[0].selected = true;
+            // $("#gene_type_kw ").dropdown('clear');
+            document.getElementById('gene_type_kw')[0].selected = true;
+            $("#geneID_kw").val(null);
+
+            $('#acid_kw').checkbox('set unchecked');
+            $('#ld_kw').checkbox('set unchecked');
+            $('#gwas_kw').checkbox('set unchecked');
+
+            $("div[name='consequence_kw']").checkbox('set unchecked');
+
+            document.getElementById('maf_f_kw')[0].selected = true;
+            $("#maf_kw").val(null);
+
+            document.getElementById('miss_f_kw')[0].selected = true;
+            $("#miss_kw").val(null);
+
+            let var_url = "http://ngdc.cncb.ac.cn:80/soyomics/genome_variation_list?chr=" + qunti_chr +
+                "&start_position=" + zoom_start + "&end_position=" + zoom_end;
+
+            variation_table_show(var_url);
+            scoll_fn();
+        }
+    );
+
+    var $target = $('#Variation');    // 目标元素
+    function scoll_fn() {
+        window.scrollTo({
+            top: $target.offset().top, left: 0,
+            behavior: 'smooth'
+        });
+    }
+
+</script>
+
+</body>
+</html>

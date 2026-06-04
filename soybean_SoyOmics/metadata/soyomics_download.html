@@ -1,0 +1,1033 @@
+
+
+
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Downloads - SoyOmics - CNCB-NGDC</title>
+
+</head>
+<body>
+<div class="container">
+    
+
+<html>
+
+<header class="sticky-top ">
+    
+    
+    
+    
+    <link rel="shortcut icon" href="/soyomics/static/images/logo2.svg" type="image/x-icon"/>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark "
+         style=" background-image: linear-gradient(to right, #1b9c94, #0f9c8b, #0d9b80, #179a75, #249968, #3c9f64, #50a561, #63ab5d, #82b963, #a0c76b, #bed574, #dce37f);">
+        
+
+        <div class="container-fluid ">
+
+            <div style="width: 15%">
+
+                <a class="navbar-brand" style="padding: 0px" href="http://ngdc.cncb.ac.cn:80/soyomics/index">
+                    <h3><img src="/soyomics/static/images/logo_top.svg" width="50%"> SoyOmics</h3>
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/index">Home </a>
+                    </li>
+                    
+                    
+                    
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                           aria-expanded="false">Omics</a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/genome_assembly">Genome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/genome_variation">Variome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome">Transcriptome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/phenome/">Phenome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/homology/">Homology</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/synteny">Synteny</a>
+                            
+                            
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/breedingtips">BreedingTips </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" target="_blank"
+                           href="https://ngdc.cncb.ac.cn/browser/?data=data/soyomics/ZH13.v2">JBrowse</a>
+                    </li>
+
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
+                           aria-expanded="false">Toolkits</a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdown02">
+
+
+                            
+                            
+                            <a class="dropdown-item" target="_blank"
+                               href="https://ngdc.cncb.ac.cn/blast/soybean/blastn">BLAST</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="https://ngdc.cncb.ac.cn/bit/mulomics/gwas/run">easyGWAS</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/expression_tool/">ExpPattern</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/haplotype/">HapSnap</a>
+                            <div class="dropdown-divider"></div>
+                                <a class="dropdown-item " href="https://ngdc.cncb.ac.cn/bit/mulomics/VersionMap/run">VersionMap</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://ngdc.cncb.ac.cn/soyomics/seqFetch/run">SeqFetch</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/soy40k">SoyArray </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/soyashare/">SoyaShare </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/download">Download </a>
+                    </li>
+                    
+                    
+                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/documentation">Documentation </a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/contact">Contact </a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-md-0">
+                    <input id="com_input" class="form-control" type="text" placeholder="Search">
+                    <button type="button" onclick="com_search()" class="ui icon teal button"><i class="search icon"></i>
+                    </button>
+                    
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+
+</header>
+
+
+
+
+
+
+
+<div class="col-md-3 " style="display: none">
+    <div class="panel-default panel">
+        <div class="panel-body" style="height: 200px">
+            <h4 class="text-primary"><span class="ui blue ribbon label big"><i class="fas fa-globe"></i> Global Visitors</span>
+            </h4>
+            <div>
+                
+                    
+                            
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style type="text/css">
+    #sub_menu_1, #sub_menu_2 {
+        display: none;
+    }
+
+    ul li:hover {
+        cursor: pointer;
+    }
+
+</style>
+
+<script type="text/javascript">
+    function f(str) {
+        var sub_menu = document.getElementById(str);
+        var dis_v = sub_menu.style.display;
+
+        if (dis_v == "block")
+            sub_menu.style.display = "none";
+        else
+            sub_menu.style.display = "block";
+
+    }
+
+
+</script>
+<script>
+    function com_search() {
+        var id = $("#com_input").val();
+        if (id != "") {
+            window.location = "http://ngdc.cncb.ac.cn:80/soyomics/search?id=" + id;
+        } else {
+            window.location = "http://ngdc.cncb.ac.cn:80/soyomics/";
+        }
+    }
+
+    //
+    // function com_entersearch(){
+    //     var event = window.event || arguments.callee.caller.arguments[0];
+    //     if (event.keyCode == 13)
+    //     {
+    //         com_search();
+    //     }
+    // }
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?41884dc889cfa515bac4351553ea5ff3";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</html>
+
+    <div class="index">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="http://ngdc.cncb.ac.cn:80/soyomics/index">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Download</li>
+            </ol>
+        </nav>
+        <div class="row" style="margin-left: 1em;  margin-right: 2em; ">
+        <div class="table-responsive" style="padding-left: 1em;padding-right: 1em; padding-top: 1em">
+            <table id="down_table" class="table row-border hover stripe " style="width: 100%; white-space: nowrap;">
+                <thead>
+                <tr>
+                    <th>Genome</th>
+                    <th>Species</th>
+                    <th>Type</th>
+                    <th>Genomic seq</th>
+                    <th>Gene</th>
+                    <th>mRNA</th>
+                    <th>CDS</th>
+                    <th>Protein</th>
+                    <th>Non-coding RNA</th>
+                    <th>Repeat</th>
+                    <th>Publication</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>PI 549046</td>
+                    <td>Glycine soja Sieb. and Zucc.</td>
+                    <td>Glycine soja</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyW02.v1.fasta.gz" download="SoyW02.v1.fasta.gz">SoyW02.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyW02.gene.gff.gz" download="SoyW02.gene.gff.gz">SoyW02.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyW02.v1.mRNA.fasta.gz" download="SoyW02.v1.mRNA.fasta.gz">SoyW02.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyW02.v1.CDS.fasta.gz" download="SoyW02.v1.CDS.fasta.gz">SoyW02.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyW02.v1.prot.fasta.gz" download="SoyW02.v1.prot.fasta.gz">SoyW02.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyW02.ncRNA.gff3.gz" download="SoyW02.ncRNA.gff3.gz">SoyW02.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyW02.repeat.gff3.gz" download="SoyW02.repeat.gff3.gz">SoyW02.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>PI 562565</td>
+                    <td>Glycine soja Sieb. and Zucc.</td>
+                    <td>Glycine soja</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyW01.v1.fasta.gz" download="SoyW01.v1.fasta.gz">SoyW01.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyW01.gene.gff.gz" download="SoyW01.gene.gff.gz">SoyW01.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyW01.v1.mRNA.fasta.gz" download="SoyW01.v1.mRNA.fasta.gz">SoyW01.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyW01.v1.CDS.fasta.gz" download="SoyW01.v1.CDS.fasta.gz">SoyW01.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyW01.v1.prot.fasta.gz" download="SoyW01.v1.prot.fasta.gz">SoyW01.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyW01.ncRNA.gff3.gz" download="SoyW01.ncRNA.gff3.gz">SoyW01.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyW01.repeat.gff3.gz" download="SoyW01.repeat.gff3.gz">SoyW01.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>PI 578357</td>
+                    <td>Glycine soja Sieb. and Zucc.</td>
+                    <td>Glycine soja</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyW03.v1.fasta.gz" download="SoyW03.v1.fasta.gz">SoyW03.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyW03.gene.gff.gz" download="SoyW03.gene.gff.gz">SoyW03.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyW03.v1.mRNA.fasta.gz" download="SoyW03.v1.mRNA.fasta.gz">SoyW03.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyW03.v1.CDS.fasta.gz" download="SoyW03.v1.CDS.fasta.gz">SoyW03.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyW03.v1.prot.fasta.gz" download="SoyW03.v1.prot.fasta.gz">SoyW03.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyW03.ncRNA.gff3.gz" download="SoyW03.ncRNA.gff3.gz">SoyW03.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyW03.repeat.gff3.gz" download="SoyW03.repeat.gff3.gz">SoyW03.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>58-161</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Landrace</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyL04.v1.fasta.gz" download="SoyL04.v1.fasta.gz">SoyL04.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyL04.gene.gff.gz" download="SoyL04.gene.gff.gz">SoyL04.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyL04.v1.mRNA.fasta.gz" download="SoyL04.v1.mRNA.fasta.gz">SoyL04.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyL04.v1.CDS.fasta.gz" download="SoyL04.v1.CDS.fasta.gz">SoyL04.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyL04.v1.prot.fasta.gz" download="SoyL04.v1.prot.fasta.gz">SoyL04.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyL04.ncRNA.gff3.gz" download="SoyL04.ncRNA.gff3.gz">SoyL04.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyL04.repeat.gff3.gz" download="SoyL04.repeat.gff3.gz">SoyL04.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Feng Di Huang</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Landrace</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyL07.v1.fasta.gz" download="SoyL07.v1.fasta.gz">SoyL07.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyL07.gene.gff.gz" download="SoyL07.gene.gff.gz">SoyL07.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyL07.v1.mRNA.fasta.gz" download="SoyL07.v1.mRNA.fasta.gz">SoyL07.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyL07.v1.CDS.fasta.gz" download="SoyL07.v1.CDS.fasta.gz">SoyL07.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyL07.v1.prot.fasta.gz" download="SoyL07.v1.prot.fasta.gz">SoyL07.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyL07.ncRNA.gff3.gz" download="SoyL07.ncRNA.gff3.gz">SoyL07.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyL07.repeat.gff3.gz" download="SoyL07.repeat.gff3.gz">SoyL07.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>PI 398296</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Landrace</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyL05.v1.fasta.gz" download="SoyL05.v1.fasta.gz">SoyL05.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyL05.gene.gff.gz" download="SoyL05.gene.gff.gz">SoyL05.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyL05.v1.mRNA.fasta.gz" download="SoyL05.v1.mRNA.fasta.gz">SoyL05.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyL05.v1.CDS.fasta.gz" download="SoyL05.v1.CDS.fasta.gz">SoyL05.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyL05.v1.prot.fasta.gz" download="SoyL05.v1.prot.fasta.gz">SoyL05.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyL05.ncRNA.gff3.gz" download="SoyL05.ncRNA.gff3.gz">SoyL05.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyL05.repeat.gff3.gz" download="SoyL05.repeat.gff3.gz">SoyL05.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Shi Sheng Chang Ye</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Landrace</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyL09.v1.fasta.gz" download="SoyL09.v1.fasta.gz">SoyL09.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyL09.gene.gff.gz" download="SoyL09.gene.gff.gz">SoyL09.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyL09.v1.mRNA.fasta.gz" download="SoyL09.v1.mRNA.fasta.gz">SoyL09.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyL09.v1.CDS.fasta.gz" download="SoyL09.v1.CDS.fasta.gz">SoyL09.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyL09.v1.prot.fasta.gz" download="SoyL09.v1.prot.fasta.gz">SoyL09.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyL09.ncRNA.gff3.gz" download="SoyL09.ncRNA.gff3.gz">SoyL09.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyL09.repeat.gff3.gz" download="SoyL09.repeat.gff3.gz">SoyL09.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Tie Jia Si Li Huang</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Landrace</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyL08.v1.fasta.gz" download="SoyL08.v1.fasta.gz">SoyL08.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyL08.gene.gff.gz" download="SoyL08.gene.gff.gz">SoyL08.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyL08.v1.mRNA.fasta.gz" download="SoyL08.v1.mRNA.fasta.gz">SoyL08.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyL08.v1.CDS.fasta.gz" download="SoyL08.v1.CDS.fasta.gz">SoyL08.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyL08.v1.prot.fasta.gz" download="SoyL08.v1.prot.fasta.gz">SoyL08.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyL08.ncRNA.gff3.gz" download="SoyL08.ncRNA.gff3.gz">SoyL08.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyL08.repeat.gff3.gz" download="SoyL08.repeat.gff3.gz">SoyL08.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Tong Shan Tian E Dan</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Landrace</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyL03.v1.fasta.gz" download="SoyL03.v1.fasta.gz">SoyL03.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyL03.gene.gff.gz" download="SoyL03.gene.gff.gz">SoyL03.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyL03.v1.mRNA.fasta.gz" download="SoyL03.v1.mRNA.fasta.gz">SoyL03.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyL03.v1.CDS.fasta.gz" download="SoyL03.v1.CDS.fasta.gz">SoyL03.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyL03.v1.prot.fasta.gz" download="SoyL03.v1.prot.fasta.gz">SoyL03.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyL03.ncRNA.gff3.gz" download="SoyL03.ncRNA.gff3.gz">SoyL03.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyL03.repeat.gff3.gz" download="SoyL03.repeat.gff3.gz">SoyL03.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Zhang Chun Man Cang Jin</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Landrace</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyL06.v1.fasta.gz" download="SoyL06.v1.fasta.gz">SoyL06.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyL06.gene.gff.gz" download="SoyL06.gene.gff.gz">SoyL06.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyL06.v1.mRNA.fasta.gz" download="SoyL06.v1.mRNA.fasta.gz">SoyL06.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyL06.v1.CDS.fasta.gz" download="SoyL06.v1.CDS.fasta.gz">SoyL06.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyL06.v1.prot.fasta.gz" download="SoyL06.v1.prot.fasta.gz">SoyL06.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyL06.ncRNA.gff3.gz" download="SoyL06.ncRNA.gff3.gz">SoyL06.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyL06.repeat.gff3.gz" download="SoyL06.repeat.gff3.gz">SoyL06.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Zhutwinning2</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Landrace</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyL01.v1.fasta.gz" download="SoyL01.v1.fasta.gz">SoyL01.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyL01.gene.gff.gz" download="SoyL01.gene.gff.gz">SoyL01.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyL01.v1.mRNA.fasta.gz" download="SoyL01.v1.mRNA.fasta.gz">SoyL01.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyL01.v1.CDS.fasta.gz" download="SoyL01.v1.CDS.fasta.gz">SoyL01.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyL01.v1.prot.fasta.gz" download="SoyL01.v1.prot.fasta.gz">SoyL01.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyL01.ncRNA.gff3.gz" download="SoyL01.ncRNA.gff3.gz">SoyL01.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyL01.repeat.gff3.gz" download="SoyL01.repeat.gff3.gz">SoyL01.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Zi Hua No.4</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Landrace</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyL02.v1.fasta.gz" download="SoyL02.v1.fasta.gz">SoyL02.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyL02.gene.gff.gz" download="SoyL02.gene.gff.gz">SoyL02.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyL02.v1.mRNA.fasta.gz" download="SoyL02.v1.mRNA.fasta.gz">SoyL02.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyL02.v1.CDS.fasta.gz" download="SoyL02.v1.CDS.fasta.gz">SoyL02.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyL02.v1.prot.fasta.gz" download="SoyL02.v1.prot.fasta.gz">SoyL02.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyL02.ncRNA.gff3.gz" download="SoyL02.ncRNA.gff3.gz">SoyL02.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyL02.repeat.gff3.gz" download="SoyL02.repeat.gff3.gz">SoyL02.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Amsoy</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyC05.v1.fasta.gz" download="SoyC05.v1.fasta.gz">SoyC05.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyC05.gene.gff.gz" download="SoyC05.gene.gff.gz">SoyC05.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyC05.v1.mRNA.fasta.gz" download="SoyC05.v1.mRNA.fasta.gz">SoyC05.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyC05.v1.CDS.fasta.gz" download="SoyC05.v1.CDS.fasta.gz">SoyC05.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyC05.v1.prot.fasta.gz" download="SoyC05.v1.prot.fasta.gz">SoyC05.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyC05.ncRNA.gff3.gz" download="SoyC05.ncRNA.gff3.gz">SoyC05.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyC05.repeat.gff3.gz" download="SoyC05.repeat.gff3.gz">SoyC05.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Dong Nong No.50</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyC12.v1.fasta.gz" download="SoyC12.v1.fasta.gz">SoyC12.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyC12.gene.gff.gz" download="SoyC12.gene.gff.gz">SoyC12.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyC12.v1.mRNA.fasta.gz" download="SoyC12.v1.mRNA.fasta.gz">SoyC12.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyC12.v1.CDS.fasta.gz" download="SoyC12.v1.CDS.fasta.gz">SoyC12.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyC12.v1.prot.fasta.gz" download="SoyC12.v1.prot.fasta.gz">SoyC12.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyC12.ncRNA.gff3.gz" download="SoyC12.ncRNA.gff3.gz">SoyC12.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyC12.repeat.gff3.gz" download="SoyC12.repeat.gff3.gz">SoyC12.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Han Dou No.5</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyC09.v1.fasta.gz" download="SoyC09.v1.fasta.gz">SoyC09.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyC09.gene.gff.gz" download="SoyC09.gene.gff.gz">SoyC09.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyC09.v1.mRNA.fasta.gz" download="SoyC09.v1.mRNA.fasta.gz">SoyC09.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyC09.v1.CDS.fasta.gz" download="SoyC09.v1.CDS.fasta.gz">SoyC09.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyC09.v1.prot.fasta.gz" download="SoyC09.v1.prot.fasta.gz">SoyC09.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyC09.ncRNA.gff3.gz" download="SoyC09.ncRNA.gff3.gz">SoyC09.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyC09.repeat.gff3.gz" download="SoyC09.repeat.gff3.gz">SoyC09.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Hei He No.43</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyC13.v1.fasta.gz" download="SoyC13.v1.fasta.gz">SoyC13.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyC13.gene.gff.gz" download="SoyC13.gene.gff.gz">SoyC13.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyC13.v1.mRNA.fasta.gz" download="SoyC13.v1.mRNA.fasta.gz">SoyC13.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyC13.v1.CDS.fasta.gz" download="SoyC13.v1.CDS.fasta.gz">SoyC13.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyC13.v1.prot.fasta.gz" download="SoyC13.v1.prot.fasta.gz">SoyC13.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyC13.ncRNA.gff3.gz" download="SoyC13.ncRNA.gff3.gz">SoyC13.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyC13.repeat.gff3.gz" download="SoyC13.repeat.gff3.gz">SoyC13.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Ke Shan No.1</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyC14.v1.fasta.gz" download="SoyC14.v1.fasta.gz">SoyC14.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyC14.gene.gff.gz" download="SoyC14.gene.gff.gz">SoyC14.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyC14.v1.mRNA.fasta.gz" download="SoyC14.v1.mRNA.fasta.gz">SoyC14.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyC14.v1.CDS.fasta.gz" download="SoyC14.v1.CDS.fasta.gz">SoyC14.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyC14.v1.prot.fasta.gz" download="SoyC14.v1.prot.fasta.gz">SoyC14.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyC14.ncRNA.gff3.gz" download="SoyC14.ncRNA.gff3.gz">SoyC14.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyC14.repeat.gff3.gz" download="SoyC14.repeat.gff3.gz">SoyC14.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Ji Dou No.17</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyC11.v1.fasta.gz" download="SoyC11.v1.fasta.gz">SoyC11.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyC11.gene.gff.gz" download="SoyC11.gene.gff.gz">SoyC11.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyC11.v1.mRNA.fasta.gz" download="SoyC11.v1.mRNA.fasta.gz">SoyC11.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyC11.v1.CDS.fasta.gz" download="SoyC11.v1.CDS.fasta.gz">SoyC11.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyC11.v1.prot.fasta.gz" download="SoyC11.v1.prot.fasta.gz">SoyC11.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyC11.ncRNA.gff3.gz" download="SoyC11.ncRNA.gff3.gz">SoyC11.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyC11.repeat.gff3.gz" download="SoyC11.repeat.gff3.gz">SoyC11.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Jin Dou No.23</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyC07.v1.fasta.gz" download="SoyC07.v1.fasta.gz">SoyC07.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyC07.gene.gff.gz" download="SoyC07.gene.gff.gz">SoyC07.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyC07.v1.mRNA.fasta.gz" download="SoyC07.v1.mRNA.fasta.gz">SoyC07.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyC07.v1.CDS.fasta.gz" download="SoyC07.v1.CDS.fasta.gz">SoyC07.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyC07.v1.prot.fasta.gz" download="SoyC07.v1.prot.fasta.gz">SoyC07.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyC07.ncRNA.gff3.gz" download="SoyC07.ncRNA.gff3.gz">SoyC07.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyC07.repeat.gff3.gz" download="SoyC07.repeat.gff3.gz">SoyC07.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Ju Xuan No.23</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyC03.v1.fasta.gz" download="SoyC03.v1.fasta.gz">SoyC03.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyC03.gene.gff.gz" download="SoyC03.gene.gff.gz">SoyC03.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyC03.v1.mRNA.fasta.gz" download="SoyC03.v1.mRNA.fasta.gz">SoyC03.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyC03.v1.CDS.fasta.gz" download="SoyC03.v1.CDS.fasta.gz">SoyC03.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyC03.v1.prot.fasta.gz" download="SoyC03.v1.prot.fasta.gz">SoyC03.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyC03.ncRNA.gff3.gz" download="SoyC03.ncRNA.gff3.gz">SoyC03.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyC03.repeat.gff3.gz" download="SoyC03.repeat.gff3.gz">SoyC03.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>PI 548362</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyC10.v1.fasta.gz" download="SoyC10.v1.fasta.gz">SoyC10.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyC10.gene.gff.gz" download="SoyC10.gene.gff.gz">SoyC10.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyC10.v1.mRNA.fasta.gz" download="SoyC10.v1.mRNA.fasta.gz">SoyC10.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyC10.v1.CDS.fasta.gz" download="SoyC10.v1.CDS.fasta.gz">SoyC10.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyC10.v1.prot.fasta.gz" download="SoyC10.v1.prot.fasta.gz">SoyC10.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyC10.ncRNA.gff3.gz" download="SoyC10.ncRNA.gff3.gz">SoyC10.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyC10.repeat.gff3.gz" download="SoyC10.repeat.gff3.gz">SoyC10.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Qi Huang No.34</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyC08.v1.fasta.gz" download="SoyC08.v1.fasta.gz">SoyC08.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyC08.gene.gff.gz" download="SoyC08.gene.gff.gz">SoyC08.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyC08.v1.mRNA.fasta.gz" download="SoyC08.v1.mRNA.fasta.gz">SoyC08.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyC08.v1.CDS.fasta.gz" download="SoyC08.v1.CDS.fasta.gz">SoyC08.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyC08.v1.prot.fasta.gz" download="SoyC08.v1.prot.fasta.gz">SoyC08.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyC08.ncRNA.gff3.gz" download="SoyC08.ncRNA.gff3.gz">SoyC08.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyC08.repeat.gff3.gz" download="SoyC08.repeat.gff3.gz">SoyC08.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Tie Feng No.18</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyC02.v1.fasta.gz" download="SoyC02.v1.fasta.gz">SoyC02.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyC02.gene.gff.gz" download="SoyC02.gene.gff.gz">SoyC02.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyC02.v1.mRNA.fasta.gz" download="SoyC02.v1.mRNA.fasta.gz">SoyC02.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyC02.v1.CDS.fasta.gz" download="SoyC02.v1.CDS.fasta.gz">SoyC02.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyC02.v1.prot.fasta.gz" download="SoyC02.v1.prot.fasta.gz">SoyC02.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyC02.ncRNA.gff3.gz" download="SoyC02.ncRNA.gff3.gz">SoyC02.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyC02.repeat.gff3.gz" download="SoyC02.repeat.gff3.gz">SoyC02.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Wan Dou No.28</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyC04.v1.fasta.gz" download="SoyC04.v1.fasta.gz">SoyC04.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyC04.gene.gff.gz" download="SoyC04.gene.gff.gz">SoyC04.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyC04.v1.mRNA.fasta.gz" download="SoyC04.v1.mRNA.fasta.gz">SoyC04.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyC04.v1.CDS.fasta.gz" download="SoyC04.v1.CDS.fasta.gz">SoyC04.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyC04.v1.prot.fasta.gz" download="SoyC04.v1.prot.fasta.gz">SoyC04.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyC04.ncRNA.gff3.gz" download="SoyC04.ncRNA.gff3.gz">SoyC04.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyC04.repeat.gff3.gz" download="SoyC04.repeat.gff3.gz">SoyC04.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Xu Dou No.1</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyC01.v1.fasta.gz" download="SoyC01.v1.fasta.gz">SoyC01.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyC01.gene.gff.gz" download="SoyC01.gene.gff.gz">SoyC01.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyC01.v1.mRNA.fasta.gz" download="SoyC01.v1.mRNA.fasta.gz">SoyC01.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyC01.v1.CDS.fasta.gz" download="SoyC01.v1.CDS.fasta.gz">SoyC01.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyC01.v1.prot.fasta.gz" download="SoyC01.v1.prot.fasta.gz">SoyC01.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyC01.ncRNA.gff3.gz" download="SoyC01.ncRNA.gff3.gz">SoyC01.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyC01.repeat.gff3.gz" download="SoyC01.repeat.gff3.gz">SoyC01.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Yu Dou No.22</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/SoyC06.v1.fasta.gz" download="SoyC06.v1.fasta.gz">SoyC06.v1.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/SoyC06.gene.gff.gz" download="SoyC06.gene.gff.gz">SoyC06.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/SoyC06.v1.mRNA.fasta.gz" download="SoyC06.v1.mRNA.fasta.gz">SoyC06.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/SoyC06.v1.CDS.fasta.gz" download="SoyC06.v1.CDS.fasta.gz">SoyC06.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/SoyC06.v1.prot.fasta.gz" download="SoyC06.v1.prot.fasta.gz">SoyC06.v1.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/SoyC06.ncRNA.gff3.gz" download="SoyC06.ncRNA.gff3.gz">SoyC06.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/SoyC06.repeat.gff3.gz" download="SoyC06.repeat.gff3.gz">SoyC06.repeat.gff3.gz</a>
+                    </td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/32553274/" target="_blank">32553274</a></td>
+                </tr>
+                <tr>
+                    <td>Zhonghuang 13</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/ZH13.v2.fasta.gz" download="ZH13.v2.fasta.gz">ZH13.v2.fasta.gz</a></td>
+                    <td><a href="/soyomics/static/data/download/gene/ZH13.gene.gff.gz" download="ZH13.gene.gff.gz">ZH13.gene.gff.gz</a></td>
+                    <td><a href="/soyomics/static/data/download/mRNA/ZH13.v2.mRNA.fasta.gz" download="ZH13.v2.mRNA.fasta.gz">ZH13.v2.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/ZH13.v2.CDS.fasta.gz"
+                           download="ZH13.v2.CDS.fasta.gz">ZH13.v2.CDS.fasta.gz</a></td>
+                    <td><a href="/soyomics/static/data/download/protein/ZH13.v2.prot.fasta.gz" download="ZH13.v2.prot.fasta.gz">ZH13.v2.prot.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/ncRNA/ZH13.ncRNA.gff3.gz" download="ZH13.ncRNA.gff3.gz">ZH13.ncRNA.gff3.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/repeat/ZH13.repeat.gff3.gz"
+                           download="ZH13.repeat.gff3.gz">ZH13.repeat.gff3.gz</a></td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/30062469/" target="_blank">30062469</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/31444683/" target="_blank">31444683</a></td>
+                </tr>
+                <tr>
+                    <td>W05</td>
+                    <td>Glycine soja Sieb. and Zucc.</td>
+                    <td>Glycine soja</td>
+                    <td><a href="/soyomics/static/data/download/genome/W05.a1.fasta.gz" download="W05.a1.fasta.gz">W05.a1.fasta.gz</a></td>
+                    <td><a href="/soyomics/static/data/download/gene/W05.a1.gene.gff.gz" download="W05.a1.gene.gff.gz">W05.a1.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/W05.a1.mRNA.fasta.gz"
+                           download="W05.a1.mRNA.fasta.gz">W05.a1.mRNA.fasta.gz</a></td>
+                    <td><a href="/soyomics/static/data/download/cds/W05.a1.CDS.fasta.gz" download="W05.a1.CDS.fasta.gz.gz">W05.a1.CDS.fasta.gz.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/W05.a1.prot.fasta.gz" download="W05.a1.prot.fasta.gz.gz">W05.a1.prot.fasta.gz.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/30872580/" target="_blank">30872580</a></td>
+                </tr>
+                <tr>
+                    <td>Williams 82</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/Wm82.a4.v1.fasta.gz"
+                           download="Wm82.a4.v1.fasta.gz">Wm82.a4.v1.fasta.gz</a></td>
+                    <td><a href="/soyomics/static/data/download/gene/Wm82.a4.v1.gene.gff.gz" download="Wm82.a4.v1.gene.gff.gz">Wm82.a4.v1.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/Wm82.a4.v1.mRNA.fasta.gz" download="Wm82.a4.v1.mRNA.fasta.gz">Wm82.a4.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/Wm82.a4.v1.CDS.fasta.gz" download="Wm82.a4.v1.CDS.fasta.gz">Wm82.a4.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/Wm82.a4.v1.prot.fasta.gz" download="Wm82.a4.v1.prot.fasta.gz">Wm82.a4.v1.prot.fasta.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/20075913/" target="_blank">20075913</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/31433882/" target="_blank">31433882</a></td>
+                </tr>
+                <tr>
+                    <td>Williams 82</td>
+                    <td>Glycine max (L.) Merr.</td>
+                    <td>Improved cultivar</td>
+                    <td><a href="/soyomics/static/data/download/genome/Wm82.a2.v1.fasta.gz"
+                           download="Wm82.a2.v1.fasta.gz">Wm82.a2.v1.fasta.gz</a></td>
+                    <td><a href="/soyomics/static/data/download/gene/Wm82.a2.v1.gene.gff.gz" download="W82.a2.v1.gene.gff.gz">Wm82.a2.v1.gene.gff.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/mRNA/Wm82.a2.v1.mRNA.fasta.gz" download="Wm82.a2.v1.mRNA.fasta.gz">Wm82.a2.v1.mRNA.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/cds/Wm82.a2.v1.CDS.fasta.gz" download="Wm82.a2.v1.CDS.fasta.gz">Wm82.a2.v1.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/Wm82.a2.v1.prot.fasta.gz" download="Wm82.a2.v1.prot.fasta.gz">Wm82.a2.v1.prot.fasta.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/20075913/" target="_blank">20075913</a></td>
+                </tr>
+                <tr>
+                    <td>Glycine cyrtoloba</td>
+                    <td>Glycine cyrtoloba</td>
+                    <td>Perennial Glycine</td>
+                    <td><a href="/soyomics/static/data/download/genome/Glycy.G1267.fasta.gz" download="Glycy.G1267.fasta.gz">Glycy.G1267.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/Glycy.G1267.gene.gff3.gz" download="Glycy.G1267.gene.gff3.gz">Glycy.G1267.gene.gff3.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td><a href="/soyomics/static/data/download/cds/Glycy.G1267.CDS.fasta.gz" download="Glycy.G1267.CDS.fasta.gz">Glycy.G1267.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/Glycy.G1267.prot.fasta.gz" download="Glycy.G1267.prot.fasta.gz">Glycy.G1267.prot.fasta.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/35288665/" target="_blank">35288665</a></td>
+                </tr>
+                <tr>
+                    <td>Glycine dolichocarpa</td>
+                    <td>Glycine dolichocarpa</td>
+                    <td>Perennial Glycine</td>
+                    <td><a href="/soyomics/static/data/download/genome/Glydo.G1134.fasta.gz" download="Glydo.G1134.fasta.gz">Glydo.G1134.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/Glydo.G1134.gene.gff3.gz" download="Glydo.G1134.gene.gff3.gz">Glydo.G1134.gene.gff3.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td><a href="/soyomics/static/data/download/cds/Glydo.G1134.CDS.fasta.gz" download="Glydo.G1134.CDS.fasta.gz">Glydo.G1134.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/Glydo.G1134.prot.fasta.gz" download="Glydo.G1134.prot.fasta.gz">Glydo.G1134.prot.fasta.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/35288665/" target="_blank">35288665</a></td>
+                </tr>
+                <tr>
+                    <td>Glycine falcata</td>
+                    <td>Glycine falcata</td>
+                    <td>Perennial Glycine</td>
+                    <td><a href="/soyomics/static/data/download/genome/Glyfa.G1718.fasta.gz" download="Glyfa.G1718.fasta.gz">Glyfa.G1718.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/Glyfa.G1718.gene.gff3.gz" download="Glyfa.G1718.gene.gff3.gz">Glyfa.G1718.gene.gff3.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td><a href="/soyomics/static/data/download/cds/Glyfa.G1718.CDS.fasta.gz" download="Glyfa.G1718.CDS.fasta.gz">Glyfa.G1718.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/Glyfa.G1718.prot.fasta.gz" download="Glyfa.G1718.prot.fasta.gz">Glyfa.G1718.prot.fasta.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/35288665/" target="_blank">35288665</a></td>
+                </tr>
+                <tr>
+                    <td>Glycine stenophita</td>
+                    <td>Glycine stenophita</td>
+                    <td>Perennial Glycine</td>
+                    <td><a href="/soyomics/static/data/download/genome/Glyst.G1974.fasta.gz" download="Glyst.G1974.fasta.gz">Glyst.G1974.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/Glyst.G1974.gene.gff3.gz" download="Glyst.G1974.gene.gff3.gz">Glyst.G1974.gene.gff3.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td><a href="/soyomics/static/data/download/cds/Glyst.G1974.CDS.fasta.gz" download="Glyst.G1974.CDS.fasta.gz">Glyst.G1974.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/Glyst.G1974.prot.fasta.gz" download="Glyst.G1974.prot.fasta.gz">Glyst.G1974.prot.fasta.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/35288665/" target="_blank">35288665</a></td>
+                </tr>
+                <tr>
+                    <td>Glycine syndetika</td>
+                    <td>Glycine syndetika</td>
+                    <td>Perennial Glycine</td>
+                    <td><a href="/soyomics/static/data/download/genome/Glysy.G1300.fasta.gz" download="Glysy.G1300.fasta.gz">Glysy.G1300.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/Glysy.G1300.gene.gff3.gz" download="Glysy.G1300.gene.gff3.gz">Glysy.G1300.gene.gff3.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td><a href="/soyomics/static/data/download/cds/Glysy.G1300.CDS.fasta.gz" download="Glysy.G1300.CDS.fasta.gz">Glysy.G1300.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/Glysy.G1300.prot.fasta.gz" download="Glysy.G1300.prot.fasta.gz">Glysy.G1300.prot.fasta.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/35288665/" target="_blank">35288665</a></td>
+                </tr>
+                <tr>
+                    <td>Glycine tomentella D3</td>
+                    <td>Glycine tomentella D3</td>
+                    <td>Perennial Glycine</td>
+                    <td><a href="/soyomics/static/data/download/genome/Glyd3.G1403.fasta.gz" download="Glyd3.G1403.fasta.gz">Glyd3.G1403.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/gene/Glyd3.G1403.gene.gff3.gz" download="Glyd3.G1403.gene.gff3.gz">Glyd3.G1403.gene.gff3.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td><a href="/soyomics/static/data/download/cds/Glyd3.G1403.CDS.fasta.gz" download="Glyd3.G1403.CDS.fasta.gz">Glyd3.G1403.CDS.fasta.gz</a>
+                    </td>
+                    <td><a href="/soyomics/static/data/download/protein/Glyd3.G1403.prot.fasta.gz" download="Glyd3.G1403.prot.fasta.gz">Glyd3.G1403.prot.fasta.gz</a>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href="https://pubmed.ncbi.nlm.nih.gov/35288665/" target="_blank">35288665</a></td>
+                </tr>
+
+
+                </tbody>
+            </table>
+        </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<html>
+<body>
+
+
+
+    
+    <link rel="stylesheet" href="/soyomics/static/bootstrap_4.6.0/bootstrap.min.css"/>
+        <link rel="stylesheet"  href="/soyomics/static/bootstrap_4.6.0/docs.css" >
+        
+    <link rel="stylesheet"  href="/soyomics/static/bootstrap_4.6.0/font/bootstrap-icons.css" >
+
+
+
+    
+        
+        
+        <link rel="stylesheet" href="/soyomics/static/datatables_1.11.1/jquery.dataTables.min.css">
+       
+        
+
+
+
+        <link rel="stylesheet" href="/soyomics/static/datatables_1.11.1/buttons.dataTables.min.css">
+        <link href="/soyomics/static/css/select2.min.css" rel="stylesheet" />
+        <link rel='stylesheet' type='text/css' href="/soyomics/static/sui_2.3.0/semantic.min.css">
+
+
+        <link rel="stylesheet" href="/soyomics/static/css/my.css"/>
+
+
+
+
+    
+    
+    <script type="text/javascript" src="/soyomics/static/js/jquery-3.6.0.min.js"></script>
+    <script src="https://ngdc.cncb.ac.cn/cdn/js/headerfooter-full.js"></script>
+
+    
+    <script type="text/javascript"  src="/soyomics/static/bootstrap_4.6.0/bootstrap.bundle.min.js"></script>
+    
+        <script type="text/javascript"  src="/soyomics/static/bootstrap_4.6.0/docs.min.js"></script>
+
+
+
+        
+        
+
+    <script src="/soyomics/static/DataTables-1.10.15/media/js/jquery.dataTables.min.js"></script>
+        
+
+        <script type="text/javascript" src="/soyomics/static/datatables_1.11.1/dataTables.buttons.min.js"></script>
+        <script type="text/javascript" src="/soyomics/static/datatables_1.11.1/buttons.html5.min.js"></script>
+
+        <script type="text/javascript"  src="/soyomics/static/sui_2.3.0/semantic.min.js"></script>
+        
+        <script type="text/javascript"  src="/soyomics/static/js/select2.min.js"></script>
+<script src="/soyomics/static/js/echarts5.min.js"></script>
+<script src="/soyomics/static/js/roma.js"></script>
+
+
+    <style>
+        /*.bigd-col-md-2{}*/
+        .bigd-footer h3 {
+            padding-left: 5px;
+            color: #051133;
+            font-size: 14px;
+            font-weight: bolder;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            padding-bottom: 0;
+            padding-top: 0;
+            line-height: 1.1;
+        }
+    </style>
+</body>
+</html>
+
+<script>
+    $(document).ready(function () {
+        $('#down_table').DataTable({
+            "order": [[0, "asc"]],
+            //"paging":   false,
+            "iDisplayLength": 20,
+            "aLengthMenu":[10,20,50]
+        });
+    });
+</script>
+</body>
+</html>

@@ -44,3 +44,13 @@
 1. 建立 ZEAMAP accession/inbred line 统一样本索引。
 2. 对齐第一批 expression、phenotype、population 与第二批 methylation/chromatin/variation 文件。
 3. 先抽取小样本矩阵，验证多组学预训练输入格式。
+
+### 大豆 SoyOmics/SoyOD/SoyBase 下载
+
+已完成第一轮大豆数据下载，严格未下载大豆重测序原始 FASTQ/SRA/BAM/CRAM。
+
+- SoyOmics：下载 228 个 processed genome/gene/mRNA/CDS/protein/ncRNA/repeat 文件，约 13G。
+- SoyOD：下载 266 个 TF/TE/GO/KEGG/PFAM annotation 和 processed SNP/INDEL variation zip 文件，约 4.7G；同时保存 transcriptome、population、phenome AJAX metadata。
+- SoyBase：保存主页和 Glycine datastore 入口快照，用于后续按需筛选，不下载 resequencing 原始 reads。
+
+合计清单内 494 个文件，非空检查 494/494；SoyOmics `.gz` 和 SoyOD `.zip` 完整性检查通过。详情见 `soybean_download_manifest.md`。

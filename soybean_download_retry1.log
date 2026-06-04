@@ -1,0 +1,224 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOmics/mRNA/SoyC04.v1.mRNA.fasta.gz
+RETRY soybean_SoyOD/TE/58-161.TEanno
+RETRY soybean_SoyOD/TE/Amsoy.TEanno
+RETRY soybean_SoyOD/TE/Chang_Chun_Man_Cang_Jin.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Dong_Nong_50.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Embrapa_BRS537.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/ENREI.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Feng_Di_Huang.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/FiskebyIII.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Glycine_cyrtoloba.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Glycine_dolichocarpa.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Glycine_falcata.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Glycine_stenophita.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Glycine_syndetika.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Glycine_tomentella_D3.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/GsojaF.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Han_Dou_5.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/He_Feng_25.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Hei_He_43.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Hua_Xia_3.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Hwangkeum.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Jack_T2T.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Ji_Dou_17.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Jin_Dou_23.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Jing_Yuan.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Ju_Xuan23.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Ke_Shan_1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Lee_v2.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/PI398296.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/PI483463.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/PI548362.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/PI549046.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/PI562565.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/PI578357.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/PI594527.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Qi_Huang_34.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Shi_Sheng_Chang_Ye.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Tian_Long_1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Tie_Feng_18.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Tie_Jia_Si_Li_Huang.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Tong_Shan_Tian_E_Dan.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/W05.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Wan_Dou_28.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Wen_Feng_7.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Williams_82_T2T.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Williams82.a1.v1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Williams82.a2.v1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Williams82.a4.v1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Xu_Dou_1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Yu_Dou_22.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Zhe_Nong_6.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Zhong_Huang_13_T2T.TEanno
+curl: (22) The requested URL returned error: 404 Not Found
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Zhong_Huang_13_T2T.TEanno	soybean_SoyOD/TE/Zhong_Huang_13_T2T.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Zhong_Huang_13.a1.v1.TEanno
+curl: (22) The requested URL returned error: 404 Not Found
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Zhong_Huang_13.a1.v1.TEanno	soybean_SoyOD/TE/Zhong_Huang_13.a1.v1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Zhong_Huang_13.a2.v1.TEanno
+curl: (22) The requested URL returned error: 404 Not Found
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Zhong_Huang_13.a2.v1.TEanno	soybean_SoyOD/TE/Zhong_Huang_13.a2.v1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Zhong_Huang_35.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Zhutwinning2.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/TE/Zi_Hua_4.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/W82_T2T.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/ZH13_T2T.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Zhong_Huang_13.v1.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Zhong_Huang_13.v2.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Williams82.a1.v1.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Williams82.a2.v1.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Williams82.a4.v1.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/58-161.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Amsoy.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Chang_Chun_Man_Cang_Jin.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Dong_Nong_50.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Embrapa_BRS537.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Feng_Di_Huang.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/FiskebyIII.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Glycine_cyrtoloba.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Glycine_dolichocarpa.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Glycine_falcata.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Glycine_stenophita.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Glycine_syndetika.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Glycine_tomentella_D3.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/GsojaF.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Han_Dou_5.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/He_Feng_25.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Hei_He_43.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Hua_Xia_3.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Hwangkeum.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Ji_Dou_17.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Jin_Dou_23.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Jing_Yuan.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Ju_Xuan23.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Ke_Shan_1.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Lee_v2.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/PI398296.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/PI483463.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/PI548362.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/PI549046.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/PI562565.pfam.domain.zip
+RETRY soybean_SoyOD/annotation/PI578357.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Qi_Huang_34.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Shi_Sheng_Chang_Ye.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Tian_Long_1.pfam.domain.zip
+RETRY soybean_SoyOD/annotation/Tie_Feng_18.pfam.domain.zip
+RETRY soybean_SoyOD/annotation/Tie_Jia_Si_Li_Huang.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Tong_Shan_Tian_E_Dan.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/W05.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Wan_Dou_28.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Wen_Feng_7.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Xu_Dou_1.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Yu_Dou_22.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Zhong_Huang_35.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Zhutwinning2.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+RETRY soybean_SoyOD/annotation/Zi_Hua_4.pfam.domain.zip

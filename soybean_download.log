@@ -1,0 +1,1206 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyW02.v1.fasta.gz
+GET soybean_SoyOmics/gene/SoyW02.gene.gff.gz
+GET soybean_SoyOmics/mRNA/SoyW02.v1.mRNA.fasta.gz
+GET soybean_SoyOmics/cds/SoyW02.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyW02.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyW02.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyW02.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyW01.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyW01.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyW01.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyW01.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyW01.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyW01.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyW01.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyW03.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyW03.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyW03.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyW03.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyW03.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyW03.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyW03.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyL04.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyL04.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyL04.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyL04.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyL04.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyL04.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyL04.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyL07.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyL07.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyL07.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyL07.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyL07.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyL07.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyL07.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyL05.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyL05.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyL05.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyL05.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyL05.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyL05.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyL05.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyL09.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyL09.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyL09.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyL09.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyL09.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyL09.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyL09.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyL08.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyL08.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyL08.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyL08.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyL08.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyL08.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyL08.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyL03.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyL03.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyL03.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyL03.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyL03.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyL03.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyL03.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyL06.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyL06.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyL06.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyL06.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyL06.v1.prot.fasta.gz
+GET soybean_SoyOmics/ncRNA/SoyL06.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyL06.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyL01.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyL01.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyL01.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyL01.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyL01.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyL01.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyL01.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyL02.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyL02.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyL02.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyL02.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyL02.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyL02.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyL02.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyC05.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyC05.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyC05.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyC05.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyC05.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyC05.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyC05.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyC12.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyC12.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyC12.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyC12.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyC12.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyC12.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyC12.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyC09.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyC09.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyC09.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyC09.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyC09.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyC09.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyC09.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyC13.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyC13.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyC13.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyC13.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyC13.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyC13.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyC13.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyC14.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyC14.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyC14.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyC14.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyC14.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyC14.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyC14.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyC11.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyC11.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyC11.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyC11.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyC11.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyC11.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyC11.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyC07.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyC07.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyC07.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyC07.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyC07.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyC07.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyC07.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyC03.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyC03.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyC03.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyC03.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyC03.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyC03.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyC03.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyC10.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyC10.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyC10.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyC10.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyC10.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyC10.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyC10.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyC08.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyC08.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyC08.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyC08.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyC08.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyC08.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyC08.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyC02.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyC02.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyC02.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyC02.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyC02.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyC02.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyC02.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyC04.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyC04.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyC04.v1.mRNA.fasta.gz
+curl: (35) Encountered end of file
+FAIL	https://ngdc.cncb.ac.cn/soyomics/static/data/download/mRNA/SoyC04.v1.mRNA.fasta.gz	soybean_SoyOmics/mRNA/SoyC04.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyC04.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyC04.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyC04.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyC04.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyC01.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyC01.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyC01.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyC01.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyC01.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyC01.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyC01.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/SoyC06.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/SoyC06.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/SoyC06.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/SoyC06.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/SoyC06.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/SoyC06.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/SoyC06.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/ZH13.v2.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/ZH13.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/ZH13.v2.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/ZH13.v2.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/ZH13.v2.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/ncRNA/ZH13.ncRNA.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/repeat/ZH13.repeat.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/W05.a1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/W05.a1.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/W05.a1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/W05.a1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/W05.a1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/Wm82.a4.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/Wm82.a4.v1.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/Wm82.a4.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/Wm82.a4.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/Wm82.a4.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/Wm82.a2.v1.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/Wm82.a2.v1.gene.gff.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/mRNA/Wm82.a2.v1.mRNA.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/Wm82.a2.v1.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/Wm82.a2.v1.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/Glycy.G1267.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/Glycy.G1267.gene.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/Glycy.G1267.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/Glycy.G1267.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/Glydo.G1134.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/Glydo.G1134.gene.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/Glydo.G1134.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/Glydo.G1134.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/Glyfa.G1718.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/Glyfa.G1718.gene.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/Glyfa.G1718.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/Glyfa.G1718.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/Glyst.G1974.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/Glyst.G1974.gene.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/Glyst.G1974.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/Glyst.G1974.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/Glysy.G1300.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/Glysy.G1300.gene.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/Glysy.G1300.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/Glysy.G1300.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/genome/Glyd3.G1403.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/gene/Glyd3.G1403.gene.gff3.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/cds/Glyd3.G1403.CDS.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOmics/protein/Glyd3.G1403.prot.fasta.gz
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/variation/all.snp.3904.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/variation/all.indel.3904.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/58-161.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/58-161.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/58-161.TEanno	soybean_SoyOD/TE/58-161.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Amsoy.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Amsoy.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Amsoy.TEanno	soybean_SoyOD/TE/Amsoy.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Chang_Chun_Man_Cang_Jin.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Chang_Chun_Man_Cang_Jin.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Chang_Chun_Man_Cang_Jin.TEanno	soybean_SoyOD/TE/Chang_Chun_Man_Cang_Jin.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Dong_Nong_50.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Dong_Nong_50.TEanno
+GET soybean_SoyOD/TF/Embrapa_BRS537.TF.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Dong_Nong_50.TEanno	soybean_SoyOD/TE/Dong_Nong_50.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Embrapa_BRS537.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Embrapa_BRS537.TEanno	soybean_SoyOD/TE/Embrapa_BRS537.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/ENREI.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/ENREI.TEanno	soybean_SoyOD/TE/ENREI.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Feng_Di_Huang.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Feng_Di_Huang.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Feng_Di_Huang.TEanno	soybean_SoyOD/TE/Feng_Di_Huang.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/FiskebyIII.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/FiskebyIII.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/FiskebyIII.TEanno	soybean_SoyOD/TE/FiskebyIII.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Glycine_cyrtoloba.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Glycine_cyrtoloba.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Glycine_cyrtoloba.TEanno	soybean_SoyOD/TE/Glycine_cyrtoloba.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Glycine_dolichocarpa.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Glycine_dolichocarpa.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Glycine_dolichocarpa.TEanno	soybean_SoyOD/TE/Glycine_dolichocarpa.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Glycine_falcata.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Glycine_falcata.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Glycine_falcata.TEanno	soybean_SoyOD/TE/Glycine_falcata.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Glycine_stenophita.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Glycine_stenophita.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Glycine_stenophita.TEanno	soybean_SoyOD/TE/Glycine_stenophita.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Glycine_syndetika.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Glycine_syndetika.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Glycine_syndetika.TEanno	soybean_SoyOD/TE/Glycine_syndetika.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Glycine_tomentella_D3.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Glycine_tomentella_D3.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Glycine_tomentella_D3.TEanno	soybean_SoyOD/TE/Glycine_tomentella_D3.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/GsojaF.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/GsojaF.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/GsojaF.TEanno	soybean_SoyOD/TE/GsojaF.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Han_Dou_5.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Han_Dou_5.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Han_Dou_5.TEanno	soybean_SoyOD/TE/Han_Dou_5.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/He_Feng_25.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/He_Feng_25.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/He_Feng_25.TEanno	soybean_SoyOD/TE/He_Feng_25.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Hei_He_43.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Hei_He_43.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Hei_He_43.TEanno	soybean_SoyOD/TE/Hei_He_43.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Hua_Xia_3.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Hua_Xia_3.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Hua_Xia_3.TEanno	soybean_SoyOD/TE/Hua_Xia_3.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Hwangkeum.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Hwangkeum.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Hwangkeum.TEanno	soybean_SoyOD/TE/Hwangkeum.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Jack_T2T.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Jack_T2T.TEanno	soybean_SoyOD/TE/Jack_T2T.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Ji_Dou_17.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Ji_Dou_17.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Ji_Dou_17.TEanno	soybean_SoyOD/TE/Ji_Dou_17.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Jin_Dou_23.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Jin_Dou_23.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Jin_Dou_23.TEanno	soybean_SoyOD/TE/Jin_Dou_23.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Jing_Yuan.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Jing_Yuan.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Jing_Yuan.TEanno	soybean_SoyOD/TE/Jing_Yuan.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Ju_Xuan23.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Ju_Xuan23.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Ke_Shan_1.TF.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Ju_Xuan23.TEanno	soybean_SoyOD/TE/Ju_Xuan23.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Ke_Shan_1.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Ke_Shan_1.TEanno	soybean_SoyOD/TE/Ke_Shan_1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Lee_v2.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Lee_v2.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Lee_v2.TEanno	soybean_SoyOD/TE/Lee_v2.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/PI398296.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/PI398296.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/PI398296.TEanno	soybean_SoyOD/TE/PI398296.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/PI483463.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/PI483463.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/PI483463.TEanno	soybean_SoyOD/TE/PI483463.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/PI548362.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/PI548362.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/PI548362.TEanno	soybean_SoyOD/TE/PI548362.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/PI549046.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/PI549046.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/PI549046.TEanno	soybean_SoyOD/TE/PI549046.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/PI562565.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/PI562565.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/PI562565.TEanno	soybean_SoyOD/TE/PI562565.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/PI578357.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/PI578357.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/PI578357.TEanno	soybean_SoyOD/TE/PI578357.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/PI594527.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/PI594527.TEanno	soybean_SoyOD/TE/PI594527.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Qi_Huang_34.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Qi_Huang_34.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Qi_Huang_34.TEanno	soybean_SoyOD/TE/Qi_Huang_34.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Shi_Sheng_Chang_Ye.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Shi_Sheng_Chang_Ye.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Shi_Sheng_Chang_Ye.TEanno	soybean_SoyOD/TE/Shi_Sheng_Chang_Ye.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Tian_Long_1.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Tian_Long_1.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Tian_Long_1.TEanno	soybean_SoyOD/TE/Tian_Long_1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Tie_Feng_18.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Tie_Feng_18.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Tie_Feng_18.TEanno	soybean_SoyOD/TE/Tie_Feng_18.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Tie_Jia_Si_Li_Huang.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Tie_Jia_Si_Li_Huang.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Tie_Jia_Si_Li_Huang.TEanno	soybean_SoyOD/TE/Tie_Jia_Si_Li_Huang.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Tong_Shan_Tian_E_Dan.TF.zip
+GET soybean_SoyOD/TE/Tong_Shan_Tian_E_Dan.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Tong_Shan_Tian_E_Dan.TEanno	soybean_SoyOD/TE/Tong_Shan_Tian_E_Dan.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/W05.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/W05.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/W05.TEanno	soybean_SoyOD/TE/W05.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Wan_Dou_28.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Wan_Dou_28.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Wan_Dou_28.TEanno	soybean_SoyOD/TE/Wan_Dou_28.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Wen_Feng_7.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Wen_Feng_7.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Wen_Feng_7.TEanno	soybean_SoyOD/TE/Wen_Feng_7.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/W82_T2T.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Williams_82_T2T.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Williams_82_T2T.TEanno	soybean_SoyOD/TE/Williams_82_T2T.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Williams82.a1.v1.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Williams82.a1.v1.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Williams82.a1.v1.TEanno	soybean_SoyOD/TE/Williams82.a1.v1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Williams82.a2.v1.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Williams82.a2.v1.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Williams82.a2.v1.TEanno	soybean_SoyOD/TE/Williams82.a2.v1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Williams82.a4.v1.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Williams82.a4.v1.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Williams82.a4.v1.TEanno	soybean_SoyOD/TE/Williams82.a4.v1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Xu_Dou_1.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Xu_Dou_1.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Xu_Dou_1.TEanno	soybean_SoyOD/TE/Xu_Dou_1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Yu_Dou_22.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Yu_Dou_22.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Yu_Dou_22.TEanno	soybean_SoyOD/TE/Yu_Dou_22.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Zhe_Nong_6.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Zhe_Nong_6.TEanno	soybean_SoyOD/TE/Zhe_Nong_6.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/ZH13_T2T.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Zhong_Huang_13_T2T.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Zhong_Huang_13_T2T.TEanno	soybean_SoyOD/TE/Zhong_Huang_13_T2T.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Zhong_Huang_13.v1.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Zhong_Huang_13.a1.v1.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Zhong_Huang_13.a1.v1.TEanno	soybean_SoyOD/TE/Zhong_Huang_13.a1.v1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Zhong_Huang_13.v2.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Zhong_Huang_13.a2.v1.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Zhong_Huang_13.a2.v1.TEanno	soybean_SoyOD/TE/Zhong_Huang_13.a2.v1.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Zhong_Huang_35.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Zhong_Huang_35.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Zhong_Huang_35.TEanno	soybean_SoyOD/TE/Zhong_Huang_35.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Zhutwinning2.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Zhutwinning2.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Zhutwinning2.TEanno	soybean_SoyOD/TE/Zhutwinning2.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TF/Zi_Hua_4.TF.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/TE/Zi_Hua_4.TEanno
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/TE/Zi_Hua_4.TEanno	soybean_SoyOD/TE/Zi_Hua_4.TEanno
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/W82_T2T.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/W82_T2T.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/W82_T2T.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/W82_T2T.pfam.domain.zip	soybean_SoyOD/annotation/W82_T2T.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/ZH13_T2T.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/ZH13_T2T.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/ZH13_T2T.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/ZH13_T2T.pfam.domain.zip	soybean_SoyOD/annotation/ZH13_T2T.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zhong_Huang_13.v1.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zhong_Huang_13.v1.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zhong_Huang_13.v1.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Zhong_Huang_13.v1.pfam.domain.zip	soybean_SoyOD/annotation/Zhong_Huang_13.v1.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zhong_Huang_13.v2.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zhong_Huang_13.v2.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zhong_Huang_13.v2.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Zhong_Huang_13.v2.pfam.domain.zip	soybean_SoyOD/annotation/Zhong_Huang_13.v2.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Williams82.a1.v1.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Williams82.a1.v1.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Williams82.a1.v1.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Williams82.a1.v1.pfam.domain.zip	soybean_SoyOD/annotation/Williams82.a1.v1.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Williams82.a2.v1.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Williams82.a2.v1.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Williams82.a2.v1.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Williams82.a2.v1.pfam.domain.zip	soybean_SoyOD/annotation/Williams82.a2.v1.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Williams82.a4.v1.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Williams82.a4.v1.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Williams82.a4.v1.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Williams82.a4.v1.pfam.domain.zip	soybean_SoyOD/annotation/Williams82.a4.v1.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/58-161.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/58-161.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/58-161.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/58-161.pfam.domain.zip	soybean_SoyOD/annotation/58-161.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Amsoy.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Amsoy.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Amsoy.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Amsoy.pfam.domain.zip	soybean_SoyOD/annotation/Amsoy.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Chang_Chun_Man_Cang_Jin.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Chang_Chun_Man_Cang_Jin.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Chang_Chun_Man_Cang_Jin.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Chang_Chun_Man_Cang_Jin.pfam.domain.zip	soybean_SoyOD/annotation/Chang_Chun_Man_Cang_Jin.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Dong_Nong_50.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Dong_Nong_50.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Dong_Nong_50.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Dong_Nong_50.pfam.domain.zip	soybean_SoyOD/annotation/Dong_Nong_50.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Embrapa_BRS537.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Embrapa_BRS537.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Embrapa_BRS537.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Embrapa_BRS537.pfam.domain.zip	soybean_SoyOD/annotation/Embrapa_BRS537.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Feng_Di_Huang.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Feng_Di_Huang.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Feng_Di_Huang.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Feng_Di_Huang.pfam.domain.zip	soybean_SoyOD/annotation/Feng_Di_Huang.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/FiskebyIII.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/FiskebyIII.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/FiskebyIII.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/FiskebyIII.pfam.domain.zip	soybean_SoyOD/annotation/FiskebyIII.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_cyrtoloba.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_cyrtoloba.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_cyrtoloba.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Glycine_cyrtoloba.pfam.domain.zip	soybean_SoyOD/annotation/Glycine_cyrtoloba.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_dolichocarpa.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_dolichocarpa.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_dolichocarpa.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Glycine_dolichocarpa.pfam.domain.zip	soybean_SoyOD/annotation/Glycine_dolichocarpa.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_falcata.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_falcata.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_falcata.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Glycine_falcata.pfam.domain.zip	soybean_SoyOD/annotation/Glycine_falcata.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_stenophita.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_stenophita.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_stenophita.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Glycine_stenophita.pfam.domain.zip	soybean_SoyOD/annotation/Glycine_stenophita.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_syndetika.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_syndetika.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_syndetika.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Glycine_syndetika.pfam.domain.zip	soybean_SoyOD/annotation/Glycine_syndetika.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_tomentella_D3.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_tomentella_D3.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Glycine_tomentella_D3.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Glycine_tomentella_D3.pfam.domain.zip	soybean_SoyOD/annotation/Glycine_tomentella_D3.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/GsojaF.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/GsojaF.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/GsojaF.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/GsojaF.pfam.domain.zip	soybean_SoyOD/annotation/GsojaF.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Han_Dou_5.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Han_Dou_5.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Han_Dou_5.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Han_Dou_5.pfam.domain.zip	soybean_SoyOD/annotation/Han_Dou_5.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/He_Feng_25.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/He_Feng_25.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/He_Feng_25.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/He_Feng_25.pfam.domain.zip	soybean_SoyOD/annotation/He_Feng_25.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Hei_He_43.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Hei_He_43.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Hei_He_43.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Hei_He_43.pfam.domain.zip	soybean_SoyOD/annotation/Hei_He_43.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Hua_Xia_3.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Hua_Xia_3.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Hua_Xia_3.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Hua_Xia_3.pfam.domain.zip	soybean_SoyOD/annotation/Hua_Xia_3.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Hwangkeum.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Hwangkeum.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Hwangkeum.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Hwangkeum.pfam.domain.zip	soybean_SoyOD/annotation/Hwangkeum.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Ji_Dou_17.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Ji_Dou_17.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Ji_Dou_17.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Ji_Dou_17.pfam.domain.zip	soybean_SoyOD/annotation/Ji_Dou_17.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Jin_Dou_23.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Jin_Dou_23.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Jin_Dou_23.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Jin_Dou_23.pfam.domain.zip	soybean_SoyOD/annotation/Jin_Dou_23.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Jing_Yuan.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Jing_Yuan.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Jing_Yuan.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Jing_Yuan.pfam.domain.zip	soybean_SoyOD/annotation/Jing_Yuan.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Ju_Xuan23.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Ju_Xuan23.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Ju_Xuan23.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Ju_Xuan23.pfam.domain.zip	soybean_SoyOD/annotation/Ju_Xuan23.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Ke_Shan_1.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Ke_Shan_1.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Ke_Shan_1.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Ke_Shan_1.pfam.domain.zip	soybean_SoyOD/annotation/Ke_Shan_1.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Lee_v2.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Lee_v2.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Lee_v2.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Lee_v2.pfam.domain.zip	soybean_SoyOD/annotation/Lee_v2.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI398296.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI398296.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI398296.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/PI398296.pfam.domain.zip	soybean_SoyOD/annotation/PI398296.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI483463.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI483463.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI483463.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/PI483463.pfam.domain.zip	soybean_SoyOD/annotation/PI483463.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI548362.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI548362.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI548362.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/PI548362.pfam.domain.zip	soybean_SoyOD/annotation/PI548362.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI549046.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI549046.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI549046.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/PI549046.pfam.domain.zip	soybean_SoyOD/annotation/PI549046.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI562565.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI562565.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI562565.pfam.domain.zip
+GET soybean_SoyOD/annotation/PI578357.GO.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/PI562565.pfam.domain.zip	soybean_SoyOD/annotation/PI562565.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI578357.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/PI578357.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/PI578357.pfam.domain.zip	soybean_SoyOD/annotation/PI578357.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Qi_Huang_34.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Qi_Huang_34.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Qi_Huang_34.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Qi_Huang_34.pfam.domain.zip	soybean_SoyOD/annotation/Qi_Huang_34.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Shi_Sheng_Chang_Ye.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Shi_Sheng_Chang_Ye.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Shi_Sheng_Chang_Ye.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Shi_Sheng_Chang_Ye.pfam.domain.zip	soybean_SoyOD/annotation/Shi_Sheng_Chang_Ye.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Tian_Long_1.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Tian_Long_1.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Tian_Long_1.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Tian_Long_1.pfam.domain.zip	soybean_SoyOD/annotation/Tian_Long_1.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Tie_Feng_18.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Tie_Feng_18.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Tie_Feng_18.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Tie_Feng_18.pfam.domain.zip	soybean_SoyOD/annotation/Tie_Feng_18.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Tie_Jia_Si_Li_Huang.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Tie_Jia_Si_Li_Huang.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Tie_Jia_Si_Li_Huang.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Tie_Jia_Si_Li_Huang.pfam.domain.zip	soybean_SoyOD/annotation/Tie_Jia_Si_Li_Huang.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Tong_Shan_Tian_E_Dan.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Tong_Shan_Tian_E_Dan.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Tong_Shan_Tian_E_Dan.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Tong_Shan_Tian_E_Dan.pfam.domain.zip	soybean_SoyOD/annotation/Tong_Shan_Tian_E_Dan.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/W05.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/W05.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/W05.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/W05.pfam.domain.zip	soybean_SoyOD/annotation/W05.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Wan_Dou_28.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Wan_Dou_28.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Wan_Dou_28.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Wan_Dou_28.pfam.domain.zip	soybean_SoyOD/annotation/Wan_Dou_28.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Wen_Feng_7.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Wen_Feng_7.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Wen_Feng_7.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Wen_Feng_7.pfam.domain.zip	soybean_SoyOD/annotation/Wen_Feng_7.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Xu_Dou_1.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Xu_Dou_1.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Xu_Dou_1.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Xu_Dou_1.pfam.domain.zip	soybean_SoyOD/annotation/Xu_Dou_1.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Yu_Dou_22.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Yu_Dou_22.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Yu_Dou_22.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Yu_Dou_22.pfam.domain.zip	soybean_SoyOD/annotation/Yu_Dou_22.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zhong_Huang_35.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zhong_Huang_35.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zhong_Huang_35.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Zhong_Huang_35.pfam.domain.zip	soybean_SoyOD/annotation/Zhong_Huang_35.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zhutwinning2.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zhutwinning2.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zhutwinning2.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Zhutwinning2.pfam.domain.zip	soybean_SoyOD/annotation/Zhutwinning2.pfam.domain.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zi_Hua_4.GO.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zi_Hua_4.KEGG.zip
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+GET soybean_SoyOD/annotation/Zi_Hua_4.pfam.domain.zip
+curl: (3) Illegal characters found in URL
+FAIL	https://bis.zju.edu.cn/soyod/static/data/download/annotation/Zi_Hua_4.pfam.domain.zip	soybean_SoyOD/annotation/Zi_Hua_4.pfam.domain.zip

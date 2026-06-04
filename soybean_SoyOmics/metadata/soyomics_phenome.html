@@ -1,0 +1,1642 @@
+
+
+
+
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Phenome - SoyOmics - CNCB-NGDC</title>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="/soyomics/static/css/load.css">
+
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+    
+
+<html>
+
+<header class="sticky-top ">
+    
+    
+    
+    
+    <link rel="shortcut icon" href="/soyomics/static/images/logo2.svg" type="image/x-icon"/>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark "
+         style=" background-image: linear-gradient(to right, #1b9c94, #0f9c8b, #0d9b80, #179a75, #249968, #3c9f64, #50a561, #63ab5d, #82b963, #a0c76b, #bed574, #dce37f);">
+        
+
+        <div class="container-fluid ">
+
+            <div style="width: 15%">
+
+                <a class="navbar-brand" style="padding: 0px" href="http://ngdc.cncb.ac.cn:80/soyomics/index">
+                    <h3><img src="/soyomics/static/images/logo_top.svg" width="50%"> SoyOmics</h3>
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/index">Home </a>
+                    </li>
+                    
+                    
+                    
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                           aria-expanded="false">Omics</a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/genome_assembly">Genome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/genome_variation">Variome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome">Transcriptome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/phenome/">Phenome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/homology/">Homology</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/synteny">Synteny</a>
+                            
+                            
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/breedingtips">BreedingTips </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" target="_blank"
+                           href="https://ngdc.cncb.ac.cn/browser/?data=data/soyomics/ZH13.v2">JBrowse</a>
+                    </li>
+
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
+                           aria-expanded="false">Toolkits</a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdown02">
+
+
+                            
+                            
+                            <a class="dropdown-item" target="_blank"
+                               href="https://ngdc.cncb.ac.cn/blast/soybean/blastn">BLAST</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="https://ngdc.cncb.ac.cn/bit/mulomics/gwas/run">easyGWAS</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/expression_tool/">ExpPattern</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/haplotype/">HapSnap</a>
+                            <div class="dropdown-divider"></div>
+                                <a class="dropdown-item " href="https://ngdc.cncb.ac.cn/bit/mulomics/VersionMap/run">VersionMap</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://ngdc.cncb.ac.cn/soyomics/seqFetch/run">SeqFetch</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/soy40k">SoyArray </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/soyashare/">SoyaShare </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/download">Download </a>
+                    </li>
+                    
+                    
+                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/documentation">Documentation </a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/contact">Contact </a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-md-0">
+                    <input id="com_input" class="form-control" type="text" placeholder="Search">
+                    <button type="button" onclick="com_search()" class="ui icon teal button"><i class="search icon"></i>
+                    </button>
+                    
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+
+</header>
+
+
+
+
+
+
+
+<div class="col-md-3 " style="display: none">
+    <div class="panel-default panel">
+        <div class="panel-body" style="height: 200px">
+            <h4 class="text-primary"><span class="ui blue ribbon label big"><i class="fas fa-globe"></i> Global Visitors</span>
+            </h4>
+            <div>
+                
+                    
+                            
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style type="text/css">
+    #sub_menu_1, #sub_menu_2 {
+        display: none;
+    }
+
+    ul li:hover {
+        cursor: pointer;
+    }
+
+</style>
+
+<script type="text/javascript">
+    function f(str) {
+        var sub_menu = document.getElementById(str);
+        var dis_v = sub_menu.style.display;
+
+        if (dis_v == "block")
+            sub_menu.style.display = "none";
+        else
+            sub_menu.style.display = "block";
+
+    }
+
+
+</script>
+<script>
+    function com_search() {
+        var id = $("#com_input").val();
+        if (id != "") {
+            window.location = "http://ngdc.cncb.ac.cn:80/soyomics/search?id=" + id;
+        } else {
+            window.location = "http://ngdc.cncb.ac.cn:80/soyomics/";
+        }
+    }
+
+    //
+    // function com_entersearch(){
+    //     var event = window.event || arguments.callee.caller.arguments[0];
+    //     if (event.keyCode == 13)
+    //     {
+    //         com_search();
+    //     }
+    // }
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?41884dc889cfa515bac4351553ea5ff3";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</html>
+
+
+    <div class="index">
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="http://ngdc.cncb.ac.cn:80/soyomics/index">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Phenome</li>
+
+            </ol>
+        </nav>
+
+
+        <div style="padding-left: 2em;padding-right: 2em">
+
+            
+
+            <div class="row" style="margin-top: 2em;margin-bottom: 2em;height: 500px">
+                <div class="col-5">
+                    <div id="classChart" style="height: 100%"></div>
+                </div>
+                
+                
+                
+                <div class="col-7">
+                    <div class="table-responsive">
+
+                        <table id="trait_table" class="table row-border hover stripe " style="width: 100%">
+                            <thead>
+                            <tr>
+
+                                <th>Trait ID</th>
+                                <th>Trait Name EN.</th>
+                                <th>Trait Name CN.</th>
+                                <th>Unit</th>
+                                <th>Class</th>
+                                <th>Subclass</th>
+                                <th>Record Number</th>
+                                <th>Sample Number</th>
+
+                            </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div id="scoll">
+                <h3><i class="bi bi-globe"></i> Trait Distribution</h3>
+                <div class="ui equal width form">
+                    <div class="col-md-9 fields">
+                        <div class="field">
+                            <label>Trait Class</label>
+                            <select id="trait_class" class="ui search dropdown">
+                                <option value="" disabled selected>All</option>
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <label>Trait Subclass</label>
+                            <select id="trait_subclass" class="ui search dropdown ">
+                                <option value="" disabled selected>All</option>
+                            </select>
+                        </div>
+
+
+                        <div class="field">
+                            <label>Trait *</label>
+                            <select id="trait_list" class="ui search dropdown ">
+                                <option value="1SPN" disabled selected>1SPN (Number of one seed per pod)</option>
+                            </select>
+                        </div>
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <div class=" card">
+                            <div class="card-header"> Distribution</div>
+                            <div class="card-body">
+                                <div id="densityChart" style="height: 250px">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 ">
+                        <div class="card">
+                            <div class="card-header">Types Distribution</div>
+                            <div class="card-body">
+                                <div id="wait_circ1" align="center" class="d-none">
+                                    <div class="sp sp-wave"></div>
+                                </div>
+                                <div id="typeChart" style="height: 250px">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 ">
+                        <div class=" card">
+                            <div class="card-header">Countries Distribution</div>
+                            <div class="card-body">
+                                <div id="wait_circ2" align="center" class="d-none">
+                                    <div class="sp sp-wave"></div>
+                                </div>
+                                <div id="countryChart" style="height: 270px">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 ">
+                        <div class=" card">
+                            <div class="card-header">China Distribution</div>
+                            <div class="card-body">
+                                <div id="wait_circ3" align="center" class="d-none">
+                                    <div class="sp sp-wave"></div>
+                                </div>
+                                <div id="distributionChart" style="height: 270px">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 ">
+                        <div class="card">
+                            <div class="card-header">Trait Table</div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+
+                                    <table id="phenome_table" class="table row-border hover stripe "
+                                           style="width: 100%">
+                                        <thead>
+                                        <tr>
+
+                                            <th>Accession ID</th>
+                                            
+                                            <th>Trait ID</th>
+                                            <th>Value</th>
+                                            <th>Year</th>
+                                            <th>Location</th>
+                                            <th>P.S.</th>
+
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+
+                
+                
+                
+                
+                
+                
+                
+                
+
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+<html>
+<body>
+
+
+
+    
+    <link rel="stylesheet" href="/soyomics/static/bootstrap_4.6.0/bootstrap.min.css"/>
+        <link rel="stylesheet"  href="/soyomics/static/bootstrap_4.6.0/docs.css" >
+        
+    <link rel="stylesheet"  href="/soyomics/static/bootstrap_4.6.0/font/bootstrap-icons.css" >
+
+
+
+    
+        
+        
+        <link rel="stylesheet" href="/soyomics/static/datatables_1.11.1/jquery.dataTables.min.css">
+       
+        
+
+
+
+        <link rel="stylesheet" href="/soyomics/static/datatables_1.11.1/buttons.dataTables.min.css">
+        <link href="/soyomics/static/css/select2.min.css" rel="stylesheet" />
+        <link rel='stylesheet' type='text/css' href="/soyomics/static/sui_2.3.0/semantic.min.css">
+
+
+        <link rel="stylesheet" href="/soyomics/static/css/my.css"/>
+
+
+
+
+    
+    
+    <script type="text/javascript" src="/soyomics/static/js/jquery-3.6.0.min.js"></script>
+    <script src="https://ngdc.cncb.ac.cn/cdn/js/headerfooter-full.js"></script>
+
+    
+    <script type="text/javascript"  src="/soyomics/static/bootstrap_4.6.0/bootstrap.bundle.min.js"></script>
+    
+        <script type="text/javascript"  src="/soyomics/static/bootstrap_4.6.0/docs.min.js"></script>
+
+
+
+        
+        
+
+    <script src="/soyomics/static/DataTables-1.10.15/media/js/jquery.dataTables.min.js"></script>
+        
+
+        <script type="text/javascript" src="/soyomics/static/datatables_1.11.1/dataTables.buttons.min.js"></script>
+        <script type="text/javascript" src="/soyomics/static/datatables_1.11.1/buttons.html5.min.js"></script>
+
+        <script type="text/javascript"  src="/soyomics/static/sui_2.3.0/semantic.min.js"></script>
+        
+        <script type="text/javascript"  src="/soyomics/static/js/select2.min.js"></script>
+<script src="/soyomics/static/js/echarts5.min.js"></script>
+<script src="/soyomics/static/js/roma.js"></script>
+
+
+    <style>
+        /*.bigd-col-md-2{}*/
+        .bigd-footer h3 {
+            padding-left: 5px;
+            color: #051133;
+            font-size: 14px;
+            font-weight: bolder;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            padding-bottom: 0;
+            padding-top: 0;
+            line-height: 1.1;
+        }
+    </style>
+</body>
+</html>
+
+
+
+
+
+<script>
+
+    var trait_table_show = (function (url) {
+        $(document).ready(function () {
+
+
+            var table = $('#trait_table').DataTable({
+                ajax: {
+                    url: url,
+                    type: "POST",
+                    dataType: "json",
+                    dataSrc: ""
+                },
+
+                bProcessing: true,
+                destroy: true,
+                // searching:false,
+                processing: true,
+                pageLength: 5,
+                dom: 'Bfrtip',
+                buttons: [{
+                    extend: 'csvHtml5',
+                    text: 'Download',
+                    extension: '.txt',
+                    fieldSeparator: '\t'
+
+                }],
+                // buttons:[
+                //     'copy', 'excel', 'pdf'
+                // ],
+                order: [[1, "asc"]],
+                // order: [[ 3, "desc" ]],
+                columns: [
+                    {
+                        data: 'trait_id',
+                        render: function (data, type, row) {
+                            return "<a href='javascript:void(0);' onclick='trait_table_click(\"" + row.trait_id + "\");scoll_fn(); '>" + row.trait_id + "</a>";
+                        }
+                    },
+                    {
+                        data: 'name_en'
+                    },
+                    {
+                        data: 'name_cn'
+                    }, {
+                        data: 'unit'
+                    },
+                    {
+                        data: 'trait_class'
+                    },
+                    {
+                        data: 'subclass',
+                        render: function (data, type, row) {
+                            if (row.subclass != null) {
+                                return row.subclass;
+                            } else return "NA";
+                        }
+                    },
+                    {
+                        data: 'record',
+                        render: function (data, type, row) {
+                            if (row.record != null) {
+                                return row.record;
+                            } else return "NA";
+                        }
+                    },
+                    {
+                        data: 'labid_num',
+                        render: function (data, type, row) {
+                            if (row.labid_num != null) {
+                                return row.labid_num;
+                            } else return "NA";
+                        }
+                    }
+                ]
+            });
+
+        });
+
+    });
+
+    trait_table_show('http://ngdc.cncb.ac.cn:80/soyomics/phenome/traitList');
+
+    setTimeout(loads, 3000);
+
+    function loads() {
+        if ("" != "") {
+            var table = $('#trait_table').DataTable();
+            table.search("").draw();
+            trait_table_click("");
+        }
+    }
+</script>
+<script>
+    var trait_class = "";//"Abiotic_stress";
+    var trait_subclass = "";//"Lodging";
+    var trait = "1SPN";
+
+
+    function trait_click(trait_id) {
+        trait = trait_id;
+
+        var table = $('#trait_table').DataTable();
+        table.search(trait).draw();
+
+        trait_class = "";
+        $("#trait_class").dropdown('set text', 'All');
+        trait_subclass = "";
+        $('#trait_subclass').html("");
+        trait_subclass_list();
+
+        $("#trait_list").dropdown('set text', trait);
+        img_show(trait_id);
+
+        // $("#trait_all").dropdown('set text', trait);
+        // $("#accession_all").dropdown('clear');
+
+        
+    }
+
+
+    function trait_table_click(trait_id) {
+        trait = trait_id;
+
+        trait_class = "";
+        $("#trait_class").dropdown('set text', 'All');
+        trait_subclass = "";
+        $('#trait_subclass').html("");
+        trait_subclass_list();
+
+        $("#trait_list").dropdown('set text', trait);
+        img_show(trait_id);
+
+        // $("#trait_all").dropdown('set text', trait_val);
+        // $("#accession_all").dropdown('clear');
+
+        
+    }
+
+    function img_show(trait_id) {
+        trait = trait_id;
+
+        densityChart_show('http://ngdc.cncb.ac.cn:80/soyomics/phenome/traitDensityCount?trait=' + trait);
+        groupChart_show('http://ngdc.cncb.ac.cn:80/soyomics/phenome/trait_group?trait=' + trait);
+        phenome_table_show('http://ngdc.cncb.ac.cn:80/soyomics/phenome/phenomeList?trait=' + trait);
+    }
+</script>
+
+<script type="text/javascript">
+
+
+    var classChart = echarts.init(document.getElementById('classChart'), 'roma', {renderer: 'svg'});
+
+    $.ajax({
+        url: "http://ngdc.cncb.ac.cn:80/soyomics/phenome/class_Chart",
+        type: "POST",
+        dataType: "json",
+        success: function (data) {
+            var servicedata = [];
+
+            var sname = "";
+            var num = -1;
+            var chil = 0;
+            for (var i = 0; i < data.length; i++) {
+
+                if (data[i]["trait_class"] != sname) {
+                    num = num + 1;
+                    servicedata[num] = new Object();
+                    servicedata[num].name = data[i]["trait_class"];
+
+
+                    let traitArr = [];
+                    let trait = data[i]["trait_id"].split(',');
+                    for (let j = 0; j < trait.length; j++) {
+                        let arrStr = {name: trait[j], value: 1};
+                        traitArr.push(arrStr);
+                    }
+                    servicedata[num].children = [];
+                    let child_s = {name: data[i]["subclass"], children: traitArr};
+                    servicedata[num].children.push(child_s);
+                }
+                if (data[i]["trait_class"] == sname) {
+
+                    let traitArr = [];
+                    let trait = data[i]["trait_id"].split(',');
+                    for (let j = 0; j < trait.length; j++) {
+                        let arrStr = {name: trait[j], value: 1};
+                        traitArr.push(arrStr);
+                    }
+
+                    let child_s = {name: data[i]["subclass"], children: traitArr};
+                    servicedata[num].children.push(child_s);
+
+                }
+                sname = data[i]["trait_class"];
+
+            }
+
+            let option = {
+                title: {
+                    text: 'Phenotype Classes',
+                    textStyle: {
+                        // fontSize: 14,
+                        // left: 'center'
+                    },
+                    left: 'center',
+                },
+
+                series: {
+                    type: 'sunburst',
+                    data: servicedata,
+                    radius: [0, '95%'],
+                    sort: undefined,
+                    emphasis: {
+                        focus: 'ancestor'
+                    },
+                    levels: [
+                        {},
+                        {
+                            r0: '15%',
+                            r: '32%',
+                            itemStyle: {
+                                borderWidth: 2
+                            },
+                            label: {
+                                rotate: 'tangential'
+                            }
+                        },
+                        {
+                            r0: '32%',
+                            r: '65%',
+                            label: {
+                                align: 'right'
+                            }
+                        },
+                        {
+                            r0: '65%',
+                            r: '70%',
+                            label: {
+                                position: 'outside',
+                                padding: 3,
+                                silent: false
+                            },
+                            itemStyle: {
+                                borderWidth: 3
+                            }
+                        }
+                    ]
+                }
+            };
+            classChart.setOption(option);
+            classChart.on('click', function (param) {
+                if (param.name != '' && param.name != null) {
+                    for (let i = 0; i < data.length; ++i) {
+                        if (data[i]["trait_id"].search(param.name) != -1) {
+                            trait_click(param.name);
+                            // scoll_fn();
+                            break;
+                        }
+                    }
+                }
+            });
+        }
+    });
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+
+</script>
+<script>
+
+    var densityChart_img = echarts.init(document.getElementById('densityChart'), 'roma', {renderer: 'svg'});
+
+    var densityChart_show = (function (url) {
+        $.ajax({
+            url: url,
+            type: "POST",
+            dataType: "json",
+            success: function (data) {
+                var servicedata = [];
+                var servicevalue = [];
+
+
+                let nu_data = new Array();
+                let nu_data_sort = [];
+                let j = 0;
+                for (let i = 0; i < data.length; i++) {
+                    if (data[i]["name"] != 'NA' && data[i]["name"] != 'Null' && data[i]["name"] != null && data[i]["name"] != undefined) {
+
+                        if (data[i]["name"].split("[").length > 1) {
+                            nu_data[j] = parseFloat(data[i]["name"].split("[")[1].split(",")[0]);
+                            j++;
+
+                        } else {
+                            servicedata[j] = data[i]["name"];
+                            servicevalue[j] = data[i]["num"];
+                            j++;
+                        }
+                    }
+
+
+                }
+                if (nu_data.length > 0) {
+                    nu_data.sort(function (a, b) {
+                        return a - b;   // 若这里写的是 b - a, 则返回结果为按数字倒序排列
+                    });
+
+                    for (let j = 0; j < nu_data.length; j++) {
+                        for (let i = 0; i < data.length; i++) {
+
+                            if (data[i]["name"].split("[").length > 1) {
+                                if (nu_data[j] == parseFloat(data[i]["name"].split("[")[1].split(",")[0])) {
+                                    if (data[i]["name"].split("[").length > 1) {
+                                        let str_up = data[i]["name"].split("[")[1].split(",")[0];
+                                        let str_down = data[i]["name"].split("]")[0].split(",")[1];
+                                        servicedata[j] = "[" + Math.round(str_up * 1000) / 1000 + "," + Math.round(str_down * 1000) / 1000 + "]";
+                                    } else {
+                                        servicedata[j] = data[i]["name"];
+                                    }
+
+                                    servicevalue[j] = data[i]["num"];
+
+                                }
+                            }
+
+                        }
+
+                    }
+                }
+
+
+                var option = {
+                    title: {
+                        text: url.split('=')[1] + ' Distribution',
+                        left: 'center',
+                    },
+                    // toolbox: {
+                    //     show: true,
+                    //     feature: {
+                    //         mark: {show: true},
+                    //         dataView: {show: true, readOnly: false},
+                    //         restore: {show: true},
+                    //         saveAsImage: {show: true}
+                    //     }
+                    // },
+
+                    tooltip: {
+                        trigger: 'axis',
+                        formatter: '{b} <br/>Record Number : {c}',
+                        axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+                            type: 'line'        // 默认为直线，可选为：'line' | 'shadow'
+                        },
+                    },
+                    toolbox: {
+                        show: true,
+                        feature: {
+                            saveAsImage: {show: true}
+                        }
+                    },
+                    xAxis: {
+                        type: 'category',
+                        name: 'Value',
+                        data: servicedata
+                    },
+                    yAxis: {
+                        type: 'value',
+                        name: 'Record'
+                    },
+                    series: [{
+                        data: servicevalue,
+                        type: 'bar',
+                        barWidth: '50%',
+                        color: ['#253e75'],
+                    },
+                        {
+                            data: servicevalue,
+                            type: 'line',
+                            smooth: true,
+                            color: ['#001852'],
+                        }]
+                };
+
+                if (option && typeof option === "object") {
+                    densityChart_img.setOption(option, true);
+                    densityChart_img.on('click', function (param) {
+
+                    });
+                }
+
+
+            }
+        });
+
+    });
+
+    densityChart_show('http://ngdc.cncb.ac.cn:80/soyomics/phenome/traitDensityCount?trait=' + trait);
+
+
+    var group_num_type_option = (function (url, type, type_x, type_data, type_significance) {
+        var data_t = [];
+        for (var i = 0; i < type_x.length; i++) {
+            data_t[i] = type_data[i];
+        }
+        type_significance = type_significance.replace(/,/g, ", ");
+        var option_type = {
+            title: [
+                {
+                    text: url.split('=')[1] + ' - ' + type,
+                    left: 'center'
+                },
+                {
+                    text: 'p<0.05: ' + type_significance,
+                    borderColor: '#999',
+                    // borderWidth: 1,
+                    textStyle: {
+                        fontWeight: 'normal',
+                        fontSize: 11,
+                        lineHeight: 20
+                    },
+                    left: '5%',
+                    top: '90%'
+                }
+            ],
+            dataset: [
+                {
+                    // prettier-ignore
+                    source: data_t
+                },
+                {
+                    transform: {
+                        type: 'boxplot',
+                        // config: { itemNameFormatter: data.type_x },
+                        config: {
+                            itemNameFormatter: function (params) {
+                                return type_x[params.value];
+                            }
+                        },
+                        print: true
+
+                    }
+                },
+                {
+                    fromDatasetIndex: 1,
+                    fromTransformResult: 1
+                }
+            ],
+            tooltip: {
+                // trigger: 'item',
+
+                trigger: 'axis',
+
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    saveAsImage: {show: true}
+                }
+            },
+            grid: {
+                left: '10%',
+                right: '10%',
+                bottom: '20%'
+            },
+            xAxis: {
+                type: 'category',
+                // data: data.type_x,//不能这样指定
+                boundaryGap: true,
+                // nameGap: 30,
+                splitArea: {
+                    show: false
+                },
+                splitLine: {
+                    show: false
+                },
+                axisLabel: {
+                    interval: 0,
+                    // rotate: 40
+                }
+            },
+            yAxis: {
+                type: 'value',
+
+                splitArea: {
+                    show: true
+                }
+            },
+            series: [
+                {
+                    // name: 'boxplot',
+                    type: 'boxplot',
+                    datasetIndex: 1,
+                    colorBy: "data",
+                    encode: {
+                        tooltip: ['Low', 'Q1', 'Q2', 'Q3', 'High']
+
+                    }
+                },
+                // {
+                //     name: 'outlier',
+                //     type: 'scatter',
+                //     datasetIndex: 2
+                // }
+
+            ]
+        };
+        return option_type;
+    });
+    var group_num_more_option = (function (url, type, type_x, type_data) {
+        var data_t = [];
+        for (var i = 0; i < type_x.length; i++) {
+            data_t[i] = type_data[i];
+        }
+        var option_type = {
+            title: [
+                {
+                    text: url.split('=')[1] + ' - ' + type,
+                    left: 'center'
+                }
+            ],
+            dataset: [
+                {
+                    // prettier-ignore
+                    source: data_t
+                },
+                {
+                    transform: {
+                        type: 'boxplot',
+                        // config: { itemNameFormatter: data.type_x },
+                        config: {
+                            itemNameFormatter: function (params) {
+                                return type_x[params.value];
+                            }
+                        },
+                        print: true
+
+                    }
+                },
+                {
+                    fromDatasetIndex: 1,
+                    fromTransformResult: 1
+                }
+            ],
+            tooltip: {
+                // trigger: 'item',
+
+                trigger: 'axis',
+
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    saveAsImage: {show: true}
+                }
+            },
+            grid: {
+                left: '10%',
+                right: '10%',
+                bottom: '20%'
+            },
+            xAxis: {
+                type: 'category',
+                // data: data.type_x,//不能这样指定
+                boundaryGap: true,
+                // nameGap: 30,
+                splitArea: {
+                    show: false
+                },
+                splitLine: {
+                    show: false
+                },
+                axisLabel: {
+                    rotate: 40
+                }
+            },
+            yAxis: {
+                type: 'value',
+
+                splitArea: {
+                    show: true
+                }
+            },
+            series: [
+                {
+                    // name: 'boxplot',
+                    type: 'boxplot',
+                    datasetIndex: 1,
+                    colorBy: "data",
+                    encode: {
+                        tooltip: ['Low', 'Q1', 'Q2', 'Q3', 'High']
+
+                    }
+                },
+                // {
+                //     name: 'outlier',
+                //     type: 'scatter',
+                //     datasetIndex: 2
+                // }
+
+            ]
+        };
+        return option_type;
+    });
+
+    var group_cat_option = (function (url, type, type_x, type_data, list_name) {
+        let data_t = [];
+        for (var i = 0; i < list_name.length; i++) {
+            data_t[i] = {
+                name: list_name[i],
+                type: 'bar',
+                stack: 'Ad',
+                emphasis: {
+                    focus: 'series'
+                },
+                data: type_data[i]
+            };
+        }
+
+        var option_type = {
+            title: [
+                {
+                    text: url.split('=')[1] + ' - ' + type,
+                    left: 'center'
+                }
+            ],
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                }
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    saveAsImage: {show: true}
+                }
+            },
+            legend: {
+                show: true,
+                top: 'bottom',
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '0%',
+                top: '20%',
+                containLabel: true
+            },
+            color: [
+                "rgba(188,19,65,1)",
+                "#001852",
+                "rgba(245,232,200,1)",
+                "rgba(184,199,210,1)",
+                "rgba(73,72,130,1)",
+                "rgba(216,199,164,0.84)",
+                "rgba(146,164,208,0.87)",
+                "#3c6189",
+                "rgba(181,146,220,0.7)",
+                "#2e4783",
+                "#82b6e9",
+                "#e4998c",
+                "#a092f1",
+                "#0a915d",
+                "#eaf889",
+                "#6699FF",
+                "#ff6666",
+                "#3cb371",
+                "#d5b158",
+                "#38b6b6"
+            ],
+            xAxis:
+                {
+                    type: 'category',
+                    data: type_x,
+                    axisLabel: {
+                        rotate: 40
+                    }
+                }
+            ,
+            yAxis:
+                {
+                    type: 'value'
+                }
+            ,
+            series: data_t
+        };
+        return option_type;
+    });
+
+    let typeChart_img = echarts.init(document.getElementById('typeChart'), {renderer: 'svg'});
+    let countryChart_img = echarts.init(document.getElementById('countryChart'), {renderer: 'svg'});
+    let distributionChart_img = echarts.init(document.getElementById('distributionChart'), {renderer: 'svg'});
+
+
+    function groupChart_show(url) {
+        $.ajax({
+            url: url,
+            type: "Get",
+            dataType: "json",
+            beforeSend: function () {
+
+                typeChart_img.clear();
+                countryChart_img.clear();
+                distributionChart_img.clear();
+                $('#wait_circ1').removeClass("d-none");
+                $('#wait_circ2').removeClass("d-none");
+                $('#wait_circ3').removeClass("d-none");
+            },
+            success: function (data) {
+
+
+                if (data.cat_num == 0) {
+                    typeChart_img = echarts.init(document.getElementById('typeChart'), {renderer: 'svg'});
+                    countryChart_img = echarts.init(document.getElementById('countryChart'), {renderer: 'svg'});
+                    distributionChart_img = echarts.init(document.getElementById('distributionChart'), {renderer: 'svg'});
+
+
+                    let option_type = group_num_type_option(url, 'Type', data.type_x, data.type_data, data.type_significance);
+
+                    typeChart_img.setOption(option_type);
+
+                    let option_country = group_num_more_option(url, 'Country', data.country_x, data.country_data);
+
+                    countryChart_img.setOption(option_country);
+
+                    let option_distribution = group_num_more_option(url, 'China distribution', data.distribution_x, data.distribution_data);
+
+                    distributionChart_img.setOption(option_distribution);
+
+                } else {
+                    typeChart_img = echarts.init(document.getElementById('typeChart'), 'roma', {renderer: 'svg'});
+                    countryChart_img = echarts.init(document.getElementById('countryChart'), 'roma', {renderer: 'svg'});
+                    distributionChart_img = echarts.init(document.getElementById('distributionChart'), 'roma', {renderer: 'svg'});
+
+                    let option_type = group_cat_option(url, 'Type', data.type_x, data.type_data, data.list_name);
+                    typeChart_img.setOption(option_type);
+
+                    let option_country = group_cat_option(url, 'Country', data.country_x, data.country_data, data.list_name);
+
+                    countryChart_img.setOption(option_country);
+
+                    let option_distribution = group_cat_option(url, 'China distribution', data.distribution_x, data.distribution_data, data.list_name);
+
+                    distributionChart_img.setOption(option_distribution);
+
+                }
+
+
+            },
+            complete: function () {
+                $('#wait_circ1').addClass("d-none");
+                $('#wait_circ2').addClass("d-none");
+                $('#wait_circ3').addClass("d-none");
+            },
+        });
+
+    };
+
+    groupChart_show('http://ngdc.cncb.ac.cn:80/soyomics/phenome/trait_group?trait=' + trait);
+
+    var $target = $('#scoll');    // 目标元素
+    function scoll_fn() {
+        window.scrollTo({
+            top: $target.offset().top, left: 0,
+            behavior: 'smooth'
+        });
+    }
+</script>
+<script>
+
+
+    $('#trait_class').dropdown({
+        clearable: true,
+        apiSettings: {
+            url: 'http://ngdc.cncb.ac.cn:80/soyomics/phenome/traitClass_all'
+        },
+        filterRemoteData: true
+    });
+
+    function trait_subclass_list() {
+        $.ajax({
+            url: 'http://ngdc.cncb.ac.cn:80/soyomics/phenome/traitSubClass_all?trait_class=' + trait_class,
+            type: 'get',
+            success: function (data) {
+                // $('#trait_subclass').append("<option value=''>Chr01</option>");
+                $.map(data.results, function (i, item) {
+                    $('#trait_subclass').append("<option value='" + i.name + "'>" + i.name + "</option>");
+                })
+            }
+        });
+    };
+
+    trait_subclass_list();
+    $(document).on('change', '#trait_class', function () {
+        if ($("#trait_class option:selected").val() != null) {
+            trait_class = $("#trait_class option:selected").val();
+        }
+        if ($("#trait_class option:selected").val() == 'All') {
+            trait_class = "";
+        }
+        trait_subclass = "";
+        $('#trait_subclass').html("");
+        trait_subclass_list();
+        $('#trait_list').html("");
+        trait_list();
+    });
+
+    function trait_list() {
+        $.ajax({
+            url: 'http://ngdc.cncb.ac.cn:80/soyomics/phenome/trait_reAll?trait_class=' + trait_class + '&subclass=' + trait_subclass,
+            type: 'get',
+            success: function (data) {
+
+                $.map(data.results, function (i, item) {
+                    $('#trait_list').append("<option value='" + i.value + "'>" + i.value + " (" + i.name + ")</option>")
+                });
+                var trait_id = data.results[0].value;
+                img_show(trait_id);
+            }
+        });
+    };
+
+
+    trait_list();
+
+    $(document).on('change', '#trait_subclass', function () {
+
+
+        if ($("#trait_subclass option:selected").val() != null) {
+            trait_subclass = $("#trait_subclass option:selected").val();
+        }
+        if ($("#trait_subclass option:selected").val() == 'All') {
+            trait_subclass = "";
+        }
+
+        $('#trait_list').html("");
+        trait_list();
+    });
+
+
+    $(document).on('change', '#trait_list', function () {
+
+
+        if ($("#trait_list option:selected").val() != null) {
+            var trait_id = $("#trait_list option:selected").val();
+            // trait_table_click(trait_id);
+            img_show(trait_id);
+        }
+
+    });
+
+</script>
+
+<script>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    var phenome_table_show = (function (url) {
+        $(document).ready(function () {
+            var table = $('#phenome_table').DataTable({
+                ajax: {
+                    url: url,
+                    type: 'GET',
+                    dataType: 'json',
+                    dataSrc: ""
+
+                },
+                dom: 'frtip',
+                /*buttons: [{
+                    extend: 'csvHtml5',
+                    text: 'Download',
+                }
+                ],*/
+
+                destroy: true,
+                //使用对象数组，一定要配置columns，告诉 DataTables 每列对应的属性
+                //data 这里是固定不变的，name，position，salary，office 为你数据里对应的属性
+                // serverSide: true,//开启服务器模式:启用服务器分页
+                // lengthChange: true,//是否允许用户改变表格每页显示的记录数
+                // ordering: false,//是否允许用户排序
+                // order: [
+                //     [5, 'asc']//第一列正序
+                // ],
+                // paging: true,//是否分页
+                // pagingType: "full_numbers",//除首页、上一页、下一页、末页四个按钮还有页数按钮
+                /*"aLengthMenu": "[5, 10, 15]",*/
+                // processing: true,//是否显示处理状态
+                // scrollX: true,//允许水平滚动
+                /* "scrollY": "200px",
+                    "scrollCollapse": "true", */
+                // searching: true,//是否开始本地搜索
+                // stateSave: false,//刷新时是否保存状态
+                // autoWidth: true,//自动计算宽度
+                //deferRender: "true",//延迟渲染
+                columns: [
+                    {
+                        data: 'accession',
+                        render: function (data, type, row) {
+                            if (row.accession != null && row.accession != 'Null' && row.accession != 'NA') {
+                                return '<a href="http://ngdc.cncb.ac.cn:80/soyomics/accession/' + row.accession + '">' + row.accession + '</a>';
+                            } else {
+                                return '-';
+                            }
+
+                        }
+                    },
+
+                    // {
+                    //     data: 'labid'
+                    // },
+                    {
+                        data: 'trait',
+                        render: function (data, type, row) {
+                            if (row.trait != null && row.trait != 'Null' && row.trait != 'NA') {
+                                
+                                return row.trait;
+                            } else {
+                                return '-';
+                            }
+
+                        }
+                    },
+                    {
+                        data: 'value',
+                        render: function (data, type, row) {
+                            if (row.value != null && row.value != 'Null' && row.value != 'NA') {
+                                return row.value;
+                            } else {
+                                return '-';
+                            }
+
+                        }
+                    },
+                    {
+                        data: 'year',
+                        render: function (data, type, row) {
+                            if (row.year != null && row.year != 'Null' && row.year != 'NA') {
+                                return row.year;
+                            } else {
+                                return '-';
+                            }
+
+                        }
+
+                    },
+                    {
+                        data: 'location',
+                        render: function (data, type, row) {
+                            if (row.location != null && row.location != 'Null' && row.location != 'NA') {
+                                return row.location;
+                            } else {
+                                return '-';
+                            }
+
+                        }
+                    },
+                    {
+                        data: 'ps',
+                        render: function (data, type, row) {
+                            if (row.ps != null && row.ps != 'Null' && row.ps != 'NA') {
+                                return row.ps;
+                            } else {
+                                return '-';
+                            }
+
+                        }
+                    }
+
+                ],
+                // colReorder: true
+
+            });
+
+            // $('a.lineageQA').popup({
+            //     delay: {
+            //         show: 100,
+            //         hide: 1000
+            //     }
+            // });
+        });
+
+    });
+    phenome_table_show('http://ngdc.cncb.ac.cn:80/soyomics/phenome/phenomeList?trait=' + trait);
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+
+    
+    
+    
+    
+</script>
+</body>
+</html>

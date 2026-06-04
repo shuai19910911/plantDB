@@ -1,0 +1,1094 @@
+  
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Documentation - SoyOmics - CNCB-NGDC</title>
+    <style>
+        .ui.text.menu .active.item {
+            font-weight: 800;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container">
+    
+
+<html>
+
+<header class="sticky-top ">
+    
+    
+    
+    
+    <link rel="shortcut icon" href="/soyomics/static/images/logo2.svg" type="image/x-icon"/>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark "
+         style=" background-image: linear-gradient(to right, #1b9c94, #0f9c8b, #0d9b80, #179a75, #249968, #3c9f64, #50a561, #63ab5d, #82b963, #a0c76b, #bed574, #dce37f);">
+        
+
+        <div class="container-fluid ">
+
+            <div style="width: 15%">
+
+                <a class="navbar-brand" style="padding: 0px" href="http://ngdc.cncb.ac.cn:80/soyomics/index">
+                    <h3><img src="/soyomics/static/images/logo_top.svg" width="50%"> SoyOmics</h3>
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/index">Home </a>
+                    </li>
+                    
+                    
+                    
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                           aria-expanded="false">Omics</a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/genome_assembly">Genome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/genome_variation">Variome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/transcriptome">Transcriptome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/phenome/">Phenome</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/homology/">Homology</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/synteny">Synteny</a>
+                            
+                            
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/breedingtips">BreedingTips </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" target="_blank"
+                           href="https://ngdc.cncb.ac.cn/browser/?data=data/soyomics/ZH13.v2">JBrowse</a>
+                    </li>
+
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
+                           aria-expanded="false">Toolkits</a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdown02">
+
+
+                            
+                            
+                            <a class="dropdown-item" target="_blank"
+                               href="https://ngdc.cncb.ac.cn/blast/soybean/blastn">BLAST</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="https://ngdc.cncb.ac.cn/bit/mulomics/gwas/run">easyGWAS</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item " href="http://ngdc.cncb.ac.cn:80/soyomics/expression_tool/">ExpPattern</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://ngdc.cncb.ac.cn:80/soyomics/haplotype/">HapSnap</a>
+                            <div class="dropdown-divider"></div>
+                                <a class="dropdown-item " href="https://ngdc.cncb.ac.cn/bit/mulomics/VersionMap/run">VersionMap</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://ngdc.cncb.ac.cn/soyomics/seqFetch/run">SeqFetch</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/soy40k">SoyArray </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/soyashare/">SoyaShare </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/download">Download </a>
+                    </li>
+                    
+                    
+                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/documentation">Documentation </a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="http://ngdc.cncb.ac.cn:80/soyomics/contact">Contact </a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-md-0">
+                    <input id="com_input" class="form-control" type="text" placeholder="Search">
+                    <button type="button" onclick="com_search()" class="ui icon teal button"><i class="search icon"></i>
+                    </button>
+                    
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+
+</header>
+
+
+
+
+
+
+
+<div class="col-md-3 " style="display: none">
+    <div class="panel-default panel">
+        <div class="panel-body" style="height: 200px">
+            <h4 class="text-primary"><span class="ui blue ribbon label big"><i class="fas fa-globe"></i> Global Visitors</span>
+            </h4>
+            <div>
+                
+                    
+                            
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style type="text/css">
+    #sub_menu_1, #sub_menu_2 {
+        display: none;
+    }
+
+    ul li:hover {
+        cursor: pointer;
+    }
+
+</style>
+
+<script type="text/javascript">
+    function f(str) {
+        var sub_menu = document.getElementById(str);
+        var dis_v = sub_menu.style.display;
+
+        if (dis_v == "block")
+            sub_menu.style.display = "none";
+        else
+            sub_menu.style.display = "block";
+
+    }
+
+
+</script>
+<script>
+    function com_search() {
+        var id = $("#com_input").val();
+        if (id != "") {
+            window.location = "http://ngdc.cncb.ac.cn:80/soyomics/search?id=" + id;
+        } else {
+            window.location = "http://ngdc.cncb.ac.cn:80/soyomics/";
+        }
+    }
+
+    //
+    // function com_entersearch(){
+    //     var event = window.event || arguments.callee.caller.arguments[0];
+    //     if (event.keyCode == 13)
+    //     {
+    //         com_search();
+    //     }
+    // }
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?41884dc889cfa515bac4351553ea5ff3";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</html>
+
+    <div class="index">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="http://ngdc.cncb.ac.cn:80/soyomics/index">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Documentation</li>
+            </ol>
+        </nav>
+        <div class="ui raised segment">
+            <div class="ui grid row">
+                <div class="three wide column">
+                    <div class="ui dividing left rail" style="width: 100%; right: -50px">
+                        <div class="ui sticky">
+                            <div class="ui vertical following fluid accordion text menu">
+                                <div class="leftNav fl">
+                                    <a class="item active" href="#frame" id="frameA">&nbsp;&nbsp;&nbsp;1. Framework</a>
+                                    <a class="item" href="#search" id="searchA">&nbsp;&nbsp;&nbsp;2. Search</a>
+                                    <a class="item" href="#genome" id="genomeA">&nbsp;&nbsp;&nbsp;3. Genome module</a>
+                                    <a class="item" href="#accList" id="accListA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.
+                                        Accession list</a>
+                                    <a class="item" href="#accDet" id="accDetA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.
+                                        Accession
+                                        details</a>
+                                    <a class="item" href="#geneSearch" id="geneSearchA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3.
+                                        Gene search
+                                        panel</a>
+                                    <a class="item" href="#geneDet" id="geneDetA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.
+                                        Gene details</a>
+
+
+                                    <a class="item" href="#variome" id="variomeA">&nbsp;&nbsp;&nbsp;4. Variome
+                                        Module </a>
+                                    <a class="item" href="#varStat" id="varStatA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.
+                                        Variation
+                                        statistics</a>
+                                    <a class="item" href="#selective" id="selectiveA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.
+                                        Selective
+                                        test</a>
+                                    <a class="item" href="#varBrow" id="varBrowA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.
+                                        Variation browser</a>
+                                    <a class="item" href="#varDet" id="varDetA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.
+                                        Variation details</a>
+
+                                    
+
+
+                                    <a class="item" href="#trans" id="transA">&nbsp;&nbsp;&nbsp;5. Transcriptome
+                                        module</a>
+                                    <a class="item" href="#pheno" id="phenoA">&nbsp;&nbsp;&nbsp;6. Phenome module</a>
+                                    <a class="item" href="#homo" id="homoA">&nbsp;&nbsp;&nbsp;7. Homology module</a>
+                                    <a class="item" href="#syn" id="synA">&nbsp;&nbsp;&nbsp;8. Synteny module</a>
+                                    <a class="item" href="#jb" id="jbA">&nbsp;&nbsp;&nbsp;9. JBrowse</a>
+                                    <a class="item" href="#tool" id="toolA">&nbsp;&nbsp;&nbsp;10. Online tools </a>
+                                    <a class="item" href="#gwas" id="gwasA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.1. easyGWAS</a>
+                                    <a class="item" href="#exp" id="expA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.2. ExpPattern</a>
+                                    <a class="item" href="#hap" id="hapA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.3. HapSnap</a>
+                                    <a class="item" href="#blast" id="blastA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.4. BLAST</a>
+                                    <a class="item" href="#ver" id="verA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.5. VersionMap</a>
+                                    <a class="item" href="#fetch" id="fetchA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.6. SeqFetch</a>
+
+                                    <a class="item" href="#array" id="arrayA">&nbsp;&nbsp;&nbsp;11. SoyArray</a>
+                                    <a class="item" href="#down" id="downA">&nbsp;&nbsp;&nbsp;12. Downloads</a>
+                                    <a class="item" href="#ref" id="refA">&nbsp;&nbsp;&nbsp;13. Reference</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="thirteen wide column" style="padding-left: 20px">
+                    <div class="con fr" id="faqContext">
+                        <div class="listCon">
+                            <h4 class="ui header">1. Framework<a id="frame"></a></h4>
+                            <p><a href="https://ngdc.cncb.ac.cn/soyomics">SoyOmics</a> is a database providing
+                                comprehensive
+                                knowledge and analysis tools for soybean multi-omics.
+                                We <em>de novo</em> assembled <a
+                                        href="https://ngdc.cncb.ac.cn/soyomics/genome_assembly">27</a> genomes of
+                                different
+                                soybean accessions, generated ~550 thousand
+                                large scale structural variations (SVs) and built graph pan-genome (Liu et al., 2020).
+                                We collected
+                                ~3,000 soybean germplasms and generated ~38 million SNPs and INDELs from them (Zhou et
+                                al.,
+                                2015; Fang et al., 2017; Liu et al., 2020).
+                                Besides, we generated 28 or 9 tissue-stages gene expression data of ZH13/WM82 or
+                                pan-genome
+                                accessions (Shen et al., 2014; Shen et al., 2019; Liu et al., 2020),
+                                and ~27 thousand records of 115 soybean phenotypes from different years and areas of
+                                planting. The multi-omics data can be classed into 6 basic modules:
+                                <strong><a href="https://ngdc.cncb.ac.cn/soyomics/genome_assembly">Genome</a></strong>,
+                                <strong><a href="https://ngdc.cncb.ac.cn/soyomics/genome_variation">Variome</a></strong>,
+                                <strong><a
+                                        href="https://ngdc.cncb.ac.cn/soyomics/transcriptome/tissues">Transcriptome</a></strong>,
+                                <strong><a href="https://ngdc.cncb.ac.cn/soyomics/phenome/">Phenome</a></strong>,
+                                <strong><a
+                                        href="https://ngdc.cncb.ac.cn/soyomics/homology/">Homology</a></strong> and
+                                <strong><a
+                                        href="https://ngdc.cncb.ac.cn/soyomics/synteny">Synteny</a></strong>.
+                                After that, we provide analysis tools for BLAST search (<strong><a
+                                        href="https://ngdc.cncb.ac.cn/blast/?db=soybean_genome">BLAST</a></strong>),
+                                GWAS
+                                (<strong><a href="https://ngdc.cncb.ac.cn/bit/mulomics/gwas/run">easyGWAS</a></strong>),
+                                gene expression pattern (<strong><a
+                                        href="https://ngdc.cncb.ac.cn/soyomics/expression_tool/">ExpPattern</a></strong>),
+                                haplotype (<strong><a
+                                        href="https://ngdc.cncb.ac.cn/soyomics/haplotype/">HapSnap</a></strong>), genome
+                                position transform (<strong><a
+                                        href="https://ngdc.cncb.ac.cn/bit/mulomics/VersionMap/run">VersionMap</a></strong>)
+                                and Soybean array (<strong><a
+                                        href="https://ngdc.cncb.ac.cn/soyomics/soy40k">SoyArray</a></strong>).
+                            </p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/1.framework.png"
+                                 alt="framework">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 1 Framework of
+                                SoyOmics</p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">2. Search  <a id="search"></a><button class="ui teal mini button" id="play2"> Play video</button></h4>
+                            </h4>
+                            <div id="video2" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/2.Search_bar.v4.mp4">
+                            </div>
+                            <p>The "Search" bar on homepage provides global search of all related items or directional
+                                search for input type. </p>
+                            <ul>
+                                <li><strong>Region</strong>: an input form as "chromosome:start-end" is supported.</li>
+                                <li><strong>Genes/Symbol</strong>: the complete/incomplete gene ID or symbol are legal
+                                    input
+                                    for search.
+                                </li>
+                                <li><strong>Variation</strong>: the "chromosome:position" type or variation ID are both
+                                    accepted.
+                                </li>
+                                <li><strong>Accession</strong>: the accession ID, English or Chinese are all supported.
+                                </li>
+                                <li><strong>Phenotype</strong>: the abbreviation and English/Chinese full title are
+                                    accessible.
+                                </li>
+                            </ul>
+                            <p>We support the high integration of the searching result. You can get a quick start in the
+                                "Search" function, from which one can be informed with all basic knowledge in the
+                                database
+                                and walk to the details.</p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/2.Search.png"
+                                 alt="Search">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 2 Search</p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">3. Genome module<a id="genome"></a></h4>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">3.1. Accession list<a id="accList"></a>
+                                <button class="ui teal mini button" id="play3_1">Play video</button>
+                            </h4>
+                            <div id="video3_1" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/3.1.Genome.accession.mp4">
+                            </div>
+                            <p>The main page of Genome module embodies the information of <a
+                                    href="https://ngdc.cncb.ac.cn/soyomics/genome_assembly">2,898</a> soybean
+                                germplasms, 27
+                                of which contains <em>de novo</em> assembled genome.
+                                The distribution, phylogeny, accession information and <em>de novo</em> assembly
+                                statistics
+                                can be found here.
+                            </p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/3.1.genome-1.png"
+                                 alt="genome1">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 3.1 Accessions
+                            </p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">3.2. Accession details<a id="accDet"></a>
+                                <button class="ui teal mini button" id="play3_2">Play video</button></h4>
+                            <div id="video3_2" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/3.2.Genome.accession.assembly.mp4">
+                            </div>
+                            <p>
+                                The accession's private page contains detailed information and genome view (if possible)
+                                for
+                                each accession.
+                                The gene number statistics, JBrowse, and synteny can be found here. Clicking on the gene
+                                number can redirect to the gene search panel.
+                            </p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/3.2.genome-2.png"
+                                 alt="genome2">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 3.2 Accession
+                                details</p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">3.3. Gene search panel <a id="geneSearch"></a>
+                                <button class="ui teal mini button" id="play3_3">Play video</button></h4>
+                            <div id="video3_3" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/3.3.Genome.gene.search.mp4">
+                            </div>
+
+                            <p>
+                                In SoyOmics, mRNA and other non-coding RNA were annotated for all <em>de novo</em>
+                                assembled
+                                genomes. One can use assembly name,
+                                gene type and/or genomic region to narrow the present gene list or use gene ID to
+                                directly
+                                lock on any interesting gene.
+                                All gene's private page can be visited from the list.
+                            </p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/3.3.genome-3.png"
+                                 alt="genome3">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 3.3 Gene search
+                            </p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">3.4. Gene details <a id="geneDet"></a>
+                                <button class="ui teal mini button" id="play3_4">Play video</button></h4>
+                            <div id="video3_4" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/3.4.Gene_detail.mp4">
+                            </div>
+                            <p>We designed exhibition framework for each single gene. This framework shows 9 parts such
+                                as
+                                basic summary,
+                                molecular functional annotation, biological knowledge, overlapped variation, homology,
+                                and
+                                gene expression pattern.
+                                You can fast locate to any part that you are interested in. From this detailed page, you
+                                can
+                                jump to the variations within the gene,
+                                homologous group or expression pattern from the gene's page.</p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/3.4.genome-4.png"
+                                 alt="genome3">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 3.4 Gene
+                                details
+                            </p>
+
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">4. Variome module<a id="variome"></a></h4>
+                            <p>The <a href="https://ngdc.cncb.ac.cn/soyomics/genome_variation">Variome</a> module
+                                organizes
+                                the SNPs and INDELs of the 2,898 soybean accessions. The main page of Variome contains
+                                three
+                                parts: variation statistics, selective test and variation browser.</p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">4.1. Variation Statistics<a id="varStat"></a>
+                                <button class="ui teal mini button" id="play4_1">Play video</button></h4>
+                            </h4>
+                            <div id="video4_1" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/4.1.Variome.statistics.mp4">
+                            </div>
+                            <p>The variation statistics provides an overview of SNP and Indel density through the
+                                chromosomes and the annotation statistics summary.</p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/4.1.variome-1.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 4.1 Variation
+                                statistics</p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">4.2. Selective test<a id="selective"></a>
+                                <button class="ui teal mini button" id="play4_2">Play video</button></h4>
+                            </h4>
+                            <div id="video4_2" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/4.2.Variome.Selective.test.mp4">
+                            </div>
+                            <p>Three measures, Tajima’s D, F<sub>ST</sub> and ROD, are used for whole genome selective
+                                test. Tracks
+                                and
+                                regions can be identified as you like. Threshold of the top 5% is drawn by a dash line.
+                                Figure of selective test can be downloaded.</p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/4.2.variome-2.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 4.2 Selective
+                                test
+                            </p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">4.3. Variation Browser<a id="varBrow"></a>
+                                <button class="ui teal mini button" id="play4_3">Play video</button></h4>
+                            </h4>
+                            <div id="video4_3" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/4.3.Variome.browser.mp4">
+                            </div>
+                            <p>In variation Browser, you can customize the conditions to restrict the variation list. We
+                                provide four items for filtration: </p>
+                            <ul>
+                                <li>"Position and Type" identifies the searching region, and the SNP and/or INDEL
+                                    type;
+                                </li>
+                                <li>"Consequence Type" identifies how the variations change the protein;</li>
+                                <li>"Variation Annotation" rules whether the variations overlap with reported biological
+                                    knowledge or linkage disequilibrium (LD) blocks;
+                                </li>
+                                <li>"Frequency" limits the minor allele frequency (MAF) and missing rate of
+                                    variations.
+                                </li>
+                            </ul>
+                            <p>Variation list can be downloaded with certain accessions. You can redirect to the
+                                variation's
+                                private page from here. </p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/4.3.variome-3.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 4.3 Variation
+                                browse</p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">4.4. Variation details <a id="varDet"></a>
+                                <button class="ui teal mini button" id="play4.4">Play video</button></h4>
+                            <div id="video4.4" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/4.4.Variation_detail.v2.mp4">
+                            </div>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">4.4.1. Basic information<a id="varDet1"></a></h4>
+                            <p>On the private page of single variation, 8 parts of information are displayed. You can
+                                fast
+                                locate to a certain part or redirect to the overlapped gene.</p>
+                            <img class="ui centered huge image"
+                                 src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/4.4.1.variome-4.1.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 4.4.1 Variation
+                                basic information</p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">4.4.2. LD block<a id="varDet2"></a></h4>
+                            <p>This part draws the LD block if the variation is involved in. The R<sup>2</sup> can be
+                                set as
+                                threshold for drawing LD heat map and displaying variation in table. Other variations
+                                involved in the same LD block can be directly visited from here. The LD heat map can be
+                                downloaded.</p>
+                            <img class="ui centered huge image"
+                                 src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/4.4.2.variome-4.2.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 4.4.2 LD block
+                            </p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">4.4.3 Population statistics<a id="varDet3"></a></h4>
+                            <p>
+                                This part concludes the population statistics of the variation. The allele, genotype and
+                                missing frequency are drawn as column charts. These column charts can be divided by
+                                population type (soja, landrance, and cultivar) or further drawn as percent stacked.
+                                When
+                                grouped by population type, the pie chart was drawn for each type with different allele
+                                or
+                                genotype ratio. All figures can be downloaded.
+                            </p>
+                            <img class="ui centered huge image"
+                                 src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/4.4.3.variome-4.3.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 4.4.3
+                                Population
+                                statistics</p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">4.4.4 Phenotype associated to variation<a id="varDet4"></a></h4>
+                            <p>This part draws relationship between variation and phenotypes. Boxplot is generated by
+                                genotypes of this variation site against the value after best linear unbiased prediction
+                                (BLUP) of all the 115 phenotypes. Figures can be directly downloaded.</p>
+                            <img class="ui centered huge image"
+                                 src="http://ngdc.cncb.ac.cn:80/soyomics/static/images/document/4.4.4.variome-4.4.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 4.4.4 Phenotype
+                                to
+                                variation association</p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">5. Transcriptome module<a id="trans"></a>
+                            <button class="ui teal mini button" id="play5">Play video</button></h4>
+                            <div id="video5" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/5.Transcriptome.v2.mp4">
+                            </div>
+                            <p>
+                                In the <a href="https://ngdc.cncb.ac.cn/soyomics/transcriptome/tissues">Transcriptome</a>
+                                module,
+                                we afford two datasets of gene expression.
+                                One contain expression of 27 tissues from different developmental stages and organs for
+                                ZH13
+                                and WM82 accession respectively.
+                                The other contain expression of 9 tissues from different developmental stages and organs
+                                for
+                                26 accessions of pan-genome project.
+                                When searching a gene in this module, it returns the column chart of FPKM in the
+                                available
+                                tissues.
+                                If the gene has orthologous gene in the pan-genome, the heat map of orthologous genes'
+                                FPKM
+                                against 9 tissue-stages will also returned.
+                                Notice that you can also search the word related to gene function by the "Gene
+                                Function".
+                                The transcriptome module can redirect to the gene private page.
+                            </p>
+                            <img class="ui centered huge image"
+                                 src="http://ngdc.cncb.ac.cn:80/soyomics/static/images/document/5.transcriptome.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 5 Transcriptome
+                            </p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">6. Phenome module<a id="pheno"></a>
+                                <button class="ui teal mini button" id="play6">Play video</button></h4>
+                            </h4>
+                            <div id="video6" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/6.Phenome.mp4">
+                            </div>
+                            <p>
+                                In the <a href="https://ngdc.cncb.ac.cn/soyomics/phenome/">Phenome</a> module, 115
+                                phenotypes are classed into a 3-levels catalogue. The phenotype records were achieved
+                                during
+                                2013~2015 from Beijing, Henan, Heilongjiang, and Shanxi. You can quickly select a
+                                phenotype
+                                by interacting with the sunburst graph. Those phenotype records are firstly counted with
+                                different qualitative tags or quantitative value regions. Then the accessions with
+                                phenotypic value are grouped by sample types (soja, landrace, and cultivar), countries
+                                and
+                                eco-regions of China.
+                            </p>
+                            <img class="ui centered huge image" src="http://ngdc.cncb.ac.cn:80/soyomics/static/images/document/6.phenome.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 6 Phenome</p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">7. Homology module<a id="homo"></a>
+                                <button class="ui teal mini button" id="play7">Play video</button></h4>
+                            <div id="video7" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/7.Homology.v2.mp4">
+                            </div>
+                            <p>We load information of <a href="https://ngdc.cncb.ac.cn/soyomics/homology/">57,479</a>
+                                homologous groups of the pan-genome, including genes of WM82 and W05, into this module.
+                                You
+                                can use gene ID, functional description or group name to search the homologous groups.
+                                Column chart show the number of genes in each genome. The gene list can be filtered,
+                                hidden
+                                or displayed. You can visit every gene's private page of a group, and achieve the
+                                alignment
+                                of CDS and protein sequences or phylogenic tree.</p>
+                            <img class="ui centered huge image" src="http://ngdc.cncb.ac.cn:80/soyomics/static/images/document/7.homology.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 7 Homology</p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">8. Synteny module<a id="syn"></a></h4>
+                            <p>This module provides a function visualize the pan-genome by synteny blocks, SVs, and
+                                tubemap of graph genome.
+                            </p>
+                            <h4 class="ui header">8.1 Chromosome synteny
+                                <button class="ui teal mini button" id="play8_1">Play video</button></h4>
+                            </h4>
+                            <div id="video8_1" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/8.1.Synteny.synteny.mp4">
+                            </div>
+                            <p>
+
+                                In this part, you can set the query strain, chromosome and region to see the dynamic
+                                synteny
+                                and
+                                SV distribution. The synteny and SV list can be synchronized with the inputting region
+                                and
+                                prepared for download.</p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/8.1.synteny.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 8 Synteny</p>
+                            <h4 class="ui header">8.2 Graph genome
+                                <button class="ui teal mini button" id="play8_2">Play video</button></h4>
+                            </h4>
+                            <div id="video8_2" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/8.2.Synteny.graph.v3.mp4">
+                            </div>
+                            <p>In this part, you can set a genomic region of ZH13 to generated the haplotypes (threads)
+                                of de novo soybeans according to SVs and visualize the tubemap from graph genome. Key
+                                nodes for deciding the haplotypes will be shown in the table. Corresponding nodes can
+                                also be found on the tubemap.</p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/8.2.synteny.png">
+                        </div>
+                        <div class="listCon" style="padding-top: 10px">
+                            <h4 class="ui header">9. JBrowse<a id="jb"></a>
+                                <button class="ui teal mini button" id="play9">Play video</button></h4>
+                            </h4>
+                            <div id="video9" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/9.JBrowse.mp4">
+                            </div>
+                            <p>
+                                <a href="https://ngdc.cncb.ac.cn/browser/?data=data/soyomics/ZH13.v2">Genome browser</a>
+                                is
+                                launched by JBrowse. The ZH13 is provided as reference genome. The gene annotation, GC,
+                                domestication region, QTL, variation and other omics such as methylation , are also can
+                                be
+                                viewed.
+                            </p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/9.Jbrowse.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 9 Jbrowse</p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">10. Online tools<a id="tool"></a></h4>
+                            <h4 class="ui header">10.1. easyGWAS<a id="gwas"></a>
+                                <button class="ui teal mini button" id="play10_1">Play video</button></h4>
+                            </h4>
+                            <div id="video10_1" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/10.1.GWAS.mp4">
+                            </div>
+                            <h4 class="ui header">10.1.1. GWAS submission</h4>
+                            <p>
+                                <a href="https://ngdc.cncb.ac.cn/bit/mulomics/gwas/run">easyGWAS</a> provides three
+                                datasets as genotype, the SNP from WGS of 2,898 accessions, the SNP from GenoBaits
+                                Soy40K
+                                array, and genotype uploading by yourself. The MAF and missing rate filtration can be
+                                set as
+                                genotype quality control. EMMAX, GEMMA, or Plink can be chose for GWAS calculation.
+                                Other
+                                parameters such as PCA option and threshold setting are afforded. If you would like to
+                                upload genotype by yourself, the block-gzipped vcf file lower than 300 Mb is accepted.
+                            </p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/10.1.GWAS.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 10.1.1 GWAS
+                                submission</p>
+                            <h4 class="ui header">10.1.2. GWAS result</h4>
+                            <p>After calculating, result will display the full parameters you have set, and show the
+                                Manhattan plot and QQ-plot of GWAS, with sites over the threshold highlighted. The
+                                complete
+                                GWAS results and figures can be downloaded.</p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/10.2.GWAS-2.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 10.1.2 GWAS
+                                result
+                            </p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">10.2. ExpPattern assists data mining<a id="exp"></a>
+                                <button class="ui teal mini button" id="play10_2">Play video</button></h4>
+                            </h4>
+                            <div id="video10_2" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/10.2.ExpPattern.mp4">
+                            </div>
+                            <p><a href="https://ngdc.cncb.ac.cn/soyomics/expression_tool/">ExpPattern</a> draws the
+                                gene-tissue expression heat map with cluster and estimate the tissue specific level.
+                                For query input, gene ID, gene symbol, annotation ID, and functional description of gene
+                                are
+                                all accepted. Other parameters including FPKM filtration threshold and log-normalization
+                                also can be chose. Any gene or tissue in the table can be selected/unselected on the
+                                table
+                                to remake the heat map, with options of whether to execute cluster.
+                                The tspex is embedded in the Transcri-pattern for advice of gene's tissue-specificity.
+                                The
+                                Tau and Simpson index are used for general scoring metrics, meanwhile the
+                                Tissue-specificiy
+                                index (TSI), Z-score and SPM are used for individualized scoring metrics. For more
+                                reasonable analysis of the gene expression and tissue-specificity, we provide the option
+                                of
+                                tissue group.</p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/11.EXP-pattern.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 10.2
+                                ExpPattern
+                            </p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">10.3. HapSnap<a id="hap"></a>
+                                <button class="ui teal mini button" id="play10_3">Play video</button></h4>
+                            </h4>
+                            <div id="video10_3" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/10.3.HapSnap.v2.mp4">
+                            </div>
+                            <p><a href="http://ngdc.cncb.ac.cn/soyomics/haplotype/">HapSnap</a> supports haplotype
+                                analysis with the SNP/INDEL data of the 2,898 soybeans and 115 phenotypes. Firstly, the
+                                target region can be identified as “chromosome:start-end”, or as the “gene ID” +
+                                “up/down-stream length”. Secondly, the variation types can be freely combined to make up
+                                the haplotypes. Thirdly, the missing rate, minor allele frequency and heterozygous rate
+                                can be set as the filtration criteria. After haplotypes are defined, the haplotype
+                                frequency, haplotype vs. genotype, linkage disequilibrium will be calculated.</p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/12.HapSnap.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 10.3 HapSnap
+                            </p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">10.4. BLAST<a id="blast"></a>
+                                <button class="ui teal mini button" id="play10_4">Play video</button></h4>
+                            <div id="video10_4" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/10.4.BLAST.mp4">
+                            </div>
+                            <h4 class="ui header">10.4.1. BLAST submission</h4>
+                            <p>The genome, CDS, protein sequences of 28 accessions are provided for <a
+                                    href="https://ngdc.cncb.ac.cn/blast/?db=soybean_genome">BLAST</a>. You can input at
+                                most
+                                20 sequences as query. Self-uploading sequences are also accepted as BLAST subject.
+                                Advanced
+                                parameters are available for you to adjust. </p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/13.1.blast-1.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 10.4.1 BLAST
+                                submission</p>
+
+                            <h4 class="ui header">10.4.1. BLAST result</h4>
+                            <p>The result of BLAST (genomic region or gene) is linked to the corresponding elements in the database. Result of all BLAST formats are provided for visualization or download.</p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/13.2.blast-2.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 10.4.2 BLAST
+                                result
+                            </p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">10.5. VersionMap<a id="ver"></a></h4>
+                            <h4 class="ui header">10.5.1. Position conversion
+                                <button class="ui teal mini button" id="play10_5_1">Play video</button></h4>
+                            </h4>
+                            <div id="video10_5_1" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/10.5.1.VersionMap.postion.mp4">
+                            </div>
+                            <p><a href="https://ngdc.cncb.ac.cn/bit/mulomics/VersionMap/run">VersionMap</a> provides
+                                the
+                                genomic position transformation between ZH13 and other soybean genomes. The BED, VCF and
+                                region models are supported.</p>
+                            <img class="ui centered huge image"
+                                 src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/14.1.versionmap-1.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 10.5.1 Position
+                                conversion</p>
+                            <h4 class="ui header">10.5.2. Gene ID conversion
+                                <button class="ui teal mini button" id="play10_5_2">Play video</button></h4>
+                            </h4>
+                            <div id="video10_5_2" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/10.5.2.VersionMap.gene.mp4">
+                            </div>
+                            <p>Another function is the Gene ID conversion between ZH13 (v2.0) and WM82 (a2.v1) by the
+                                gene
+                                orthologous information.</p>
+                            <img class="ui centered huge image"
+                                 src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/14.2.versionmap-2.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 10.5.2 Gene ID
+                                conversion</p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">10.6. SeqFetch<a id="fetch"></a>
+                                <button class="ui teal mini button" id="play10_6">Play video</button></h4>
+                            <div id="video10_6" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/10.6_seqFetch.mp4">
+                            </div>
+
+                            <p><a href="https://ngdc.cncb.ac.cn/soyomics/seqFetch/run">SeqFetch</a> is a tool for fast getting of sequence of genomic region, gene, mRNA, CDS, and/or protein from 29 soybean genomes. You can select a reference genome and then extract/download any kind of sequence mentioned above for a single query or query list.</p>
+
+                        </div>
+
+                        <div class="listCon" style="padding-top: 10px;">
+                            <h4 class="ui header">11. SoyArray <a id="array"></a>
+                                <button class="ui teal mini button" id="play11_1">Play video</button></h4>
+                            <div id="video11_1" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/11.1.SoyArray_intro.v2.mp4">
+                            </div>
+                            <h4 class="ui header">11.1. SoyArray introduction</h4>
+                            <p><a href="https://ngdc.cncb.ac.cn/soyomics/soy40k">SoyArray</a> is from the GenoBaits Soy40K liquid array. There are about 40K variations on the genome. You can download the variation list or use the chromosome and annotation to filter the list.</p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/15.1.soy40k-1.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 11.1 Soy40K
+                                introduction</p>
+
+                            <h4 class="ui header">11.2. Divergent sites
+                                <button class="ui teal mini button" id="play11_2">Play video</button></h4>
+                            <div id="video11_2" style="display: none; padding-bottom: 10px; margin-left: 15%">
+                                <embed width="710" height="400" src="https://ngdc.cncb.ac.cn/soyomics/static/video/11.2.SoyArray_divergence.v3.mp4">
+                            </div>
+                            <p>This part can compare two accessions by the Soy40K markers with the identity and output
+                                the
+                                different sites. You can input the accession ID or Name for the comparison.</p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/15.2.soy40k-2.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 11.2 Divergent
+                                sites</p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">12. Downloads<a id="down"></a></h4>
+                            <p>In <a href="https://ngdc.cncb.ac.cn/soyomics/download">download</a>, data of 4 wild, 9 landrace, 17 improved cultivar soybeans and 6 species from sub-genus Glycine can be downloaded here. Data includes genome mRNA, CDS, protein sequences, and genomic annotation files.</p>
+                            <img class="ui centered huge image" src="https://ngdc.cncb.ac.cn/soyomics/static/images/document/16.download.png">
+                            <p style="margin-top: 10px; font-size: 12px; text-align: center"><br> Figure 12 Downloads
+                            </p>
+                        </div>
+                        <div class="listCon">
+                            <h4 class="ui header">13. Reference<a id="ref"></a></h4>
+                            <div class="ui list" style="padding-left: 20px; padding-bottom: 20px">
+                                <div class="item">Fang, C., Ma, Y., Wu, S., Liu, Z., Wang, Z., Yang, R., Hu, G., Zhou, Z., Yu, H., Zhang, M., et al. (2017). <strong>Genome-wide association studies dissect
+                                    the genetic networks underlying agronomical traits in soybean</strong>. Genome Biol 18,
+                                    161.
+                                </div>
+                                <div class="item">Liu, Y., Du, H., Li, P., Shen, Y., Peng, H., Liu, S., Zhou, G.-A.,
+                                    Zhang, H., Liu, Z., and Shi, M. (2020). <strong>Pan-genome of wild and cultivated soybeans</strong>. Cell 182, 162-176. e113.
+                                </div>
+                                <div class="item">Shen, Y., Du, H., Liu, Y., Ni, L., Wang, Z., Liang, C., and Tian, Z.
+                                    (2019). <strong>Update soybean Zhonghuang 13 genome to a golden reference</strong>.
+                                    Sci
+                                    China Life Sci 62, 1257-1260.
+                                </div>
+                                <div class="item">Shen, Y., Zhou, Z., Wang, Z., Li, W., Fang, C., Wu, M., Ma, Y., Liu,
+                                    T., Kong, L.A., Peng, D.L., et al. (2014). <strong>Global dissection of alternative splicing in paleopolyploid soybean</strong>. Plant Cell 26, 996-1008.
+                                </div>
+                                <div class="item">Zhou, Z., Jiang, Y., Wang, Z., Gou, Z., Lyu, J., Li, W., Yu, Y., Shu, L., Zhao, Y., Ma, Y., et al. (2015). <strong>Resequencing 302 wild and cultivated accessions identifies genes related to domestication and improvement in soybean</strong>. Nat Biotechnol 33, 408-414.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+<html>
+<body>
+
+
+
+    
+    <link rel="stylesheet" href="/soyomics/static/bootstrap_4.6.0/bootstrap.min.css"/>
+        <link rel="stylesheet"  href="/soyomics/static/bootstrap_4.6.0/docs.css" >
+        
+    <link rel="stylesheet"  href="/soyomics/static/bootstrap_4.6.0/font/bootstrap-icons.css" >
+
+
+
+    
+        
+        
+        <link rel="stylesheet" href="/soyomics/static/datatables_1.11.1/jquery.dataTables.min.css">
+       
+        
+
+
+
+        <link rel="stylesheet" href="/soyomics/static/datatables_1.11.1/buttons.dataTables.min.css">
+        <link href="/soyomics/static/css/select2.min.css" rel="stylesheet" />
+        <link rel='stylesheet' type='text/css' href="/soyomics/static/sui_2.3.0/semantic.min.css">
+
+
+        <link rel="stylesheet" href="/soyomics/static/css/my.css"/>
+
+
+
+
+    
+    
+    <script type="text/javascript" src="/soyomics/static/js/jquery-3.6.0.min.js"></script>
+    <script src="https://ngdc.cncb.ac.cn/cdn/js/headerfooter-full.js"></script>
+
+    
+    <script type="text/javascript"  src="/soyomics/static/bootstrap_4.6.0/bootstrap.bundle.min.js"></script>
+    
+        <script type="text/javascript"  src="/soyomics/static/bootstrap_4.6.0/docs.min.js"></script>
+
+
+
+        
+        
+
+    <script src="/soyomics/static/DataTables-1.10.15/media/js/jquery.dataTables.min.js"></script>
+        
+
+        <script type="text/javascript" src="/soyomics/static/datatables_1.11.1/dataTables.buttons.min.js"></script>
+        <script type="text/javascript" src="/soyomics/static/datatables_1.11.1/buttons.html5.min.js"></script>
+
+        <script type="text/javascript"  src="/soyomics/static/sui_2.3.0/semantic.min.js"></script>
+        
+        <script type="text/javascript"  src="/soyomics/static/js/select2.min.js"></script>
+<script src="/soyomics/static/js/echarts5.min.js"></script>
+<script src="/soyomics/static/js/roma.js"></script>
+
+
+    <style>
+        /*.bigd-col-md-2{}*/
+        .bigd-footer h3 {
+            padding-left: 5px;
+            color: #051133;
+            font-size: 14px;
+            font-weight: bolder;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            padding-bottom: 0;
+            padding-top: 0;
+            line-height: 1.1;
+        }
+    </style>
+</body>
+</html>
+
+<script>
+    $(document).ready(function () {
+        $('.ui.sticky')
+            .sticky({
+                context: '#faqContext',
+                pushing: true
+            });
+
+        $('#frameA,#searchA,#genomeA,#accListA,#accDetA,#geneSearchA,#geneDetA,#variomeA').click(function () {
+            $(this).addClass('active').siblings().removeClass('active');
+        });
+
+        $('#varStatA,#selectiveA,#varBrowA,#varDetA,#varDet1A,#varDet2A,#varDet3A,#varDet4A,#transA,#phenoA').click(function () {
+            $(this).addClass('active').siblings().removeClass('active');
+        });
+
+        $('#homoA,#synA,#jbA,#toolA,#gwasA,#expA,#hapA,#blastA,#verA,#arrayA,#downA,#refA').click(function () {
+            $(this).addClass('active').siblings().removeClass('active');
+        });
+        $('#play2').click(function (){
+            document.getElementById('video2').style.display='block';
+        })
+        $('#play3_1').click(function (){
+            document.getElementById('video3_1').style.display='block';
+        })
+        $('#play3_2').click(function (){
+            document.getElementById('video3_2').style.display='block';
+        })
+        $('#play4_1').click(function (){
+            document.getElementById('video4_1').style.display='block';
+        })
+        $('#play4_2').click(function (){
+            document.getElementById('video4_2').style.display='block';
+        })
+        $('#play4_3').click(function (){
+            document.getElementById('video4_3').style.display='block';
+        })
+        $('#play6').click(function (){
+            document.getElementById('video6').style.display='block';
+        })
+        $('#play8_1').click(function (){
+            document.getElementById('video8_1').style.display='block';
+        })
+        $('#play8_2').click(function (){
+            document.getElementById('video8_2').style.display='block';
+        })
+        $('#play9').click(function (){
+            document.getElementById('video9').style.display='block';
+        })
+        $('#play10_1').click(function (){
+            document.getElementById('video10_1').style.display='block';
+        })
+        $('#play10_2').click(function (){
+            document.getElementById('video10_2').style.display='block';
+        })
+        $('#play10_3').click(function (){
+            document.getElementById('video10_3').style.display='block';
+        })
+        $('#play10_5_1').click(function (){
+            document.getElementById('video10_5_1').style.display='block';
+        })
+        $('#play3_3').click(function (){
+            document.getElementById('video3_3').style.display='block';
+        })
+        $('#play3_4').click(function (){
+            document.getElementById('video3_4').style.display='block';
+        })
+        $('#play4_4').click(function (){
+            document.getElementById('video4_4').style.display='block';
+        })
+        $('#play5').click(function (){
+            document.getElementById('video5').style.display='block';
+        })
+        $('#play7').click(function (){
+            document.getElementById('video7').style.display='block';
+        })
+        $('#play10_4').click(function (){
+            document.getElementById('video10_4').style.display='block';
+        })
+        $('#play11_1').click(function (){
+            document.getElementById('video11_2').style.display='block';
+        })
+        $('#play10_6').click(function (){
+            document.getElementById('video10_6').style.display='block';
+        })
+    });
+
+    $(function () {
+        $(window).on("scroll", function () {
+            for (var activeIndex = 0; activeIndex < $(".leftNav a").length; activeIndex++) {
+                // 最后一个：
+                if (activeIndex == $(".leftNav a").length - 1) {
+                    if ($(window).scrollTop() >= $("div.listCon").eq(activeIndex).offset().top) {
+                        $(".leftNav a").attr("class", "item");
+                        $(".leftNav a").eq(activeIndex).attr("class", "item active");
+
+                    }
+
+                }
+                // 如果不是最后一个：
+                else if ($(window).scrollTop() >= $("div.listCon").eq(activeIndex).offset().top && $(window).scrollTop() < $("div.listCon").eq(activeIndex + 1).offset().top) {
+                    $(".leftNav a").attr("class", "item");
+                    $(".leftNav a").eq(activeIndex).attr("class", "item active");
+
+                }
+            }
+
+
+        });
+
+
+    });
+
+</script>
+</body>
+</html>

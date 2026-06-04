@@ -1,0 +1,1081 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta name="referrer" content="strict-origin-when-cross-origin">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SoyOD</title>
+
+        <link rel="shortcut icon" href="/soyod/static/images/home/ICO1.ico">
+        <!-- <link rel="shortcut icon" href="{% static 'images/logo/onlyLogo.svg"> -->
+        <link rel="stylesheet" href="/soyod/static/css/semantic.min.css">
+        <link rel="stylesheet" href="/soyod/static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/soyod/static/css/cakorDB.css">
+        <link rel="stylesheet" href="/soyod/static/css/element.css">
+        <!-- table -->
+        <link rel="stylesheet" href="/soyod/static/css/jquery.dataTables.css">
+        <link rel="stylesheet" href="/soyod/static/css/buttons.dataTables.min.css">
+        <script src="/soyod/static/js/vue.js"></script>
+        <script src="/soyod/static/js/element.js"></script>
+        <script src="/soyod/static/js/axios.min.js"></script>
+        <script src="/soyod/static/js/jquery-3.4.1.min.js"></script>
+        <script src="/soyod/static/js/bootstrap.min.js"></script>
+        <script src="/soyod/static/js/semantic.min.js"></script>
+        <script src="/soyod/static/js/jquery.dataTables.js"></script>
+        <!-- table -->
+        <script src="/soyod/static/js/dataTables.buttons.min.js"></script>
+        <script src="/soyod/static/js/jszip.min.js"></script>
+        <script src="/soyod/static/js/pdfmake.min.js"></script>
+        <script src="/soyod/static/js/vfs_fonts.js"></script>
+        <script src="/soyod/static/js/buttons.html5.min.js"></script>
+        <script src="/soyod/static/js/buttons.print.min.js"></script>
+    </head>
+<body>
+    
+    <div id="wapper">
+        <div id = "main-content">
+            <div id="head-banner">
+                
+                <div class="header-container">
+                   
+                    <div class="logo-container">
+                        <img src="/soyod/static/images/home/logo3.png" alt="logo" style="width: 120px; margin-left: 40px; margin-top: 0px;">
+                        <h2 class="title-font" style="margin-left: 0px;font-size: 40px;">SoyOD</h2>
+                        <h2 class="head-title" align="center" style="color: white;font-size: 35px;transform: translateY(-5px);margin-left: 3px;" >—Soybean Omics Database </h2> 
+                    </div>
+                    
+                    
+                    
+                </div>
+                <div class="right-content">
+                        
+                    <div style="color: white;">
+                        <p class="head-title" style="font-size: 25px;transform: translateY(-10px) translateX(-10px);" >
+                            An integrated omics database for soybean germplasm and molecular breeding
+                        </p>
+                        </div>
+                </div>
+
+
+            
+
+
+
+
+                <!-- 搜索栏 -->
+                <div style="display: flex; justify-content: center; align-items: center; width: 100%; transform: translateY(20px);">
+                    <center>
+
+                        <form id="search-form" action="/soyod/search_results" method="GET">
+                            <select id="select_kw" name="category" style="min-width: 100px;border-color: #96c8da;box-shadow:0 2px 3px 0 rgba(34,36,38,.15);border-radius: .25rem;" >
+                                <option value="all">All</option>
+                                <option value="genome">Genome</option>
+                                <option value="gene">Gene ID</option>
+                                <option value="gene">Region</option>
+                                <option value="germplasm">Germplasm</option>
+                                <!-- <option value="variom">Variom</option> -->
+                                <option value="phenotype">Phenotype</option>
+                               
+                                <!-- ...其他选项... -->
+                            </select>
+                            
+                            <input id="input_id" type="text" placeholder="Search" name="query" style="border-radius: .25rem; min-width: 250px;border-width: 0.5px;border-color: #96c8da;box-shadow:0 2px 3px 0 rgba(34,36,38,.15)">
+                            <button type="submit" class="ui green button" style="border-radius: 5%;border-width: 1px ;font-size: 14px;padding: 0 1 0 1;">Search</button>
+                        </form>
+                    </center>
+                    <div id="alert" style="margin-top: 10px;">
+                        
+                    </div>
+                    <script>
+                        var app = new Vue({
+                            el: "#alert"
+                        })
+                    </script>
+                   
+                   <script>
+                    document.getElementById('search-form').addEventListener('submit', function(event) {
+                        event.preventDefault(); // 阻止表单默认提交
+                        var input = document.getElementById('input_id').value;
+                        var category = document.getElementById('select_kw').value;
+                        
+                        // 处理输入值，例如替换空格
+                        var processedInput = input.replace(/\s/g, ' '); // 保持空格不变，或者进行其他必要的处理
+                        
+                        // 可以考虑添加一个隐藏字段或使用已有的隐藏字段来传递处理后的值
+                        var hiddenInput = document.createElement('input');
+                        hiddenInput.type = 'hidden';
+                        hiddenInput.name = 'query';
+                        hiddenInput.value = processedInput;
+                        this.appendChild(hiddenInput);
+                        
+                        // 提交表单
+                        this.submit();
+                    });
+                    </script>
+                    
+                    
+                    
+                </div>
+                
+
+                <!-- 搜索栏下方字体 -->
+                <div style="color:white;display: flex; justify-content: center;transform: translateY(27px); align-items: center; width: 100%;">
+                    E.g.
+                    <a href="javascript:void(0);" onclick="submitGETRequest('SHX852B');"
+                        style="color: white; font-size: 15px;">&nbsp SHX852B </a>
+                    <!-- 逗号和空格 -->
+                    ,
+                    <a href="javascript:void(0);" onclick="submitGETRequest('Zhong_Huang_13_T2T');"
+                        style="color: white; font-size: 15px;"> &nbsp Zhong_Huang_13_T2T</a>
+                   
+                    ,
+                    <a href="javascript:void(0);" onclick="submitGETRequest('Glyma.12G070400');"
+                        style="color: white; font-size: 15px;">&nbsp Glyma.12G070400</a>
+                    ,
+                    <a href="javascript:void(0);" onclick="submitGETRequest('Plant heigh');"
+                        style="color: white; font-size: 15px;"> &nbsp Plant height</a>
+                    ,
+                    <a href="javascript:void(0);" onclick="submitGETRequest('Chr18:1000000-2000000');"
+                        style="color: white; font-size: 15px;"> &nbsp Chr18:1000000-2000000</a>
+                    <!-- ,Chr18:1000000-2000000 -->
+                </div>
+                <script>
+                    function submitGETRequest(searchText) {
+                // 设置搜索框的值
+                    document.getElementById('input_id').value = searchText;
+
+                // 如果需要，也可以在这里提交表单
+                // document.getElementById('search-form').submit();
+                    }
+                </script>
+                <br>
+                <br>
+                <div class="ui secondary menu " id="mainmenu" style=" font-size: 15px; height: 20px;margin:auto;text-align: center;border-radius: .25rem; ">
+        
+
+
+                    <a class="green item item-font" href="/soyod/home/" id="menuHome"style="font-size: 16px;" ></i>Home</a>
+            
+                    <div class="ui green dropdown item item-font"  id="menuGenome" style="font-size: 16px;">Genome<i class="dropdown icon"></i>
+                        <div class="menu" style=" overflow:visible;">
+                            <a class="item item-font" href="/soyod/genome/genome_info"  style="font-size: 16px;">Assembly genome</a>
+                            <a class="item item-font" href="/soyod/genome/gene"  style="font-size: 16px;">Gene browser</a>
+                            <a class="item item-font" href="/soyod/genome/gene_search"  style="font-size: 16px;">Gene search</a>
+                            <a class="item item-font" href="/soyod/genome/TF"  style="font-size: 16px;">Transcription factor</a>
+                            <a class="item item-font" href="/soyod/genome/TE"  style="font-size: 16px;">Transposable element</a>
+                            <a class="item item-font" href="/soyod/genome/Homologous"  style="font-size: 16px;">Homologous gene</a>
+                        </div>
+            
+                    </div>   
+                    <div class="ui green dropdown item item-font" href="#" id="menuTranscriptom" style="font-size: 16px;">Transcriptome<i class="dropdown icon"></i>
+                        
+                        <div class="menu" style=" overflow:visible;">
+                            <a class="item item-font" href="/soyod/transcriptom/tissue"  style="font-size: 16px;">Tissue expression</a>
+                            <a class="item item-font" href="/soyod/transcriptom/seed_development2"  style="font-size: 16px;">Seed development subregions</a>
+                            <a class="item item-font" href="/soyod/transcriptom/gerplasm"  style="font-size: 16px;">Tissue expression in germplasm</a>
+                            
+                            <a class="item item-font" href="/soyod/transcriptom/seed_development"  style="font-size: 16px;">Seed development in germplasm</a>
+                            <a class="item item-font" href="/soyod/transcriptom/AB_stress"  style="font-size: 16px;">Abiotic stress</a>
+                            <a class="item item-font" href="/soyod/transcriptom/B_stress"  style="font-size: 16px;">Biotic stress</a>
+                            <a class="item item-font" href="/soyod/transcriptom/Nutrient"  style="font-size: 16px;">Nutrient absorption</a>
+                            <a class="item item-font" href="/soyod/transcriptom/co_expression"  style="font-size: 16px;">Co-expression</a>
+                        </div>
+                    
+                    </div>
+                    <div class="ui green dropdown item item-font" id="menuPhenome" style="font-size: 16px;">Phenome<i class="dropdown icon"></i>
+                        <div class="menu" style=" overflow:visible;">
+                            <a class="item item-font" href="/soyod/phenome/Germplasm_search"  style="font-size: 16px;">Germplasm search</a>
+                            <a class="item item-font" href="/soyod/phenome/Germplasm_distribution"  style="font-size: 16px;">Germplasm distribution</a>
+                            <a class="item item-font" href="/soyod/phenome/Plant_architecture"  style="font-size: 16px;">Plant morphology</a>
+                            <a class="item item-font" href="/soyod/phenome/Biochemistry"  style="font-size: 16px;">Biochemistry</a>
+                            <a class="item item-font" href="/soyod/phenome/Plant_growth"  style="font-size: 16px;">Plant growth</a>
+                            <a class="item item-font" href="/soyod/phenome/Yield"  style="font-size: 16px;">Yield related</a>
+                            <a class="item item-font" href="/soyod/phenome/Abiotic_stress"  style="font-size: 16px;">Abiotic stress</a>
+
+                            <a class="item item-font" href="/soyod/phenome/Biotic_stress"  style="font-size: 16px;">Biotic stress</a>
+                        </div>
+            
+                    </div> 
+                    <div class="ui green dropdown item item-font" href="#" id="menuPopulation" style="font-size: 16px;">Population<i class="dropdown icon"></i>
+
+                        <div class="menu" style=" overflow:visible;">
+                            <a class="item item-font" href="/soyod/population/info"  style="font-size: 16px;">Population info</a>
+                            <a class="item item-font" href="/soyod/population/structure"  style="font-size: 16px;">Population structure</a>
+                            <a class="item item-font" href="/soyod/population/selection"  style="font-size: 16px;">Selective sweep</a>
+                        </div>
+            
+                    </div> 
+                   
+                    <div class="ui green dropdown item item-font" href="#" id="menuVariome" style="font-size: 16px;">Variome<i class="dropdown icon"></i>
+
+                        <div class="menu" style=" overflow:visible;">
+                            <a class="item item-font" href="/soyod/Variome/SNP_search"  style="font-size: 16px;">SNP search</a>
+                            <a class="item item-font" href="/soyod/Variome/InDel_search"  style="font-size: 16px;">InDel search</a>
+                            <a class="item item-font" href="/soyod/Variome/GWAS"  style="font-size: 16px;">GWAS</a>
+                        </div>
+                    </div>
+
+                    <div class="ui green dropdown item item-font" href="#" id="menuSysteny" style="font-size: 16px;">Synteny<i class="dropdown icon"></i>
+
+                        <div class="menu" style=" overflow:visible;">
+                            <a class="item item-font" href="/soyod/Synteny/Synteny"  style="font-size: 16px;">SynVisio</a>
+                            <a class="item item-font" href="/soyod/Synteny/genome_variation"  style="font-size: 16px;">Genome synteny</a>
+                        </div>
+                    </div>
+                    <div class="ui green dropdown item item-font" href="#" id="menuTools" style="font-size: 16px;">Toolkits<i class="dropdown icon"></i>
+
+                        <div class="menu" style=" overflow:visible;">
+                            <a class="item item-font" href="/soyod/tools/jbrowse"  style="font-size: 16px;">Jbrowse&nbsp;</a>
+                            <a class="item item-font" href="/soyod/tools/blast"  style="font-size: 16px;">BLAST</a>
+                            <a class="item item-font" href="/soyod/tools/ID_converter"  style="font-size: 16px;">Soy-Version converter</a>
+                            <a class="item item-font" href="/soyod/tools/seq_extraction"  style="font-size: 16px;">Seq extraction</a>
+                            <a class="item item-font" href="/soyod/tools/Heatmap"  style="font-size: 16px;">Heatmap</a>
+                            <a class="item item-font" href="/soyod/tools/diversity"  style="font-size: 16px;">Diversity</a>
+                            <a class="item item-font" href="/soyod/tools/haplotype"  style="font-size: 16px;">Haplotype</a>
+                            <!-- <a class="item item-font" href="/soyod/genome/genome_info"  style="font-size: 16px;">Diversity</a>
+                            <a class="item item-font" href="/soyod/genome/genome_info"  style="font-size: 16px;">Easy RNAseq</a> -->
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="ui green dropdown item item-font" href="#" id="menuDownload" style="font-size: 16px;">Download<i class="dropdown icon"></i>
+
+                        <div class="menu" style=" overflow:visible;">
+                            <a class="item item-font" href="/soyod/download/genome"  style="font-size: 16px;">Genome</a>
+                            <a class="item item-font" href="/soyod/download/Transcriptom"  style="font-size: 16px;">Transcriptome</a>
+                            <a class="item item-font" href="/soyod/download/TFTE"  style="font-size: 16px;">TF/TE</a>
+                            <a class="item item-font" href="/soyod/download/Gokegg"  style="font-size: 16px;">GO/KEGG</a>
+                            <a class="item item-font" href="/soyod/download/population"  style="font-size: 16px;">Population</a>
+                            <a class="item item-font" href="/soyod/download/variation"  style="font-size: 16px;">Variation</a>
+                            <a class="item item-font" href="/soyod/download/phenome"  style="font-size: 16px;">Phenome</a>
+                        </div>
+                    </div>
+                    <a class="green item item-font" href="/soyod/about" id="menuAbout" style="font-size: 16px;"></i>About</a>
+            
+            
+            
+            
+                
+                    
+                </div>
+
+
+
+       
+        </div>
+                
+                
+        
+            
+   
+    
+
+    <br>
+    <br>
+    <!-- 占位块 -->
+    <main style="margin-right: 5%;margin-left: 5%;">
+        
+        
+
+<div class="ui grid">
+
+    <div class="one wide column"></div>
+
+    <div class="fourteen wide column" >
+
+        <div class="ui segment">
+            <a class="ui green ribbon label"><h4>Download</h4></a>
+            <div class="ui top attached tabular menu" style="font-size: 15px;;border:1px solid #d4d4d5;background-color: #bfe6d0;">
+                <a class="item " data-tab="one">Genome</a>
+                <a class="item " data-tab="two">Transcriptome</a>
+                <a class="item active" data-tab="three">TF/TE</a>
+                <a class="item " data-tab="four">GO/KEGG</a>
+                <a class="item " data-tab="five">Population</a>
+                <a class="item" data-tab="six">Variation</a>
+                <a class="item " data-tab="seven">Phenome</a>
+            </div>
+            
+            
+            <div class="ui bottom attached tab segment " data-tab="one" style="font-size: 15px;">
+                <table id= 'myTable'class="ui table"> 
+                    <thead>
+                        <tr >
+                            <th>Number</th>
+                            <th>Species_Name</th>
+                            <th>Simple_Name</th>
+                            <th>Type</th>
+                            <th>Genome_size (Mb)</th>
+                            <th>Genomic_seq</th>
+                            <th>GFF_annotation_info</th>
+                            <th>Protein_seq</th>
+                            <th>Coding_seq</th>
+                            <th>Transcript_seq</th>
+                            <th>Non-coding_RNA_info/Feature</th>
+                            <th>Genomic_source</th>                      
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="ui bottom attached tab segment " data-tab="two" style="font-size: 15px;">
+            
+                <table id= 'myTable2'class="ui table"> 
+                    <thead>
+           
+                    <tr >
+                        <th>Number</th>
+                        <th>Accession</th>
+                        <th>Project</th>
+                        <!-- <th>Bases/reads</th> -->
+                        <th>Sample_Name</th>
+                        <th>Organism</th>
+                        <th>Material_background</th>
+                        <th>Stage/Treatment</th>
+                        <th>Tissue </th>
+                        <th>Resource</th>
+                    </tr>   
+                    </thead>
+                </table>
+            </div>
+            <div class="ui bottom attached tab segment active" data-tab="three" style="font-size: 15px;">
+                
+                <table id= 'myTable3'class="ui table"> 
+                    <thead>
+           
+                    <tr>
+                        
+                        <th>Species_Name</th>
+                        <th>Simple_Name</th>
+                        <th>Species</th>
+                        <th>Type</th>
+                        <th>Transcription_Factors (TF)</th>
+                        <th>transposable_Element (TE)</th>
+                    </tr>   
+                    </thead>
+                </table>
+            </div>
+            <div class="ui bottom attached tab segment " data-tab="four" style="font-size: 15px;">
+                <table id= 'myTable4'class="ui table"> 
+                    <thead>
+           
+                    <tr>
+                        <th>ID</th>
+                        <th>Species_Name</th>
+                        <th>Simple_Name</th>
+                        <th>Species</th>
+                        <th>Type</th>
+                        <th>GO_Enrichment</th>
+                        <th>KEGG_Enrichment_KO</th>
+                        <th>Pfam_Domain</th>
+                    </tr>   
+                    </thead>
+                </table>
+            </div>
+            <div class="ui bottom attached tab segment " data-tab="five" style="font-size: 15px;">
+                
+                <table id= 'myTable5'class=" ui table "> 
+                    <thead>
+           
+                    <tr>
+                        <th>Number</th>
+                        <th>Accession id</th>
+                        <th>Name</th>
+                        <th>Population type</th>
+                        <th>Origin</th>
+                        <th>Source</th>
+                    </tr>   
+                    </thead>
+                </table>
+            </div>
+            <div class="ui bottom attached tab segment" data-tab="six" style="font-size: 15px;">
+               
+                <table id= 'myTable6'class=" ui table "> 
+                    <thead>
+           
+                    <tr>
+                        <th>Number</th>
+                        <th>Type</th>
+                        <th>Map_File</th>
+                        <th>Description</th>
+                        <th>Source</th>
+                    </tr>   
+                    </thead>
+                </table>
+            </div>
+            <div class="ui bottom attached tab segment " data-tab="seven" style="font-size: 15px;">
+         
+                <table id= 'myTable7'class=" ui table "> 
+                    <thead>
+           
+                    <tr>
+                        <th>Number</th>
+                        <th>Trait ID</th>
+                        <th>Trait name</th>
+                        <th>Unit</th>
+                        <th>Class</th>
+                        <th>Subclass</th>
+                        <th>Record Number</th>
+                        <th>Planting location</th>
+                        <th>Planting date</th>
+                        <th>Cite</th>
+                    </tr>   
+                    </thead>
+                </table>
+            </div>
+
+            
+            
+            
+           
+            
+        </div>
+
+    </div>
+    <div class="one wide column"></div>
+</div>
+
+
+<script>
+    $(document).ready(function() {
+        initTable3();
+    });
+    
+    $('.menu .item').tab({
+        // 当激活新的选项卡时触发
+        onVisible: function(tab) {
+            switch(tab) {
+                
+                case 'one':
+                    initTable1();
+                    break;
+                case 'three':
+                    initTable3();
+                    break;
+                case 'two':
+                    initTable2();
+                    break;
+                case 'four':
+                    
+                    initTable4();
+                    break;
+                case 'five':
+                    initTable5();
+                        break;
+                case 'six':
+                    initTable6();
+                    break;
+                case 'seven':
+                    initTable7();
+                    break;
+                // 类似地，为其他选项卡添加 case
+                // ...
+            }
+        }
+    });
+    
+    function initTable1(){
+        if (!$.fn.DataTable.isDataTable('#myTable')) {
+            $('#myTable').DataTable({
+            // "processing": true,
+            scrollX: true,
+            "ajax": "/soyod/ajax/download_genome",
+            "columns": [
+                { data: "id" },
+                { data: "species_name" ,
+               
+                    
+                    },
+                { data: "simple_name" },
+                { data: "type" },
+                { data: "genome_size_mb" },
+                { data: "genomic_seq" ,
+                "render": function(data, type, row) {
+                    if (data == '--'){
+                        return '--';
+                    }
+                    else{
+                        var url = "/soyod/static/data/download/genome/" +data.replace('.fasta', '.zip')
+                        return '<a href= ' + url + '>' + data + '</a>';
+                    }
+                }
+            },
+                { data: "gff_annotation_info" ,
+                "render": function(data, type, row) {
+                    if (data == '--'){
+                        return '--';
+                    }
+                    else{
+                        var url = "/soyod/static/data/download/genome/" +data.replace('.gff', '')+ '.zip'
+                    return '<a href= ' + url + '>' + data + '</a>';
+                    }
+                }
+            },
+                { data: "protein_seq" ,
+                "render": function(data, type, row) {
+                    if (data == '--'){
+                        return '--';
+                    }
+                    else{
+                    var url = "/soyod/static/data/download/genome/" +data.replace('.fasta', '.zip')
+                    return '<a href= ' + url + '>' + data + '</a>';
+                }}
+            },
+                { data: "coding_seq" ,
+                "render": function(data, type, row) {
+                    if (data == '--'){
+                        return '--';
+                    }
+                    else{
+                    var url = "/soyod/static/data/download/genome/" +data.replace('.fasta', '.zip')
+                    return '<a href= ' + url + '>' + data + '</a>';
+                    }
+                }
+            
+            },
+                { data: "transcript_seq",
+                "render": function(data, type, row) {
+                    if (data == '--'){
+                        return '--';
+                    }
+                    else{
+                    var url = "/soyod/static/data/download/genome/" +data.replace('.fasta', '.zip')
+                    return '<a href= ' + url + '>' + data + '</a>';
+                }}
+             },
+                { data: "non_coding_rna_info" ,
+                "render": function(data, type, row) {
+                    if (data == '--'){
+                        return '--';
+                    } else if (data =='W82_T2T.Feture'){
+                        var url = "/soyod/static/data/download/genome/W82_T2T.zip"
+                        return '<a href= ' + url + '>' + data + '</a>';
+                    } else if (data =='ZH13_T2T.Feture'){
+                        var url = "/soyod/static/data/download/genome/ZH13_T2T.zip"
+                        return '<a href= ' + url + '>' + data + '</a>';
+                    }
+
+                    else {
+                        var url = "/soyod/static/data/download/genome/" +data + '.zip'
+                        return '<a href= ' + url + '>' + data + '</a>';
+                    }
+                    
+                
+                    
+                }
+            },
+                { data: "genomic_source" },
+            ],
+            "order": [[ 0, "desc" ]],//
+            "columnDefs": [
+                {
+                    "targets": [ 0 ],
+                    "visible": false,
+                    "searchable": false
+                }
+
+            ]
+        });   
+    }}
+    function initTable2(){
+        if (!$.fn.DataTable.isDataTable('#myTable2')) {
+            $('#myTable2').DataTable({
+                scrollX: true,
+                "ajax": "/soyod/ajax/download_Transcriptom",
+                "dom":'fBrtip',
+            "buttons":[
+                {
+                    extend:'csv',
+                    text:'Download',
+                    title: 'SoyOD Transcriptom Data'
+                
+                }
+            ],
+                "columns": [
+                { data: "number" },
+                { data: "assembly" ,
+                
+             },
+                { data: "project" ,
+             },
+                // { data: "bases_reads" },
+                { data: "simple_name" },
+                { data: "organism" },
+                { data: "material_background" },
+                { data: "stage_treatment" },
+                { data: "tissue" },
+                { data: "resource" },
+            ],
+           
+
+            });
+    }}
+    function initTable3() {
+    if (!$.fn.DataTable.isDataTable('#myTable3')) {
+        $('#myTable3').DataTable({
+            "ajax": "/soyod/ajax/download_TFTE",
+            "columns": [
+                { data: "species_name" },
+                { data: "simple_name" },
+                { data: "species" },
+                { data: "type" },
+                { 
+                    data: "tf",
+                    "render": function(data, type, row) {
+                        if (data == '--') {
+                            return '--';
+                        } else {
+                            // Create the URL for downloading the .zip file
+                            var url = "/soyod/static/data/download/TF/" + data.replace('.txt', '.zip');
+                            return '<a href="' + url + '" download>' + data + '</a>';
+                        }
+                    }
+                },
+                { 
+                    data: "te",
+                    "render": function(data, type, row) {
+                        if (data == '--') {
+                            return '--';
+                        } else {
+                            // Create the URL for downloading the .gz file
+                            var url = "/soyod/static/data/download/TE/" + data.replace('.gff3.txt', '');
+                            showdata =data.replace('.gff3.txt', '');
+                            return '<a href=' + url +'downlaod>' + showdata + '</a>';
+                        }
+                    }
+                },
+            ]
+        });
+    }
+}
+
+    function initTable4() {
+        if (!$.fn.DataTable.isDataTable('#myTable4')) {
+            $('#myTable4').DataTable({
+                scrollX: true,
+                "ajax": "/soyod/ajax/download_annotation",
+                "columns": [
+                { data: "id" },
+                { data: "species_name" ,
+                
+             },
+                { data: "simple_name" ,
+             },
+                { data: "species" },
+                { data: "type" },
+                { data: "go_enrichment" ,
+                "render": function(data, type, row) {
+                    if (data == '--'){
+                        return '--';
+                    }
+                    else{
+                        var url = "/soyod/static/data/download/annotation/" +data.replace('.txt', '.zip')
+                        return '<a href= ' + url + '>' + data + '</a>';
+                    }
+                }},
+                { data: "kegg" ,
+                "render": function(data, type, row) {
+                    if (data == '--'){
+                        return '--';
+                    }
+                    else{
+                        var url = "/soyod/static/data/download/annotation/" +data.replace('.txt', '.zip')
+                        return '<a href= ' + url + '>' + data + '</a>';
+                    }
+                }},
+                { data: "pfam" ,
+                "render": function(data, type, row) {
+                    if (data == '--'){
+                        return '--';
+                    }
+                    else{
+                        var url = "/soyod/static/data/download/annotation/" +data.replace('.txt', '.zip')
+                        return '<a href= ' + url + '>' + data + '</a>';
+                    }
+                }},
+
+            ],
+                "order": [[ 0, "desc" ]],//
+            "columnDefs": [
+                {
+                    "targets": [ 0 ],
+                    "visible": false,
+                    "searchable": false
+                }
+
+            ]
+
+            });
+        }
+    }
+    function initTable5() {
+        if (!$.fn.DataTable.isDataTable('#myTable5')) {
+            $('#myTable5').DataTable({
+                
+                "ajax": "/soyod/ajax/download_population",
+                "columns": [
+                { data: "number" },
+                { data: "accession_d" ,
+                
+             },
+                { data: "name" ,
+             },
+                { data: "population_ype" },
+                { data: "origin" },
+                { data: "source" },
+            ],
+            "dom":'fBrtip',
+            "buttons":[
+                {
+                    extend:'csv',
+                    text:'Download',
+                    title: 'SoyOD Population Data'
+                
+                }
+            ],
+               
+                
+           
+
+            
+
+            });
+
+        }
+    }
+
+    function initTable6() {
+        if (!$.fn.DataTable.isDataTable('#myTable6')) {
+            $('#myTable6').DataTable({
+//                 Number	Type	Map_ File	Description	Source
+// 1	SNP	all.snp.SHX984.0.05_0.1.map	High quality genome resequencing	SHX
+// 2	INDEL	all.indel.SHX984.0.05_0.1.map	High quality genome resequencing	SHX
+// 3	SNP	snp.TZX2898.0.05.0.1.map	Large population resequencing	TZX and SHX
+// 4	INDEL	indel.TZX2898.0.01.0.5.map	Large population resequencing	TZX and SHX
+data:[
+                    {
+                        "number": "1",
+                        "type": "SNP",
+                        "map_file": "all.snp.3904.zip",
+                        "description": "Large population resequencing",
+                        "source": "TZX and SHX"
+                    },
+                    {
+                        "number": "2",
+                        "type": "INDEL",
+                        "map_file": "all.indel.3904.zip",
+                        "description": "Large population resequencing",
+                        "source": "TZX and SHX"
+                    },
+                ]
+                ,
+                "columns": [
+                { data: "number" },
+                { data: "type" },
+                { data: "map_file" ,
+                "render": function(data, type, row) {
+                    if (data == '--'){
+                        return '--';
+                    }
+                    else{
+                        var url = "/soyod/static/data/download/variation/" +data.replace('.txt', '.zip')
+                        return '<a href= ' + url + '>' + data + '</a>';
+                 }} },
+                { data: "description" },
+                { data: "source" },],
+
+
+
+
+
+            })
+        }}
+    function initTable7(){
+        if (!$.fn.DataTable.isDataTable('#myTable7')) {
+            $('#myTable7').DataTable({
+                scrollX: true,
+                "ajax": "/soyod/ajax/download_phenome",
+                "columns": [
+                { data: "number" },
+                { data: "traitid" ,
+                
+             },
+                { data: "traitname" ,
+             },
+                { data: "unit" },
+                { data: "class" },
+                { data: "subclass" },
+                { data: "recordnumber" },
+                { data: "plantinglocation" },
+                { data: "plantingdate" },
+                { data: "cite" },
+            ],
+            "dom":'fBrtip',
+            "buttons":[
+                {
+                    extend:'csv',
+                    text:'Download',
+                    title: 'SoyOD Population Data'
+                
+                }
+            ],
+
+            })
+        }
+    
+    }
+        
+</script>
+<style>
+    #menuDownload {
+        color:green;
+    }
+</style>
+
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+ 
+</div>
+    <center>
+        <div class="ui vertical footer segment" id="footer" style="font-size: 15px;transform: translateX(-12%);">
+            <p>
+                <div class="center-div" style="display: flex; flex-direction: column; align-items: center; justify-content: center; ">
+                    <div class="ui small images">
+                        <a href="https://www.zju.edu.cn/english/" target="_blank"><img class="ui image" src="/soyod/static/images/home/ZJU.jpg" style="padding-right: 20px;"></a>
+                    </div>
+                </div>
+            </p> 
+            Funded by the NSFC. <a href="http://www.cls.zju.edu.cn/"target="_Blank" style="color: black;"> Developed by the College of Life Sciences,</i>
+			<a href="https://bis.zju.edu.cn/soyod/home/" target="_Blank" style="color: black;"> 
+			<a href="https://www.zju.edu.cn/" target="_Blank" style="color: black;"> Zhejiang University.
+            </a>
+		<br>
+            <a href="http://www.zju-shou.cn/" target="_Blank" style="color: #1FC2BC;">Huixia Shou Lab.
+            </a>
+            and
+            <a href="http://bis.zju.edu.cn/binfo/index.htm" target="_Blank" style="color: #1FC2BC;">Ming Chen Lab.
+            </a>
+            All Rights Reserved.
+
+		<br>
+		<br>
+<!--增加底部地图开始-->
+<div style="pointer-events: none;">
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=2g8w7coyCHc7eAvG9OzG5B4uaRUWKIezUinDCHyfuKE&ct=ffffff&cmn=2d69d6&co=117f84'  style="padding-right: 20px;"></script>
+</div>
+<!--增加底部地图结束-->
+        </div>
+    </center>
+    </div>
+
+
+<!--百度统计代码-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?22e3b1dafafbd60a89d2ac9020030c2e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!--百度统计代码 over-->
+
+
+
+</body>
+<br>
+
+
+<script>
+       
+    $(document).ready(function() {
+        $('.ui.dropdown').not('#transcriptSelect').dropdown();
+        
+
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+    var btn = document.getElementById("backToTopBtn");
+    var max = 50;
+    // 当用户滚动时，检查滚动位置
+    window.addEventListener("scroll", function () {
+        if (document.body.scrollTop > max || document.documentElement.scrollTop > max) {
+            btn.style.display = "block"; // 如果滚动位置超过20像素，显示按钮
+        } else {
+            btn.style.display = "none"; // 否则隐藏按钮
+        }
+    });
+    
+    // 当按钮被点击时，滚动到页面顶部
+    btn.addEventListener("click", function () {
+        document.body.scrollTop = 0; // 对于一些旧的浏览器
+        document.documentElement.scrollTop = 0; // 对于现代浏览器
+    });
+});
+    </script>
+
+   
+<style type="text/css">
+   
+#search-form {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+}
+
+/* 设置ui segment z-index */
+.ui.segment {
+    z-index: 1;
+}
+
+
+#search-form select,
+#search-form input,
+#search-form button {
+    height: 35px; /* 统一高度 */
+}
+    body{
+
+margin:0px;
+
+width:100%;
+
+min-width:1200px;
+
+max-width:100%;
+
+height:100%;
+
+overflow: scroll;
+
+}
+#mainmenu > a:hover{
+    background-color: #FFFFFF;
+    z-index: 999;
+    
+}
+
+/* 鼠标点击后改变字体颜色 */
+
+.header-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 1066px;
+            margin-right: 140px;
+            
+        }
+    
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            left: 30%;
+        }
+
+        .right-content {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 20px;
+            
+        
+        }
+
+        .search-bar {
+            margin-top: 10px;
+        }
+#mainmenu{
+    text-align: center;
+    font-size: 15px;
+    height: 40px;
+    max-width: 1100px; 
+    display: flex; /* 使用flex布局 */
+    justify-content: center; /* 使子项在水平方向上居中 */
+    align-items: center; /* 使子项在垂直方向上居中 */
+    border: none; /* 去掉边框 */
+    margin:0 ;
+    /* 背景颜色 */
+    background-color:white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 可选：添加阴影效果 */
+    /* transform: translateY(-20px); */
+    
+    z-index: 999;
+    
+    
+    
+    
+    
+}
+#mainmenu .item {
+    display: inline-block; /* 使每个菜单项内联显示 */
+    margin: 0 5px; /* 菜单项之间的间距，可根据需要调整 */
+    border: none; /* 去掉边框 */
+    padding: 5px; /* 根据需要调整内边距 */
+}
+#head-banner{
+    background-image: url("/soyod/static/images/home/banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 250px;
+    width: 100%;
+    margin: auto;
+}
+#wapper{     
+    position: relative;       
+    height: auto;              
+    min-height: 100%  
+}     
+#footer{     
+   position: absolute;  bottom: 0; 
+   left:35%;    
+   height: 60px;        
+}     
+#main-content{     
+   padding-bottom: 60px; 
+}    
+
+/* 设置表格的背景色 */
+table.dataTable tbody tr:nth-child(odd) {
+    background-color: #fff;
+
+}
+table.dataTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+    @font-face {
+    font-family: 'CurlzMT';
+    src: url('/soyod/static/fonts/Curlz-MT.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ComicSansMS';
+    src: url('/soyod/static/fonts/Comic-Sans-MS.ttf') format('truetype');
+}
+.item-font {
+    font-family: 'ComicSansMS', sans-serif;
+    color: black;
+}
+.title-font {
+    font-family: 'CurlzMT', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.head-title {
+    font-family: 'ComicSansMS', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+</style>
+<button class="ui circular plus icon huge green button" style="position: fixed; right: 20px; bottom: 20px; z-index: 999; display: none;color: white;" id="backToTopBtn">
+    <i class="angle up icon"></i>
+</button>
+
+<!-- <script src="/soyod/static/js/soyOD.js"> -->
+
+</html>

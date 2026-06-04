@@ -1,0 +1,4 @@
+database	source	reason
+SoyBase	projects including cultivar resequencing/core collection resequencing	raw FASTQ/SRA/BAM/CRAM not downloaded; only processed genotype/metadata considered
+SoyOD	large population resequencing source datasets	raw reads not downloaded; only processed SNP/INDEL zip candidates are listed/downloaded if reachable
+SoyOmics	variome source resequencing projects	raw reads not downloaded; download page files are processed genome/annotation/sequences
