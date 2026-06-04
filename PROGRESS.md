@@ -27,3 +27,20 @@
 - 2 个群体结构文件：`maize_ZEAMAP/population/`
 
 下载记录见 `maize_ZEAMAP/download_manifest_first_batch.md`。原始数据文件保留在本地，不提交到 GitHub；GitHub 只跟踪下载 URL、manifest 和项目文档。
+
+### ZEAMAP 第二批下载
+
+已完成 `/home/user/zhangzhishuai/myhermes/yumi/README.md` 中“第二批建议下载”的 ZEAMAP processed 数据下载，仍按 `maize_ZEAMAP/` 分类保存：
+
+- 2 个 SNP annotation VCF/index 文件：`maize_ZEAMAP/variation/`
+- 2108 个 DNA methylation processed 文件：`maize_ZEAMAP/epigenome/dna_methylation/`
+- 5 个 chromatin accessibility 文件：`maize_ZEAMAP/epigenome/chromatin_accessibility/`
+- 11 个 chromatin interaction 文件：`maize_ZEAMAP/epigenome/chromatin_interaction/`
+
+合计 2126 个文件，约 100G。本批含 md5 的目录已完成校验：2118 OK，0 BAD；VCF 及其 tbi 为非空文件。下载与校验记录见 `maize_ZEAMAP/download_manifest_second_batch.md`。
+
+下一步建议：
+
+1. 建立 ZEAMAP accession/inbred line 统一样本索引。
+2. 对齐第一批 expression、phenotype、population 与第二批 methylation/chromatin/variation 文件。
+3. 先抽取小样本矩阵，验证多组学预训练输入格式。

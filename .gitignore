@@ -2,4 +2,12 @@
 maize_ZEAMAP/expression/*
 maize_ZEAMAP/phenotype/*
 maize_ZEAMAP/population/*
+maize_ZEAMAP/variation/*
+maize_ZEAMAP/epigenome/dna_methylation/*
+maize_ZEAMAP/epigenome/chromatin_accessibility/*
+maize_ZEAMAP/epigenome/chromatin_interaction/*
 
+!maize_ZEAMAP/download_urls_first_batch.txt
+!maize_ZEAMAP/download_manifest_first_batch.md
+!maize_ZEAMAP/download_urls_second_batch.txt
+!maize_ZEAMAP/download_manifest_second_batch.md
