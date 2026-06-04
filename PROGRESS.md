@@ -18,3 +18,12 @@
 3. 设计本地目录结构和统一样本索引表。
 4. 小规模下载 processed metadata/matrix，验证模型输入格式。
 
+### ZEAMAP 第一批下载
+
+已按项目规则创建 `maize_ZEAMAP/`，并下载 `/home/user/zhangzhishuai/myhermes/yumi/README.md` 中“第一批建议下载”的 8 个 processed 文件：
+
+- 4 个表达矩阵文件：`maize_ZEAMAP/expression/`
+- 2 个表型/代谢表：`maize_ZEAMAP/phenotype/`
+- 2 个群体结构文件：`maize_ZEAMAP/population/`
+
+下载记录见 `maize_ZEAMAP/download_manifest_first_batch.md`。原始数据文件保留在本地，不提交到 GitHub；GitHub 只跟踪下载 URL、manifest 和项目文档。

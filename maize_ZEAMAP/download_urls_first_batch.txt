@@ -1,0 +1,9 @@
+https://ftp.cngb.org/pub/CNSA/data3/CNP0001565/zeamap/01_Genomics/Transcriptions/Sample_gene_expression/zmap_expression_ref_b73_exp.tsv
+https://ftp.cngb.org/pub/CNSA/data3/CNP0001565/zeamap/01_Genomics/Transcriptions/Sample_gene_expression/zmap_expression_ref_sk_exp.tsv
+https://ftp.cngb.org/pub/CNSA/data3/CNP0001565/zeamap/01_Genomics/Transcriptions/Sample_gene_expression/HZS_genes.fmt_FPKM.results
+https://ftp.cngb.org/pub/CNSA/data3/CNP0001565/zeamap/01_Genomics/Transcriptions/Sample_gene_expression/Mo1_only7_genes.fmt_FPKM.results
+https://ftp.cngb.org/pub/CNSA/data3/CNP0001565/zeamap/03_Genetics/Phenotype/ZEAMAP_phenotype_AMP_183_known_Metabolites.xls
+https://ftp.cngb.org/pub/CNSA/data3/CNP0001565/zeamap/03_Genetics/Phenotype/ZEAMAP_phenotype_AMP_agri_AA_Oil.xls
+https://ftp.cngb.org/pub/CNSA/data3/CNP0001565/zeamap/04_Populations/amp_pca.txt
+https://ftp.cngb.org/pub/CNSA/data3/CNP0001565/zeamap/04_Populations/amp_str.txt
+

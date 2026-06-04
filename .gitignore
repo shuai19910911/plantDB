@@ -1,0 +1,5 @@
+# Downloaded data files are kept locally; GitHub tracks manifests and project notes.
+maize_ZEAMAP/expression/*
+maize_ZEAMAP/phenotype/*
+maize_ZEAMAP/population/*
+
