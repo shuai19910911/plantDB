@@ -53,4 +53,4 @@
 - SoyOD：下载 266 个 TF/TE/GO/KEGG/PFAM annotation 和 processed SNP/INDEL variation zip 文件，约 4.7G；同时保存 transcriptome、population、phenome AJAX metadata。
 - SoyBase：保存主页和 Glycine datastore 入口快照，用于后续按需筛选，不下载 resequencing 原始 reads。
 
-合计清单内 494 个文件，非空检查 494/494；SoyOmics `.gz` 和 SoyOD `.zip` 完整性检查通过。详情见 `soybean_download_manifest.md`。
+合计清单内 494 个文件，非空检查 494/494；SoyOmics `.gz` 和 SoyOD `.zip` 完整性检查通过。所有大豆相关文件已统一整理到 `soybean/` 目录，详情见 `soybean/soybean_download_manifest.md`。

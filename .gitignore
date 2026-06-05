@@ -12,20 +12,20 @@ maize_ZEAMAP/epigenome/chromatin_interaction/*
 !maize_ZEAMAP/download_urls_second_batch.txt
 !maize_ZEAMAP/download_manifest_second_batch.md
 
-soybean_SoyOmics/genome/*
-soybean_SoyOmics/gene/*
-soybean_SoyOmics/mRNA/*
-soybean_SoyOmics/cds/*
-soybean_SoyOmics/protein/*
-soybean_SoyOmics/ncRNA/*
-soybean_SoyOmics/repeat/*
-soybean_SoyOD/TF/*
-soybean_SoyOD/TE/*
-soybean_SoyOD/annotation/*
-soybean_SoyOD/variation/*
+soybean/soybean_SoyOmics/genome/*
+soybean/soybean_SoyOmics/gene/*
+soybean/soybean_SoyOmics/mRNA/*
+soybean/soybean_SoyOmics/cds/*
+soybean/soybean_SoyOmics/protein/*
+soybean/soybean_SoyOmics/ncRNA/*
+soybean/soybean_SoyOmics/repeat/*
+soybean/soybean_SoyOD/TF/*
+soybean/soybean_SoyOD/TE/*
+soybean/soybean_SoyOD/annotation/*
+soybean/soybean_SoyOD/variation/*
 
-!soybean_download_urls.tsv
-!soybean_download_urls.txt
-!soybean_skip_raw_resequencing.tsv
-!soybean_download_manifest.md
-soybean_*/metadata/*.part
+!soybean/soybean_download_urls.tsv
+!soybean/soybean_download_urls.txt
+!soybean/soybean_skip_raw_resequencing.tsv
+!soybean/soybean_download_manifest.md
+soybean/soybean_*/metadata/*.part
